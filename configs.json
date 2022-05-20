@@ -18,6 +18,6 @@
     "logo":"statics/logos-logo.svg"
   },
   "navigation":{
-    "home":"index.md"
+    "home":"home.md"
   }
 }

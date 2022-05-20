@@ -1,32 +1,10 @@
----
-title: About
-category: page
----
-## Quod per
+##  What is Logos?
 
-Differt intrat purpura: habitandae sic! Aures Dulichiae, exspectatus felicia
-pavent intellecta ibat aspicis volucres et per.
+Logos is a continuation of the original cypherpunk movement advocating for the widespread use of strong cryptography and technologies that enhance 
+privacy and self-sovereignty.At its base, Logos is a complete infrastructure stack - with modular protocols for communication, file storage, and smart contracts.
 
-> Nolle cortice fatisque, mole patris visibus superare agitata serpere
-> spectantem. Funera loca mihi sed [urnam
-> ulterius](http://tectus.net/additisveniam) sunt Peleu soluto; Augusto via.
-> Tibi vix et nec sua poma accingitur; ipsas culpam cornus: paludes Tereus!
-> Veterem tamque per invidia sensit luctus, quid superata fuerat Antigonen
-> numquam **naides ministri iure** placato dubito genitor avertens et. Pomo
-> surgit et et esset et modo.
+But at its core, Logos is a grassroots movement unified in our belief in protecting human rights and defending against tyranny through technology.
+We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern 
+its future
 
-## Mitia prospectet fugit vel tutaeque abiit opus
-
-## Si Libys transformat fuerat dederatque mergor
-
-Lorem markdownum Euboico quis si hac aemulus, corporis intus; illi times
-[mercede](http://quamvis.org/indeproxima.html). Hunc nato conclamat Pulchrior
-quo. Qui tandem Venus, inque quos urbe durasse bracchia suo. Pedibusque de
-nocuisse se verbere idque; ait linguae honore, via habet arbore errare. Erat ubi
-dum regna sceleri: meus obsidis felix undas adopertaque ortu.
-
-1. Convaluit esse vipereasque tibi fortis sponte
-2. Partibus tendentem poenam sumpsisse ab nisi
-3. Limina quodcunque saepe cum bracchia patremque tale
-4. Credidit in auras murum
-
+[Community Chat] [Research Forum] [Developer Docs]

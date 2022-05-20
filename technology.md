@@ -88,7 +88,7 @@ impossible to build other reliable applications on top of it. Codex aims to solv
 of churn and large amounts of ephemeral devices.
 Codex has a working PoC, as is expected to be in production by 2023.
 
-[[WIP Specification]](https://github.com/status-im/dagger-research) [MVP] [Github]
+[WIP Specification](https://github.com/status-im/dagger-research) [MVP] [Github]
 
 
 

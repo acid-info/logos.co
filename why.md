@@ -18,3 +18,11 @@ these systems will lead to a more peaceful, trustworthy 21st century.
 
 Logos is an experiment to build a new society at the frontier - where people are free to express themselves, 
 and peacefully explore and create. And we need your help.
+
+
+    E +-------------------------*--+     E |                         o
+    D |-------------------*--*--|--*     D |                   o  o  |  o
+    C |-------------*--*  |  |  |  |     C |             o  o  |  |  |  |
+    B |-------*--*  |  |  |  |  |  |     B |       o  o  |  |  |  |  |  |
+    A +-*--*--+--+--+--+--+--+--+--+     A +-o--o--|--|--|--|--|--|--|--|
+        5 10 15 20 25 30 35 40 45 50         5 10 15 20 25 30 35 40 45 50

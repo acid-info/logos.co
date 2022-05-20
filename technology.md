@@ -2,7 +2,7 @@
 
 The Logos Web3 Stack
 
-Logos has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
+Logo$$$ has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
 These form its three primary protocols, which together will allow for the creation of truly unstoppable, peer-to-peer applications.
 
 

@@ -1,0 +1,23 @@
+{
+  "theme":{
+    "palettes":{
+      "dark":{
+        "background":"#000000",
+        "text":"#FFFFFF",
+        "highlight":"#7187FF"
+      },
+      "light":{
+        "background":"#FFFFFF",
+        "text":"#000000",
+        "highlight":"#7187FF"
+      }
+    },
+    "fontFamily":"monospace"
+  },
+  "assets":{
+    "logo":"statics/logos-logo.svg"
+  },
+  "navigation":{
+    "home":"index.md"
+  }
+}

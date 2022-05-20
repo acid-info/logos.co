@@ -5,7 +5,50 @@ The Logos Web3 Stack
 Logos has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
 These form its three primary protocols, which together will allow for the creation of truly unstoppable, peer-to-peer applications.
 
-(Insert Chart here!)
+
+```logos-diagram
++--------------------------------------------------------+          +------------------------------------------------------+
+|                                                        |          |                                                      |
+|                                                        |          |                                                      |
+|                          VAC                           |          |                       CODEX                          |
+|                                                        |          |        +--------------+                              |
+|                                                        |          |        |              |                              |
+|    +----------------+          +------------------+    |          |        |              |                              |
+|    |                |          |                  |    |          |        |              |                              |
+|    |                |          |    PROTOCOL      |    |    +-----+--------+   RESEARCH   |                              |
+|    |   PRINCIPLES   +-----+----+    DEVELOPMENT   |    |    |     |        |              |                              |
+|    |                |     |    |    PROCESS       |    |    |     |        |              |            +-------------+   |
+|    |                |     |    |                  |    |    |     |        |              |            |             |   |
+|    +----------------+     |    +------------------+    |    |     |        +--------------+            |             |   |
+|                           |                            |    |     |                                    |  OPINIATED  |   |
+|                           |                            |    |     |                             +------>  PRODUCTS   |   |
+|                           |                            |    |     |                             |      |             |   |
+|                           |                            |    |     |        +--------------+     |      |             |   |
+|             +-------------v---------------+            |    |     |        |              |     |      |             |   |
+|             |                             <------------+----+     |        |              |     |      +-------------+   |
+|             |                             |            |          |        |              +-----+                        |
+|             |   AGNOSTIC SPECIFICATIONS   |            |          |        | ENGINEERING  |                              |
+|             |                             +------------+----------+-------->              |                              |
+|             |                             |            |          |        |              |                              |
+|             +-------------+---------------+            |          |        |              |                              |
+|                           |                            |          |        +--------------+                              |
+|                           |                            |          |                                                      |
+|                           |                            |          |                                                      |
++---------------------------+----------------------------+          +------------------------------------------------------+
+|
+|
+|
+|
+v
++----------------------------+
+|                            |
+|                            |
+|  UNOPINIONATED PROTOCOLS   |
+|                            |
+|                            |
++----------------------------+
+
+```
 
 **Logos** - *The consensus layer*. 
 

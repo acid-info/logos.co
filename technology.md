@@ -2,7 +2,7 @@
 
 The Logos Web3 Stack
 
-Logo$$$ has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
+Logos has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
 These form its three primary protocols, which together will allow for the creation of truly unstoppable, peer-to-peer applications.
 
 
@@ -58,7 +58,7 @@ The third component of the Logos’ stack is a blockchain network that aims to p
 transaction finality.We’re developing a leaderless consensus algorithm, which is currently under active research. Our current repos and tests are 
 set to private until the research begins to mature slightly, but are available on request.
 
-The first two client implementations will be written in Nim and Rust. The same team developing Nimbus, one of the leading Ethereum Consensus Clients, 
+The first two client implementations will be written in Nim and Rust. The same team developing [Nimbus](https://nimbus.team/) one of the leading Ethereum Consensus Clients, 
 will expand its resources to take on the Nim implementation once the first specification has been published.
 
 
@@ -70,9 +70,9 @@ Waku is a peer-to-peer communication layer.
 \The first protocol in Logos’ stack is Waku, which has its origins in Ethereum’s Whisper protocol, but is optimized for scalability and better usability. 
 Waku removes centralized third parties from messaging - enabling private, secure, censorship-free communication. 
 Waku is designed for generalized messaging, enabling both human-to-human or machine-to-machine communication.
-Waku is in production and is actively being used by projects like Status and WalletConnect v2. 
-It’s economic spam protection is still under research, and a paper published on the topic can be found here.
-Current Specification Research Forum [Github](https://github.com/vacp2p/)
+Waku is in production and is actively being used by projects like [Status](https://www.status.im) and [WalletConnect v2.](https://walletconnect.com/) 
+It’s economic spam protection is still under research, and a paper published on the topic can be found [here](https://raw.githubusercontent.com/vacp2p/research/master/rln-research/Waku_RLN_Relay.pdf)
+[Current Specification](https://rfc.vac.dev/spec/6/) [Research Forum](https://forum.vac.dev/) [Github](https://github.com/vacp2p/)
 
 
 **Codex** - *The storage layer.* 

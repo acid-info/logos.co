@@ -29,7 +29,7 @@ Waku removes centralized third parties from messaging - enabling private, secur
 Waku is designed for generalized messaging, enabling both human-to-human or machine-to-machine communication.
 Waku is in production and is actively being used by projects like Status and WalletConnect v2. 
 It’s economic spam protection is still under research, and a paper published on the topic can be found here.
-Current Specification Research Forum Github
+Current Specification Research Forum [Github](https://github.com/vacp2p/)
 
 
 **Codex** - *The storage layer.* 

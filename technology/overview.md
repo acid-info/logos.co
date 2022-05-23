@@ -6,7 +6,7 @@ Logos has the ambitious goal of creating a complete p2p infrastructure stack - w
 These form its three primary protocols, which together will allow for the creation of truly unstoppable, peer-to-peer applications.
 
 
-```logos-diagram
+```logos-ascii
 +--------------------------------------------------------+          +------------------------------------------------------+
 |                                                        |          |                                                      |
 |                                                        |          |                                                      |

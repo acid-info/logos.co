@@ -14,10 +14,18 @@
     },
     "fontFamily":"monospace"
   },
+  "template": "default",
   "assets":{
-    "logo":"statics/logos-logo.svg"
+    "logo":"static-assets/logos-logo.svg"
   },
   "navigation":{
-    "home":"home.md"
+    "home":"main.md",
+    "fileOrdersInSidenav": [
+      "main.md",
+      "why",
+      "zones",
+      "about"
+    ],
+    "folderOrdersInSidenav": []
   }
 }

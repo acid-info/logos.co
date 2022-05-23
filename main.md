@@ -1,3 +1,6 @@
+---
+title: Main page
+---
 ## Logos is the world’s first Network State
 
 Logos is the world’s first Network State designed to enable new types of applications and institutions that uphold basic human rights.

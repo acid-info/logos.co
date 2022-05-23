@@ -12,7 +12,8 @@
         "highlight":"#7187FF"
       }
     },
-    "fontFamily":"monospace"
+    "fontFamily":"monospace",
+    "codeTheme": "github-dark.css"
   },
   "template": "default",
   "assets":{

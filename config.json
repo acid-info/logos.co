@@ -23,9 +23,9 @@
     "home":"main.md",
     "fileOrdersInSidenav": [
       "main.md",
-      "why",
-      "zones",
-      "about"
+      "why.md",
+      "zones.md",
+      "about.md"
     ],
     "folderOrdersInSidenav": []
   }

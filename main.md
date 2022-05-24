@@ -20,20 +20,31 @@ Logos is built and operated entirely by its community. It will exist as a parall
 
 We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
 
-```using System.IO.Compression;
+```
+def init(self):
+				self.evidence = (0, 0)
+        self.confidence = (0, L)
 
-#pragma warning disable 414, 3021
+def step(self):
+        if self.color == ConsensusAgent.NONE:
+            return
 
-namespace MyApplication
-{
-    [Obsolete("...")]
-    class Program : IInterface
-    {
-        public static List<int> JustDoIt(int count)
-        {
-            Span<int> numbers = stackalloc int[length];
-            Console.WriteLine($"Hello {Name}!");
-            return new List<int>(new int[] { 1, 2, 3 })
-        }
-    }
-}```
+        vote_count = self.query_nodes()
+        total_votes = sum(vote_count)
+        if total_votes == 0:
+            return
+        self.evidence = (self.evidence[0] + vote_count[0], self.evidence[1] + total_votes)
+        self.confidence = (self.confidence[0] + total_votes, self.confidence[1] + total_votes)
+
+        conf = self.confidence[0] / self.confidence[1]
+        e1 = vote_count[0] / total_votes
+        e2 = self.evidence[0] / self.evidence[1]
+        e = e1 * (1-conf) + e2 * conf
+        alpha = self.evidence_alpha * (1-conf) + self.evidence_alpha2 * conf
+
+        if e > alpha:
+            self.color = ConsensusAgent.YES
+        elif e < 1 - alpha:
+            self.color = ConsensusAgent.NO
+        else:
+            self.k = min(int(self.k * 2), self.initial_k * 4)```

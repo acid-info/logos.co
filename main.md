@@ -19,3 +19,21 @@ Logos’ network of infrastructure is permissionless, private, and censorship-re
 Logos is built and operated entirely by its community. It will exist as a parallel socioeconomic system, existing peacefully alongside our existing economies and institutions.
 
 We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
+
+```using System.IO.Compression;
+
+#pragma warning disable 414, 3021
+
+namespace MyApplication
+{
+    [Obsolete("...")]
+    class Program : IInterface
+    {
+        public static List<int> JustDoIt(int count)
+        {
+            Span<int> numbers = stackalloc int[length];
+            Console.WriteLine($"Hello {Name}!");
+            return new List<int>(new int[] { 1, 2, 3 })
+        }
+    }
+}```

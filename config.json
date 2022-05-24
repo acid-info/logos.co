@@ -13,7 +13,7 @@
       }
     },
     "fontFamily":"monospace",
-    "codeTheme": "github-dark.css"
+    "codeTheme": "windows-nt.css"
   },
   "template": "default",
   "assets":{

@@ -13,7 +13,7 @@
       }
     },
     "fontFamily":"monospace",
-    "codeTheme": "windows-nt.css"
+    "codeTheme": "base16/windows-nt.css"
   },
   "template": "default",
   "assets":{

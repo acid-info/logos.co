@@ -20,7 +20,7 @@ Logos is built and operated entirely by its community. It will exist as a parall
 
 We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
 
-```
+```python
 def init(self):
 				self.evidence = (0, 0)
         self.confidence = (0, L)

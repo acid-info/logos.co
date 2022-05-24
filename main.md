@@ -47,4 +47,5 @@ def step(self):
         elif e < 1 - alpha:
             self.color = ConsensusAgent.NO
         else:
-            self.k = min(int(self.k * 2), self.initial_k * 4)```
+            self.k = min(int(self.k * 2), self.initial_k * 4)
+```

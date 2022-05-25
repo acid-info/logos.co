@@ -19,33 +19,3 @@ Logos’ network of infrastructure is permissionless, private, and censorship-re
 Logos is built and operated entirely by its community. It will exist as a parallel socioeconomic system, existing peacefully alongside our existing economies and institutions.
 
 We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
-
-```python
-def init(self):
-				self.evidence = (0, 0)
-        self.confidence = (0, L)
-
-def step(self):
-        if self.color == ConsensusAgent.NONE:
-            return
-
-        vote_count = self.query_nodes()
-        total_votes = sum(vote_count)
-        if total_votes == 0:
-            return
-        self.evidence = (self.evidence[0] + vote_count[0], self.evidence[1] + total_votes)
-        self.confidence = (self.confidence[0] + total_votes, self.confidence[1] + total_votes)
-
-        conf = self.confidence[0] / self.confidence[1]
-        e1 = vote_count[0] / total_votes
-        e2 = self.evidence[0] / self.evidence[1]
-        e = e1 * (1-conf) + e2 * conf
-        alpha = self.evidence_alpha * (1-conf) + self.evidence_alpha2 * conf
-
-        if e > alpha:
-            self.color = ConsensusAgent.YES
-        elif e < 1 - alpha:
-            self.color = ConsensusAgent.NO
-        else:
-            self.k = min(int(self.k * 2), self.initial_k * 4)
-```

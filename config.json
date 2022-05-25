@@ -16,9 +16,7 @@
     "codeTheme": "base16/windows-10.css"
   },
   "template": "default",
-  "assets":{
-    "logo":"static-assets/logos-logo.svg"
-  },
+  "static_assets_folder": "static-assets",
   "navigation":{
     "home":"main.md",
     "fileOrdersInSidenav": [
@@ -33,6 +31,18 @@
       "community",
       "about",
       "support"
+    ]
+  },
+  "ds_id": "logos",
+  "seo": {
+    "title": "Logos",
+    "description": "Logos is the world’s first Network State designed to enable new types of applications and institutions that uphold basic human rights.",
+    "image": "logos-site-preview-image.jpg",
+    "social_media": [
+      {
+        "provider": "twitter",
+        "handler": "ethstatus"
+      }
     ]
   }
 }

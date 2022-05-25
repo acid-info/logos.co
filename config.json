@@ -27,6 +27,12 @@
       "zones.md",
       "about.md"
     ],
-    "folderOrdersInSidenav": []
+    "folderOrdersInSidenav": [
+      "technology",
+      "development",
+      "community",
+      "about",
+      "support"
+    ]
   }
 }

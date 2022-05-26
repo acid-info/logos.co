@@ -7,3 +7,21 @@ To seed the idea and provide a proof of concept, we are currently exploring smal
 
 We expect this transaction to take place in Q3/Q4 2022, after which time the land will be transferred to a non-profit foundation which is held accountable 
 by anyone who volunteers to live on the island through a set of governance smart contracts
+
+Logos is building a network of assets on chain, starting with a nature and wildlife preservation in Europe. Each parcel of land is an NFT that can be owned collectively by the DAO collectively or by individuals. It is a DAO, or Decentralized Autonomous Organization, meaning it is managed by the community.
+
+Why put land on the blockchain?
+
+Digitizing physical assets democratizes access, increases transparency, removes gatekeepers, and reduces complexity. Putting land on chain has several benefits:
+
+    Instant land transfers, reduced legal complexity
+    Democratization of ownership through crowdfunding. Currently land is only available to large investors who can afford an entire parcel.
+    Open, transparent, programmable digital records
+
+How do I get involved?
+
+Stay in touch on twitter @logosblockchain, and join the Discord! We have lots of interesting discussions happening around DAO structure, land rights and governance, urban planning, and more.
+
+What will the land be used for?
+
+As part of the DAO, you can help vote and execute on what happens with the land.

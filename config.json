@@ -11,7 +11,7 @@
         "background":"#FFFFFF",
         "text":"#000000",
         "accentActive":"#7187ff",
-        "accentMute":"#30363d"
+        "accentMute":"#dedede"
       }
     },
     "fontFamily":"monospace",

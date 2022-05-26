@@ -4,16 +4,18 @@
       "dark":{
         "background":"#000000",
         "text":"#FFFFFF",
-        "highlight":"#7187FF"
+        "accentActive":"#7187ff",
+        "accentMute":"#30363d"
       },
       "light":{
         "background":"#FFFFFF",
         "text":"#000000",
-        "highlight":"#7187FF"
+        "accentActive":"#7187ff",
+        "accentMute":"#30363d"
       }
     },
     "fontFamily":"monospace",
-    "codeTheme": "base16/windows-10.css"
+    "codeTheme":"base16/windows-10.css"
   },
   "template": "default",
   "static_assets_folder": "static-assets",

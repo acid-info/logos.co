@@ -18,6 +18,8 @@ Digitizing physical assets democratizes access, increases transparency, removes 
     Democratization of ownership through crowdfunding. Currently land is only available to large investors who can afford an entire parcel.
     Open, transparent, programmable digital records
 
+Our hope is that Logos DAO is able to buy land all over the US and world. We are starting in Europe because of the number of SEZs, which recognizes DAO governance of LLC corporations. Because LLCs can own land, this creates a powerful pathway for decentralized land ownership.
+
 How do I get involved?
 
 Stay in touch on twitter @logosblockchain, and join the Discord! We have lots of interesting discussions happening around DAO structure, land rights and governance, urban planning, and more.

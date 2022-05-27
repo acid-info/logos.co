@@ -9,3 +9,6 @@ Maecenas consectetur euismod justo a vehicula. Pellentesque dictum imperdiet ali
 facilisis orci quis, porta nulla. Nunc quam leo, viverra ut molestie a, luctus eget mauris. Duis lobortis interdum 
 magna, et dictum risus congue a. Curabitur feugiat in est vel aliquam. Duis magna felis, pulvinar vel gravida sit 
 amet, eleifend ac leo. In hac habitasse platea dictumst. 
+
+**What will the land be used for?**
+As part of the DAO, you can help vote and execute on what happens with the land.

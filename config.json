@@ -26,7 +26,11 @@
       "what.md",
       "why.md",
       "ecosystem.md",
-      "territory.md"
+      "territory.md",
+      "technology/overview",
+      "technology/blockchain",
+      "technology/waku",
+      "technology/codex"
     ],
     "folderOrdersInSidenav": [
       "technology",

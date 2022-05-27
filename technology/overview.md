@@ -62,7 +62,7 @@ The first two client implementations will be written in Nim and Rust. The same t
 will expand its resources to take on the Nim implementation once the first specification has been published.
 
 
-[Research Paper] [Tests]
+[Read more]("/technology/blockchain")
 
 **Waku** - *The communication layer.*
 
@@ -72,7 +72,7 @@ Waku removes centralized third parties from messaging - enabling private, secur
 Waku is designed for generalized messaging, enabling both human-to-human or machine-to-machine communication.
 Waku is in production and is actively being used by projects like [Status](https://www.status.im) and [WalletConnect v2.](https://walletconnect.com/) 
 It’s economic spam protection is still under research, and a paper published on the topic can be found [here](https://raw.githubusercontent.com/vacp2p/research/master/rln-research/Waku_RLN_Relay.pdf)
-[Current Specification](https://rfc.vac.dev/spec/6/) [Research Forum](https://forum.vac.dev/) [Github](https://github.com/vacp2p/)
+[Read more]("/technology/waku")
 
 
 **Codex** - *The storage layer.* 
@@ -88,12 +88,8 @@ impossible to build other reliable applications on top of it. Codex aims to solv
 of churn and large amounts of ephemeral devices.
 Codex has a working PoC, as is expected to be in production by 2023.
 
-[WIP Specification](https://github.com/status-im/dagger-research) [MVP] [Github]
-
-
+[Read more]("/technology/codex")
 
 Logos is not yet in production across every protocol in its stack. A number of research and engineering problems remain. We have no disillusions to 
 the magnitude of the undertaking, and the work still ahead of us. We invite anyone who is serious about contributing research or to its code-base to 
 join the community and get involved.
-
-[Developer Docs]

@@ -1,3 +1,7 @@
+---
+title: Territory
+---
+
 ## Logos Zones
 
 Establishing Real World Communities.

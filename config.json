@@ -23,16 +23,15 @@
     "home":"main.md",
     "fileOrdersInSidenav": [
       "main.md",
+      "what.md",
       "why.md",
-      "zones.md",
-      "about.md"
+      "ecosystem.md",
+      "territory.md"
     ],
     "folderOrdersInSidenav": [
       "technology",
-      "development",
-      "community",
-      "about",
-      "support"
+      "learn",
+      "about"
     ]
   },
   "ds_id": "logos",

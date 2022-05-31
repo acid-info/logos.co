@@ -15,7 +15,7 @@
       }
     },
     "fontFamily":"monospace",
-    "codeTheme":"prism/cb"
+    "codeTheme":"duotone-dark"
   },
   "template": "default",
   "static_assets_folder": "static-assets",

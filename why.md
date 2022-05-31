@@ -20,7 +20,7 @@ Logos is an experiment to build a new society at the frontier - where people are
 and peacefully explore and create. And we need your help.
 
 
-```logos-ascii
+```ascii
 E +-------------------------*--+     E |                         o
     D |-------------------*--*--|--*     D |                   o  o  |  o
     C |-------------*--*  |  |  |  |     C |             o  o  |  |  |  |

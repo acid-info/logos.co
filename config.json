@@ -15,7 +15,7 @@
       }
     },
     "fontFamily":"monospace",
-    "codeTheme":"base16/windows-10.css"
+    "codeTheme":"prism/cb"
   },
   "template": "default",
   "static_assets_folder": "static-assets",

@@ -13,5 +13,5 @@ Logos is the first decentralised autonomous organisation (DAO) dedicated to the 
 
 Logos’ network of infrastructure is permissionless, private, and censorship-resistant: designed to enable new types of applications, public goods and social institutions that bring greater freedom, transparency and stability to the modern world. Logos is built and operated entirely by its community. It will exist as a parallel socioeconomic system, existing peacefully alongside our existing economies and institutions.
 
-We invites technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
+We invite technologists, creatives, and policy experts, along with anyone passionate about our mission to participate in its creation, and help govern its future. Because together, we’re creating a more trustworthy social fabric to lead us into a brighter future.
 

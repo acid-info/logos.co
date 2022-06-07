@@ -1,9 +1,10 @@
-## **Logos is an experiment to will web3 into existence.**
+## **Logos is building a complete decentralised infrastructure stack.**
 
-The Logos Web3 Stack
+Our vision of the future provides a pathway for individuals to be able to enforce their own property and privacy rights, and to experiment with new means of social and economic coordination.
 
-Logos has the ambitious goal of creating a complete p2p infrastructure stack - with modular protocols for communication, file storage, and smart contracts. 
-These form its three primary protocols, which together will allow for the creation of truly unstoppable, peer-to-peer applications.
+This requires a re-imaging of the public internet infrastructure upon which we conduct our lives. Logos’ answer to this is an ambitious experiment to will web3 into existence. At its foundation, Logos is comprised of three primary modular peer-to-peer protocols for communication, file storage and transactions.
+Together these form the foundational public infrastructure required for the next generation of social institutions to emerge.
+
 
 
 ```ascii

@@ -1,30 +1,12 @@
 Why?
 
-The world needs more humane technology, and environments that respect our freedom.
+The old world is dying, and the new world struggles to be born; now is the time of monsters.
+We live in a world where communication is instant, and yet so many of us feel that we have no control over our own lives. We struggle to find a place for self-exploration, a community where we belong, and a meaning to live that is larger than ourselves.
+Big tech, big banks and public services are failing us. Trust in government and media are at an all-time low. The archaic technology we use to operate our institutions is not up to the task of guiding modern democracies through the information age. Governments and financial institutions force us to entrust all of our personal data to arbitrary entities. Each passing year sees new security breaches, new attempts to force surveillance into law, new violations of our privacy, and new corruption scandals. The surveillance state Leviathan seems only to get stronger.
 
-We stand at the dawn of a new era. Big Tech, big banks, and even public institutions are failing us. 
-Trust in government and social institutions continue to fall. And for good reason - entrusting all of our 
-personal data to these arbitrary entities on the internet, and all of our financial resources to faceless 
-bureaucracies has proven a fundamentally flawed model.
+But we needn’t feel desolate. Advancements in cryptography and peer-to-peer technologies point to a brighter future ahead. The social fabric – the operating systems for our lives – can be completely reimagined. Individuals and communities will be able to enforce their own property and privacy rights, and to experiment with new types of social and economic institutions that could bring greater transparency and accountability to the world. New communities will form that live their entire daily lives within crypto systems, left free to peacefully explore and create.
 
-For every day we see new security breaches, new attempts to force surveillance into law, new violations 
-of our privacy, and new corruption scandals emerge. The surveillance state Leviathan appears to be only 
-becoming stronger. But we needn't feel desolate.
+We at Logos are laying the foundations for a new society: a parallel world that runs atop of crypto networks. A world for cryptonatives is being born: providing a pathway to give control back to the people.
 
-Through advancements in cryptography and p2p software, there’s a brighter future ahead. We’re laying the 
-foundation for the creation of a parallel set of institutions and services, that will run atop open source, 
-peer-to-peer networks. We believe in building the future we want to live in, and conducting our lives using 
-these systems will lead to a more peaceful, trustworthy 21st century.
+Will you join us in building this future together?
 
-Logos is an experiment to build a new society at the frontier - where people are free to express themselves, 
-and peacefully explore and create. And we need your help.
-
-
-```ascii
-E +-------------------------*--+     E |                         o
-    D |-------------------*--*--|--*     D |                   o  o  |  o
-    C |-------------*--*  |  |  |  |     C |             o  o  |  |  |  |
-    B |-------*--*  |  |  |  |  |  |     B |       o  o  |  |  |  |  |  |
-    A +-*--*--+--+--+--+--+--+--+--+     A +-o--o--|--|--|--|--|--|--|--|
-        5 10 15 20 25 30 35 40 45 50         5 10 15 20 25 30 35 40 45 50
-```

@@ -1,0 +1,4 @@
+- What does it mean to uphold human rights using Logos?
+- What types of social institution could be built on top of Logos?
+- What do you mean by a new society?
+- What is a cryptonative?

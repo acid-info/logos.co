@@ -36,6 +36,10 @@
       "technology",
       "learn",
       "about"
+    ],
+    "exclude": [
+      "privacy-policy",
+      "term-of-use"
     ]
   },
   "ds_id": "logos",
@@ -44,11 +48,6 @@
     "description": "Logos is the world’s first Network State designed to enable new types of applications and institutions that uphold basic human rights.",
     "image": "logos-site-preview-image.png",
     "url": "https://staging.logos.co",
-    "social_media": [
-      {
-        "provider": "twitter",
-        "handler": "ethstatus"
-      }
-    ]
+    "social_media": []
   }
 }

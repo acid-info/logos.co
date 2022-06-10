@@ -1,0 +1,3 @@
+---
+permalink: term-of-use
+---

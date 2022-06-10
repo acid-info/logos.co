@@ -1,5 +1,6 @@
-REWRITE BASED ON NEW CODEX COPY
+---
+publish: false
+---
 
-Codex is a decentralized file storage network.
 
 

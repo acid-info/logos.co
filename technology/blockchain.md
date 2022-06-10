@@ -1,5 +1,6 @@
 ---
-title: The Logos Blockchain Network
+title: consensus
+publish: false
 ---
 # The Logos Blockchain Network
 The Logos Blockchain Network is a heterogeneous blockchain network, specifically designed to enable communities to have digital infrastructure that is not only appropriate for them, but also owned by them. 

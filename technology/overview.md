@@ -6,7 +6,7 @@ The experiment begins with a decentralised autonomous organisation (DAO) dedicat
 
 Together these form the foundation required for the next-generation of voluntary governing services and social institutions to emerge.
 
-[INSERT GRAPHIC HERE]
+![](Logos%20_%20Vac%20structure%20-%20Logos%20Projects%20Graphic.jpg)
 
 **Logos** - *The trustless agreements layer*. 
 
@@ -24,11 +24,11 @@ Waku has its origins in Ethereum’s Whisper protocol, but is optimized for scal
 
 **Codex** - *The storage layer.* 
 
-Codex is a decentralised storage protocol for durable information. Whilst p2p storage networks have been around for quite a long time, the lack of incentives, strong data availability, and persistence guarantees make these networks unsuitable for applications with moderate to high availability requirements. In other words, without reliability at the storage layer it is impossible to build other reliable applications on top of it.
+Codex is a decentralised storage protocol for durable information. Whilst p2p storage networks have been around for quite a long time, the lack of incentives, strong data availability, and durability guarantees make these networks unsuitable for a wide array of applications. In other words, without durability at the storage layer, it is impossible to build other reliable applications.
 
-Codex aims to solve this by supplying an incentivized p2p storage network with strong availability and persistence guarantees, and a resource restricted friendly protocol that can endure higher levels of churn and large amounts of ephemeral devices. Codex has a working Proof-of-Concept.
+Codex aims to solve this by supplying an incentivized p2p storage network with strong availability and durability guarantees, and a resource restricted friendly protocol that can endure higher levels of churn and large amounts of ephemeral devices. Codex has a working Proof-of-Concept.
 
-[[WIP Specification]](https://github.com/status-im/dagger-research) [PoC] [Github]
+[[Github]](https://github.com/status-im/codex-research) [[PoC] ](https://github.com/status-im/nim-codex)
 
 ---
 

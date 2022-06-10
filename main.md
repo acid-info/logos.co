@@ -1,14 +1,14 @@
 ---
 title: Main
 ---
-## Logos is the world’s first Network State
+## Logos is building a Network State
 
-Logos is the world’s first Network State designed to enable new types of applications and institutions that uphold basic human rights.
+Logos is a grassroots movement to provide trust-minimized, corruption resistant governing services and social institutions to underserved citizens.
 
+It all begins with the construction of shared public infrastructure that forms the foundation of Logos. The network is comprised of modular protocols for communication, file storage and transactions, which together form a complete decentralized infrastructure stack.
 
-Logos is a grassroots movement to build a new society using peer-to-peer technologies – enabling anyone to freely express themselves, explore and create.
-It all begins with a decentralised autonomous organisation (DAO) dedicated to the construction of a user-owned, self-sovereign crypto network. The network is comprised of modular peer-to-peer protocols for communication, file storage and transactions. These form the foundational public infrastructure of Logos – and will lead to the emergence of a new class of applications, public goods and social institutions that uphold our basic human rights by design.
+Logos’ infrastructure will provide a base for the provisioning of the next-generation of governing services and social institutions - paving the way to economic opportunities to those who need them most, whilst respecting basic human rights through the network’s design.
 
-We invite technologists, creatives and policy experts – along with anyone who is passionate about our mission – to participate in the creation of Logos, and to help govern its future.
+We invite technologists, creatives and policy experts – along with anyone who is passionate about our mission – to participate in its creation, and to help govern its future.
 
 

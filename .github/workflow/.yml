@@ -1,5 +1,0 @@
-name: Logos-deploy-webhook-trigger
-uses: muinmomin/webhook-action@v1.0.0
-with:
-  url: ${{ secrets.VERCEL_WEBHOOK }}
-  data: "{}"

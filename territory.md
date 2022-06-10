@@ -1,5 +1,6 @@
 ---
 title: Territory
+published: false
 ---
 
 ## Logos Zones

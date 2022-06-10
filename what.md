@@ -1,4 +1,6 @@
-
+---
+published: false
+---
 ##  What is Logos?
 Logos is a continuation of the original cypherpunk movement advocating for the widespread use of strong cryptography and technologies that enhance privacy and self-sovereignty. At its base, Logos is a complete infrastructure stack - with modular protocols for communication, file storage, and generalized trustless agreement.
 

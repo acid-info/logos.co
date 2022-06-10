@@ -38,8 +38,8 @@
       "about"
     ],
     "exclude": [
-      "about/privacy-policy",
-      "about/term-of-use"
+      "privacy-policy",
+      "term-of-use"
     ]
   },
   "ds_id": "logos",

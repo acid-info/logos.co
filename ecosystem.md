@@ -1,3 +1,6 @@
+---
+published: false
+---
 Building the Logos Ecosystem.
 
 When all three of these networks reach production, and there exists seamless developer tooling, a solid foundation will be set for building truly peer-to-peer applications.

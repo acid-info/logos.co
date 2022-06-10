@@ -7,5 +7,5 @@ jobs:
     - name: Calling webhook
       uses: fjogeleit/http-request-action@v1
       with:
-        url: ${{ secrets.VERCEL_WEBHOOK }}
+        url: ${{ secrets.VERCEL_WEBHOOK_STAGING }}
         method: 'POST'

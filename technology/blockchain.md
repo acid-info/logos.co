@@ -1,8 +1,8 @@
 ---
-title: The Logos Blockchain
+title: The Logos Blockchain Network
 ---
-# The Logos Blockchain
-The Logos Blockchain is a heterogeneous blockchain network, specifically designed to enable communities to have digital infrastructure that is not only appropriate for them, but also owned by them. 
+# The Logos Blockchain Network
+The Logos Blockchain Network is a heterogeneous blockchain network, specifically designed to enable communities to have digital infrastructure that is not only appropriate for them, but also owned by them. 
 
 This endeavor is currently under a heavy research phase as we explore the current best practices and possibilities that are under development or available across the industry. 
 
@@ -12,7 +12,7 @@ We find it useful to define a list of use cases that the technology should fulfi
 
 ### Use cases
 
-The main use case of the blockchain infrastructure is to provide support for bootstrapping and maintaining **Common Interest Communities (CIC)**. CICs have the following key characteristics:
+The main use case of the blockchain network infrastructure is to provide support for bootstrapping and maintaining **Common Interest Communities (CIC)**. CICs have the following key characteristics:
 
 -   We expect the range of network sizes to be wide. We can expect some CICs to be in the scale ~10 nodes, while others could (potentially) scale up to current blockchain limits.
 -   CICs will have varying degrees of inter-communication. Some will be existing in relative isolation (ie. no communication), while others could be very interdependent.
@@ -45,4 +45,4 @@ In order to fulfill these use cases, we now define a set of requirements the blo
 
 As we harden our confidence around the various protocols that will come together to meet these requirements, we will update this site. Please check back regularly to learn more about how this network will be built. 
 
-Our intention is to be as rigorous and open as possible. You can read about [our development methodology](./overview) to learn how we plan to make good on those intentions. 
+Our intention is to be as rigorous and open as possible. You can read about [our development methodology](./process) to learn how we plan to make good on those intentions. 

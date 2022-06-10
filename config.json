@@ -23,12 +23,9 @@
     "home":"main.md",
     "fileOrdersInSidenav": [
       "main.md",
-      "what.md",
-      "why.md",
-      "ecosystem.md",
-      "territory.md",
       "technology/overview",
-      "technology/process"
+      "technology/process",
+      "About.md"
     ],
     "folderOrdersInSidenav": [
       "technology"

@@ -1,2 +1,0 @@
-**How do I get involved?**
-Stay in touch on twitter @logosblockchain, and join the Discord! We have lots of interesting discussions happening around DAO structure, land rights and governance, urban planning, and more.

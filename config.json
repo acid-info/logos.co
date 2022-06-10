@@ -36,6 +36,10 @@
       "technology",
       "learn",
       "about"
+    ],
+    "exclude": [
+      "privacy-policy",
+      "term-of-use"
     ]
   },
   "ds_id": "logos",

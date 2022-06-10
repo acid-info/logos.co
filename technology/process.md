@@ -1,6 +1,6 @@
 # Our Process
 
-We build public good protocols for everyone, then implement them the way that works for us
+We build public good protocols for everyone, then implement them the way that works for us.
 
 Public goods are for the people, and thus should be owned and controlled by them. How they are built influences this outcome. To this end, we have come up with a process that helps to ensure that the products of our effort are not solely controlled by us and our potentially limited self-interests and opinions. 
 

@@ -6,4 +6,4 @@ We believe that technological advancements in cryptography and peer-to-peer netw
 
 We imagine a future in which individuals have the ability to enforce their own property and privacy rights, have control over their own data and how its shared, and can voluntarily participate in new means of social and economic coordination.
 
-Logos is an experiment to build this future, and is built and operated entirely by its open source community. If you share our values and vision, we invite you to join us through the still-early stages of the project.
+Logos is an experiment to build this future, and is built and operated entirely by its open source community. If you share our values and vision, stay tuned. We will invite you to join us through the still-early stages of the project.

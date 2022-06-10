@@ -23,19 +23,12 @@
     "home":"main.md",
     "fileOrdersInSidenav": [
       "main.md",
-      "what.md",
-      "why.md",
-      "ecosystem.md",
-      "territory.md",
       "technology/overview",
-      "technology/blockchain",
-      "technology/waku",
-      "technology/codex"
+      "technology/process",
+      "About.md"
     ],
     "folderOrdersInSidenav": [
-      "technology",
-      "learn",
-      "about"
+      "technology"
     ],
     "exclude": [
       "privacy-policy",

@@ -1,10 +1,10 @@
 ## **Logos is building a complete decentralised infrastructure stack - for everyone.**
 
-Advancements in cryptography and peer-to-peer networking have unlocked the possibility of re-imagining the public internet infrastructure that we conduct our lives upon. These technologies allows us to drastically increase the cost of surveillance, censorship and coercion as a means of safeguarding our freedoms.
+Advancements in cryptography and peer-to-peer networking have unlocked the possibility of re-imagining the public internet infrastructure that we conduct our lives upon. These technologies allow us to drastically increase the cost of surveillance, censorship and coercion as a means of safeguarding our freedoms.
 
 The experiment begins with a decentralised autonomous organisation (DAO) dedicated to the construction of its user-owned, self-sovereign crypto network. The network is comprised of three primary modular peer-to-peer protocols for communication, file storage and trustless agreement.
 
-Together these form the foundation required for the next-generation of voluntary governing services and social institutions to emerge.
+Together, these form the foundation required for the next-generation of voluntary governing services and social institutions to emerge.
 
 ![](logos-overview-graphic.jpg)
 
@@ -36,8 +36,6 @@ Codex aims to solve this by supplying an incentivized p2p storage network with s
 
 We aim to create this technology stack out in the open, and as public goods. Check out the [process](./process) section to learn more about how we aim to do that. 
 
----
+Logos is not yet in production across every protocol in its stack. A number of research and engineering problems remain. We have no disillusions to the magnitude of the undertaking, and the work still ahead of us. We would like to invite anyone who is serious about contributing research or to its code-base to join the community and get involved.
 
-Logos is not yet in production across every protocol in its stack. A number of research and engineering problems remain. We have no disillusions to the magnitude of the undertaking, and the work still ahead of us. We invite anyone who is serious about contributing research or to its code-base to join the community and get involved.
-
-[Join the Logos Public Chat]
+Please standby for links to various methods to join the community and conversation.

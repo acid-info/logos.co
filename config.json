@@ -28,14 +28,10 @@
       "ecosystem.md",
       "territory.md",
       "technology/overview",
-      "technology/blockchain",
-      "technology/waku",
-      "technology/codex"
+      "technology/process"
     ],
     "folderOrdersInSidenav": [
-      "technology",
-      "learn",
-      "about"
+      "technology"
     ],
     "exclude": [
       "privacy-policy",

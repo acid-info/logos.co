@@ -1,6 +1,7 @@
 ---
-publish: false
+published: false
 ---
+
 
 # Waku
 

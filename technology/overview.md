@@ -6,7 +6,7 @@ The experiment begins with a decentralised autonomous organisation (DAO) dedicat
 
 Together these form the foundation required for the next-generation of voluntary governing services and social institutions to emerge.
 
-![](Logos%20_%20Vac%20structure%20-%20Logos%20Projects%20Graphic.jpg)
+![](logos-overview-graphic.jpg)
 
 **Logos** - *The trustless agreements layer*. 
 

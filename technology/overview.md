@@ -34,7 +34,7 @@ Codex aims to solve this by supplying an incentivized p2p storage network with s
 
 ## Our Development Process
 
-We aim to create this technology stack out in the open, and as public goods. Check out the [process](./process) section to learn more about how we aim to do that. 
+We aim to create this technology stack out in the open, and as public goods. Check out the [process](https://logos.co/technology/process) section to learn more about how we aim to do that. 
 
 Logos is not yet in production across every protocol in its stack. A number of research and engineering problems remain. We have no disillusions to the magnitude of the undertaking, and the work still ahead of us. We would like to invite anyone who is serious about contributing research or to its code-base to join the community and get involved.
 

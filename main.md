@@ -11,4 +11,4 @@ Logos’ infrastructure will provide a base for the provisioning of the next-gen
 
 We invite technologists, creatives and policy experts – along with anyone who is passionate about our mission – to participate in its creation, and to help govern its future.
 
-Stay tuned to this website, we will post links to join the community soon.
+We will post more on how to join the community here soon.

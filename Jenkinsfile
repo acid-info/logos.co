@@ -57,7 +57,7 @@ pipeline {
       steps {
         dir('builder') {
           sshagent(credentials: ['status-im-auto-ssh']) {
-            sh "ghp-import -p public"
+            sh "ghp-import -p out"
           }
         }
       }
@@ -69,7 +69,7 @@ pipeline {
         dir('builder') {
           sshagent(credentials: ['jenkins-ssh']) {
             sh """
-              rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
+              rsync -e 'ssh -o ${SCP_OPTS}' -r --delete out/. \
                 ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
             """
           }

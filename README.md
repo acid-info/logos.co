@@ -7,7 +7,7 @@ Content of `https://logos.co` website.
 - In case you have any issue with rendering, how website looks (design), etc, please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder/issues). And/or feel free to contact Amir.
 
 ## Continuous Integration
-- `staging` branch is pushed to [staging.logos.co](https://staging.logos.co) via GitHub Action.
+- `develop` branch is pushed to [dev.logos.co](https://dev.logos.co) via GitHub Action.
 - `master` branch is pushed to [logos.co](https://logos.co) via GitHub Action.
 
 ```logos-ascii

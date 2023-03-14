@@ -55,8 +55,10 @@ pipeline {
     stage('Publish Prod') {
       when { expression { env.GIT_BRANCH ==~ /.*master/ } }
       steps {
-        sshagent(credentials: ['status-im-auto-ssh']) {
-          sh "ghp-import -p public"
+        dir('builder') {
+          sshagent(credentials: ['status-im-auto-ssh']) {
+            sh "ghp-import -p public"
+          }
         }
       }
     }
@@ -64,11 +66,13 @@ pipeline {
     stage('Publish Devel') {
       when { expression { env.GIT_BRANCH ==~ /.*develop/ } }
       steps {
-        sshagent(credentials: ['jenkins-ssh']) {
-          sh """
-            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
-              ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
-          """
+        dir('builder') {
+          sshagent(credentials: ['jenkins-ssh']) {
+            sh """
+              rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
+                ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
+            """
+          }
         }
       }
     }

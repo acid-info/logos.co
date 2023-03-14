@@ -55,7 +55,8 @@ pipeline {
     stage('Publish Prod') {
       when { expression { env.GIT_BRANCH ==~ /.*master/ } }
       steps {
-        dir('builder') {
+        dir('src') {
+          sh 'cp -r ../builder/out ./'
           sshagent(credentials: ['status-im-auto-ssh']) {
             sh "ghp-import -p out"
           }

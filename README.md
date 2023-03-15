@@ -7,8 +7,13 @@ Content of `https://logos.co` website.
 - In case you have any issue with rendering, how website looks (design), etc, please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder/issues). And/or feel free to contact Amir.
 
 ## Continuous Integration
-- `develop` branch is pushed to [dev.logos.co](https://dev.logos.co) via GitHub Action.
-- `master` branch is pushed to [logos.co](https://logos.co) via GitHub Action.
+
+Two branches are built by [our Jenkins instance](https://ci.infra.status.im/):
+
+* `master` branch is deployed to https://logos.co by [CI](https://ci.infra.status.im/job/website/job/logos.co/).
+* `develop` branch is deployed to https://dev.logos.co by [CI](https://ci.infra.status.im/job/website/job/dev.logos.co/).
+
+PRs should be made for `develop` branch and `master` should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on `develop` once changes are verified.
 
 ```logos-ascii
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0kdlc;,...            ...';cldk0XWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM

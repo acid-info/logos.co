@@ -15,63 +15,13 @@ Two branches are built by [our Jenkins instance](https://ci.infra.status.im/):
 
 PRs should be made for `develop` branch and `master` should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on `develop` once changes are verified.
 
-```logos-ascii
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0kdlc;,...            ...';cldk0XWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMNKkoc,..                              ..,:okKNMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMWKxl,.                                          .,cxKNMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNOo;.                 .':lodxxxxdol:,.                 .,oONMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMW0o,.                .,lkKNMMMMMMMMMMMWNKkl,.                .,o0NMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMWXx;.                 .lONMMMMMMMMMMMMMMMMMMMMN0l.                 .;xXWMMMMMMMMMMMMMM
-MMMMMMMMMMMMWKo'                  .lKWMMMMMMMMMMMMMMMMMMMMMMMMWKl.                  'oKWMMMMMMMMMMMM
-MMMMMMMMMMWKo.                   ,OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO,                   .lKWMMMMMMMMMM
-MMMMMMMMMXd.                    ;0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK;                    .dXMMMMMMMMM
-MMMMMMMWO;                     'OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0'                     ,kWMMMMMMM
-MMMMMMXo.                      oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWd.                     .lXMMMMMM
-MMMMMX:                       .OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO.                       ;KMMMMM
-MMMMMx.                       '0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                       .dMMMMM
-MMMMMK;                       .OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0'                       ;0MMMMM
-MMMMMMXl.                     .oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWd.                     .lXMMMMMM
-MMMMMMMWO,                     '0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                     ,kWMMMMMMM
-MMMMMMMMMXd.                    ;KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:                    .dXMMMMMMMMM
-MMMMMMMMMMWKo.                   ,OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO;                   .oKWMMMMMMMMMM
-MMMMMMMMMMMMWKo'                  .oKWMMMMMMMMMMMMMMMMMMMMMMMMWKo.                  'oKWMMMMMMMMMMMM
-MMMMMMMMMMMMMMMXx;.                 .l0WMMMMMMMMMMMMMMMMMMMMW0o.                 .;xXWMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMN0l'                 .;oOXWMMMMMMMMMMMMWXOo;.                 'lONMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNOl,.                 .,cldxxxxxxdlc,.                 .,lONMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMN0xc'.                                          .'cd0NMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMNKko:'.                                .':okKNMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXOxol:,'...            ...',:loxOXNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXK00OkkxxxxkkO00KXNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-NXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXN
-....................................................................................................
-                                                                                                   
-                                       ...',;;::cc::;;,'...                                        
-                               ..,:ldkO0KXNWWWWMMMMMWWWNXX0Okdl:,..                                
-                          .':ok0XWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0ko:'.                           
-                       'cd0NWMMMMMMMMMMMMMMMWWNNXXXNWWMMMMMMMMMMMMMMMWN0xc'                        
-                   .,oONWMMMMMMMMMMMMMMNKkoc;,'....',;cok0NMMMMMMMMMMMMMMMNOo;.                    
-                 'o0NMMMMMMMMMMMMMMMNOl,.                .,lONMMMMMMMMMMMMMMMW0o,                  
-              .:kNMMMMMMMMMMMMMMMMXd,                        ,dXMMMMMMMMMMMMMMMMNk:.               
-            .l0WMMMMMMMMMMMMMMMMNk,                            'kNMMMMMMMMMMMMMMMMW0l.             
-          .lKWMMMMMMMMMMMMMMMMMXl.                              .lXMMMMMMMMMMMMMMMMMWKl.           
-        .c0WMMMMMMMMMMMMMMMMMMXl                                  cXMMMMMMMMMMMMMMMMMMW0c.         
-       ,kWMMMMMMMMMMMMMMMMMMMWd.                                  .dWMMMMMMMMMMMMMMMMMMMWk,        
-     .lXMMMMMMMMMMMMMMMMMMMMMK,                                    ,KMMMMMMMMMMMMMMMMMMMMMXo.      
-    .xWMMMMMMMMMMMMMMMMMMMMMMO.                                    .kMMMMMMMMMMMMMMMMMMMMMMWk.     
-    ,KMMMMMMMMMMMMMMMMMMMMMMMk.                                    .xMMMMMMMMMMMMMMMMMMMMMMMK;     
-     cXMMMMMMMMMMMMMMMMMMMMMMO.                                    .OMMMMMMMMMMMMMMMMMMMMMMXc      
-      ,OWMMMMMMMMMMMMMMMMMMMMX:                                    :XMMMMMMMMMMMMMMMMMMMMWO,       
-       .lXMMMMMMMMMMMMMMMMMMMMO'                                  .kWMMMMMMMMMMMMMMMMMMMXo.        
-         'xXMMMMMMMMMMMMMMMMMMWx.                                .xWMMMMMMMMMMMMMMMMMMNx'          
-           ,xXMMMMMMMMMMMMMMMMMWk,                              'kWMMMMMMMMMMMMMMMMMNx,            
-             ,dXWMMMMMMMMMMMMMMMMXo.                          .lKMMMMMMMMMMMMMMMMWXd,              
-               .lONMMMMMMMMMMMMMMMWKo,.                     ,oKWMMMMMMMMMMMMMMMNOl.                
-                 .,o0NMMMMMMMMMMMMMMMNOo:..            ..;oONMMMMMMMMMMMMMMMN0o,.                  
-                    .,lkXWMMMMMMMMMMMMMMWN0kdollllllodk0XWMMMMMMMMMMMMMMWXkl,.                     
-                        .;okKNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNKko;.                         
-                            .,:ox0XNWMMMMMMMMMMMMMMMMMMMMMMMMWNX0xo:'.                             
-                                  .';:lodxkO00KKKKK000Okxdol:;'.                                   
-                                             ........
-```
+Logos is building a Network State
+Logos is a grassroots movement to provide trust-minimized, corruption resistant governing services and social institutions to underserved citizens.
 
+It all begins with the construction of shared public infrastructure that forms the foundation of Logos. The network is comprised of modular protocols for communication, file storage and transactions, which together form a complete decentralized infrastructure stack.
+
+Logos’ infrastructure will provide a base for the provisioning of the next-generation of governing services and social institutions - paving the way to economic opportunities to those who need them most, whilst respecting basic human rights through the network’s design.
+
+We invite technologists, creatives and policy experts – along with anyone who is passionate about our mission – to participate in its creation, and to help govern its future.
+
+We will post more on how to join the community here soon.

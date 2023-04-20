@@ -16,7 +16,7 @@ Two branches are built by [our Jenkins instance](https://ci.infra.status.im/):
 PRs should be made for `develop` branch and `master` should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on `develop` once changes are verified.
 
 
-##About 
+## About 
 
 Logos is building a Network State
 

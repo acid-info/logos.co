@@ -15,7 +15,11 @@ Two branches are built by [our Jenkins instance](https://ci.infra.status.im/):
 
 PRs should be made for `develop` branch and `master` should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on `develop` once changes are verified.
 
+
+##About 
+
 Logos is building a Network State
+
 Logos is a grassroots movement to provide trust-minimized, corruption resistant governing services and social institutions to underserved citizens.
 
 It all begins with the construction of shared public infrastructure that forms the foundation of Logos. The network is comprised of modular protocols for communication, file storage and transactions, which together form a complete decentralized infrastructure stack.

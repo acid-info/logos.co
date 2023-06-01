@@ -1,31 +1,46 @@
+- [Description](#description)
+- [How to Run Locally](#how-to-run-locally)
+- [Configuration](#configuration)
+- [Customization](#customization)
+
 ## Description
 
-Content of `https://logos.co` website. 
+This repository contains the content of your documentation website.
 
-## Practical notes
-- Please keep this repo clean and for markdown content ONLY
-- In case you have any issue with rendering, how website looks (design), etc, please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder/issues). And/or feel free to contact Amir.
+## How to Run Locally
 
-## Continuous Integration
+1. Clone this repository.
+2. Install the dependencies:
+```bash
+$ yarn
+```
+3. Start and open the website in your browser:
+```bash
+$ yarn start
+```
 
-Two branches are built by [our Jenkins instance](https://ci.infra.status.im/):
+## Configuration
+Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
+- Logos
+- Codex
+- Waku
 
-* `master` branch is deployed to https://logos.co by [CI](https://ci.infra.status.im/job/website/job/logos.co/).
-* `develop` branch is deployed to https://dev.logos.co by [CI](https://ci.infra.status.im/job/website/job/dev.logos.co/).
+Example:
+```js
+presets: [
+  [
+    '@acid-info/logos-docusaurus-preset',
+    {
+      businessUnit: 'Codex',
+    },
+  ],
+],
+```
 
-PRs should be made for `develop` branch and `master` should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on `develop` once changes are verified.
+This is probably enough in most cases, as the Logos plugins will fill in other configurations related to the specified business unit. If you find any error in the information coming from Logos Plugins, please head over to [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins) and create an issue.
 
+## Customization
 
-## About 
+You can find the instructions on adding more documentation sections, localization, and versioning on the [Docusaurus](https://docusaurus.io/docs) website.
 
-Logos is building a Network State
-
-Logos is a grassroots movement to provide trust-minimized, corruption resistant governing services and social institutions to underserved citizens.
-
-It all begins with the construction of shared public infrastructure that forms the foundation of Logos. The network is comprised of modular protocols for communication, file storage and transactions, which together form a complete decentralized infrastructure stack.
-
-Logos’ infrastructure will provide a base for the provisioning of the next-generation of governing services and social institutions - paving the way to economic opportunities to those who need them most, whilst respecting basic human rights through the network’s design.
-
-We invite technologists, creatives and policy experts – along with anyone who is passionate about our mission – to participate in its creation, and to help govern its future.
-
-We will post more on how to join the community here soon.
+> Note that theme customization is limited; for further instructions on customizing your theme, head over to [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/). 

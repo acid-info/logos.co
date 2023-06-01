@@ -1,3 +1,0 @@
----
-permalink: term-of-use
----

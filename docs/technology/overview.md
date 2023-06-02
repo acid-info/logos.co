@@ -1,3 +1,6 @@
+---
+title: Overview
+---
 # Logos is building a complete decentralised infrastructure stack - for everyone.
 
 Advancements in cryptography and peer-to-peer networking have unlocked the possibility of re-imagining the public internet infrastructure that we conduct our lives upon. These technologies allow us to drastically increase the cost of surveillance, censorship and coercion as a means of safeguarding our freedoms.

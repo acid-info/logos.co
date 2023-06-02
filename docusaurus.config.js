@@ -8,9 +8,6 @@ const config = {
   url: 'https://logos.co/',
   baseUrl: '/',
 
-  customFields: {
-    ghostAPiKey: process.env.GHOST_API_KEY,
-  },
   markdown: {
     mermaid: true,
   },
@@ -37,12 +34,6 @@ const config = {
         },
         docs: {
           routeBasePath: '/',
-          versions: {
-            current: {
-              label: 'current',
-            },
-          },
-          lastVersion: 'current',
         },
       }),
     ],
@@ -51,12 +42,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
-    ({
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-      },
-    }),
+    ({}),
 }
 
 module.exports = config

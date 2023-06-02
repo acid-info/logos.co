@@ -42,7 +42,15 @@ const config = {
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
-    ({}),
+    ({
+      footer: {
+        links: [
+          {
+            items: [],
+          },
+        ],
+      },
+    }),
 }
 
 module.exports = config

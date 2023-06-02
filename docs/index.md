@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+pagination_next: null
+pagination_prev: null
 ---
 # Logos is building a Network State
 

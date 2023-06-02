@@ -1,6 +1,8 @@
 ---
 title: About
 sidebar_position: 2
+pagination_next: null
+pagination_prev: null
 ---
 
 Logos is a continuation of the original [cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) movement, advocating the widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change.

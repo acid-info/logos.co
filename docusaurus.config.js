@@ -33,12 +33,24 @@ const config = {
           },
         },
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/terms',
+          path: 'root-pages',
         },
       }),
     ],
   ],
   themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        routeBasePath: '/',
+        path: 'about',
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
@@ -46,7 +58,12 @@ const config = {
       footer: {
         links: [
           {
-            items: [],
+            items: [
+              {
+                href: '/terms',
+                label: 'Terms & conditions',
+              },
+            ],
           },
         ],
       },

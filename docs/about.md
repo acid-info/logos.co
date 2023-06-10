@@ -5,7 +5,7 @@ pagination_next: null
 pagination_prev: null
 ---
 
-Logos is a continuation of the original [cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) movement, advocating the widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change.
+Logos is a continuation of the original cypherpunk movement, advocating the widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change.
 
 We believe trust-minimized technologies will pave the way to a world where more humane social institutions and fairer means of governance can emerge, and are accessible to anyone in the world with an internet connection.
 

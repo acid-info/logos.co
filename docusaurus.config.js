@@ -33,24 +33,13 @@ const config = {
           },
         },
         docs: {
-          routeBasePath: '/terms',
-          path: 'root-pages',
+          routeBasePath: '/',
+          path: 'docs',
         },
       }),
     ],
   ],
   themes: ['@docusaurus/theme-mermaid'],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'about',
-        routeBasePath: '/',
-        path: 'about',
-      },
-    ],
-  ],
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */

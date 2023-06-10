@@ -1,3 +1,8 @@
+---
+displayed_sidebar: null
+sidebar_class_name: hidden
+---
+
 # Terms of Use
 
 These terms and conditions (“**Website Terms of Use**”) are entered into by you and us, and they govern your access and use of the Website, including any content and functionality contained in the Website.

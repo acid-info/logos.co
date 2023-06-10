@@ -34,6 +34,7 @@ const config = {
         },
         docs: {
           routeBasePath: '/',
+          path: 'docs',
         },
       }),
     ],
@@ -46,7 +47,12 @@ const config = {
       footer: {
         links: [
           {
-            items: [],
+            items: [
+              {
+                href: '/terms',
+                label: 'Terms & conditions',
+              },
+            ],
           },
         ],
       },

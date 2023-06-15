@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.40":
-  version "1.0.0-alpha.40"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.40.tgz#bfd6757b86d74a91adbe874688a0fe3e22129da2"
-  integrity sha512-iKJZHD79SXQ+562AupudqLCAWGkKZVeb9z12dG9AL91zOF8q5JOPPceU2/yMkj+n9RQA4i9Byvt/038q6TgxOw==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.46":
+  version "1.0.0-alpha.46"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.46.tgz#7aa85e1ec7adb2857485974a00d18b46b4df7732"
+  integrity sha512-urOX3P9Qr0npmcFvZ0ghd9IlOrIkkK4oxglCIMisVCmizMQf0S3KDPGoXd+KzCiqnvcElLzZyltsdrVi2YA1Jw==
   dependencies:
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.19"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.37"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.46"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -34,10 +34,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.37":
-  version "1.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.37.tgz#c02f9c883189953b85032118e6737a44ee236bde"
-  integrity sha512-Uyp3Q8B12qtMUEYsD5E3CS3B47tiqChw4ZPk0HYBaVWtohI4umnwWuF8+H22az8D1r0XOXcSM0uxExKVCbDQ0Q==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.46":
+  version "1.0.0-alpha.46"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.46.tgz#b6eec2ad8305769018ee1de066daf31c22514332"
+  integrity sha512-F+uHjM3+2UPcLDFNV/XA57J6TxhspTVzHRbGZiN27RCfLeJn+LzVyp/z5wFmHlG27LrHXfjGVS6Mdhc7Nn4IFw==
   dependencies:
     "@acid-info/lsd-react" "^0.1.0-alpha.15"
     "@docusaurus/core" "^2.4.1"

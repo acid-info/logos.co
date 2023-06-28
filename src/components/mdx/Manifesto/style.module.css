@@ -1,0 +1,58 @@
+.container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: rgb(var(--lsd-surface-secondary));
+    color: rgb(var(--lsd-text-primary));
+    left: 0;
+    top: 0;
+    overflow: auto;
+    padding: 3rem 0;
+}
+
+.container *{
+    color: rgb(var(--lsd-text-secondary)) !important;
+}
+
+
+.inner{
+    max-width: 800px;
+    margin: auto;
+}
+
+.inner > *{
+    margin: auto;
+}
+
+.container *{
+    font-family: serif !important;
+}
+
+.container article{
+    column-count: 2;
+    column-gap: 3rem;
+}
+.container h2{
+    margin-block: 3rem;
+    text-align: center;
+}
+
+.container p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container p+p{
+    margin-top: 2rem;
+}
+
+.logoWrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.logoWrapper img{
+    width: 60px;
+    filter: invert(100%);
+}

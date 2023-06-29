@@ -39,7 +39,6 @@ const config = {
       }),
     ],
   ],
-  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */

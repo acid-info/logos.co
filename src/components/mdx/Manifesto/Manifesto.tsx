@@ -1,38 +1,24 @@
-import React, { useEffect } from 'react'
-import styles from "./style.module.css"
-export const Manifesto = ({ children }: any) => {
-  // disable body.overflow when Manifesto is mounted and enable it when unmounted
-  const [rendered, setRendered] = React.useState(true)
+import React from 'react'
+import styles from './style.module.css'
+import { Button } from '@acid-info/lsd-react'
 
-  useEffect(() => {
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = 'auto'
-    }
-  }, [])
+type Props = {
+  children: React.ReactNode
+}
 
-  const handleClick = (e: any) => {
-    if(e.target.tagName === 'DIV') {
-      setRendered(null);
-      document.body.style.overflow = 'auto'
-    }
-  }
-
-  if(!rendered) return null;
-
-  return(
-    <div className={styles.container}
-         onClick={handleClick}
-    >
+export const Manifesto = ({ children }: Props) => {
+  return (
+    <div className={styles.container}>
       <div className={styles.inner}>
         <div className={styles.logoWrapper}>
-          <img src={'/theme/image/logo.svg'}/>
+          <img src={'/theme/image/logo.svg'} />
         </div>
         {children}
-        <br/>
-        <button>
-          Become a Founding Citizen
-        </button>
+        <div className={styles.cta}>
+          <a href="/about">
+            <Button variant="outlined">Become a Founding Citizen</Button>
+          </a>
+        </div>
       </div>
     </div>
   )

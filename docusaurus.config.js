@@ -36,6 +36,7 @@ const config = {
           routeBasePath: '/',
           path: 'docs',
         },
+        og: {},
       }),
     ],
   ],

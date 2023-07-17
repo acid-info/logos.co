@@ -42,6 +42,16 @@
   text-justify: inter-word;
 }
 
+.container a {
+  color: black;
+  text-decoration: underline;
+}
+
+.container a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .container p article {
   font-size: var(--lsd-body1-fontSize);
   line-height: var(--lsd-body1-lineHeight);

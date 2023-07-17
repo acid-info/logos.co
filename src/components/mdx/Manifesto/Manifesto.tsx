@@ -15,8 +15,8 @@ export const Manifesto = ({ children }: Props) => {
         </div>
         {children}
         <div className={styles.cta}>
-          <a href="/about">
-            <Button variant="outlined">Become a Founding Citizen</Button>
+          <a href="/history">
+            <Button variant="outlined">Find Out More</Button>
           </a>
         </div>
       </div>

@@ -1,6 +1,7 @@
 ---
 title: History
-sidebar_position: 1
+sidebar_position: 1 
+description: Logos is a grassroots movement to create a self-sovereign network state.
 ---
 
 Logos is a grassroots movement to create a self-sovereign network state. 

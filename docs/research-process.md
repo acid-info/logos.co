@@ -1,6 +1,7 @@
 ---
 title: Our Process
 sidebar_position: 6
+description: Research Process for the Logos Network State
 ---
 
 We build public good protocols for everyone, then implement them the way that works for us.

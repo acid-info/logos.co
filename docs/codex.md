@@ -1,6 +1,7 @@
 ---
 title: Codex 
 sidebar_position: 5
+description: Codex is a decentralised data storage platform providing strong censorship resistance and durability for the Logos Network State.
 ---
 
 <u>Codex</u> is a decentralised data storage platform that provides exceptionally strong censorship resistance and durability guarantees. It is the data storage layer of the Logos Network State.

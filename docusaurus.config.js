@@ -33,6 +33,7 @@ const config = {
           },
         },
         docs: {
+          id: 'Logos',
           routeBasePath: '/',
           path: 'docs',
         },

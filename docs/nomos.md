@@ -4,7 +4,7 @@ sidebar_position: 3
 description: Nomos is a privacy-preserving, sovereign, modular blockchain that will serve as the trustless agreements layer for the Logos Network State.
 ---
 
-<u>Nomos</u> is a privacy-preserving, sovereign, modular blockchain that will serve as a scalable trustless agreements layer for Logos.
+<p><u>Nomos</u> is a privacy-preserving, sovereign, modular blockchain that will serve as a scalable trustless agreements layer for Logos.</p>
 
 **Privacy preserving**: Nomos offers network-level privacy for users, developers and infrastructure providers. This includes giving developers building apps on Nomos and validators securing the network the ability to shield identifying information like location and transaction details.
 

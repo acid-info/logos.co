@@ -1,6 +1,7 @@
+import { Button } from '@acid-info/lsd-react'
+import Link from '@docusaurus/Link'
 import React from 'react'
 import styles from './style.module.css'
-import { Button } from '@acid-info/lsd-react'
 
 type Props = {
   children: React.ReactNode
@@ -15,9 +16,9 @@ export const Manifesto = ({ children }: Props) => {
         </div>
         {children}
         <div className={styles.cta}>
-          <a href="/history">
+          <Link to="/history">
             <Button variant="outlined">Find Out More</Button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

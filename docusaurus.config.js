@@ -50,9 +50,17 @@ const config = {
           {
             items: [
               {
+                href: 'https://twitter.com/Logos_state',
+                label: 'Twitter',
+              },
+              {
+                href: 'https://github.com/logos-co',
+                label: 'Github',
+              },
+              {
                 href: '/terms',
                 label: 'Terms & conditions',
-              },
+              }
             ],
           },
         ],

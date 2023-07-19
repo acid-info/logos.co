@@ -1,5 +1,5 @@
 ---
-title: Our Process
+title: Process
 sidebar_position: 6
 description: Research Process for the Logos Network State
 ---

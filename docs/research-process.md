@@ -36,7 +36,7 @@ flowchart
     L1-->|Updates|V2
 ```
 
-A Logos project will perform research on a problem. Their initial deliverables will be a Proof of Concept (PoC) and a set of specifications that detail explicitely how that solution is built. Vac will provide resources to the Logos project by facilitating in the process writing and hardening the specifications being developed. 
+A Logos project will perform research on a problem. Their initial deliverables will be a Proof of Concept (PoC) and a set of specifications that detail explicitly how that solution is built. Vac will provide resources to the Logos project by facilitating in the process writing and hardening the specifications being developed. 
 
 In addition to helping in the process of spec writing, they also serve as an embodiment of the foundational principles that maintain the ethical development of public good infrastructure. This means that specifications written, developed, and housed with Vac are not tied to any given chain, biased ideology, and the subsequent control that comes from it. These specifications can then be used by the general public in any way they see fit, free and open source. 
 

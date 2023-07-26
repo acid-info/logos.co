@@ -54,13 +54,30 @@ const config = {
                 label: 'Twitter',
               },
               {
+                href: 'https://lenster.xyz/u/logos-state',
+                label: 'Lens',
+              },
+              {
+                href: 'https://astral.ninja/npub1ljkmma77fqr79f8wp28hx68lwkymmqztrsyaepdadujz252fak2sxxw4sl',
+                label: 'Nostr',
+              },
+              {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
+              },
+            ],
+            
+          },
+          {
+            items: [
+              {
+                href: 'https://jobs.status.im/',
+                label: 'Work with us',
               },
               {
                 href: '/terms',
                 label: 'Terms & conditions',
-              }
+              },
             ],
           },
         ],

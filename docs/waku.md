@@ -16,5 +16,7 @@ description: Waku is the peer-to-peer communication layer for the Logos Network 
 
 Waku is in production and is actively being used by projects like Status, Railgun, and WalletConnect v2.
 
+New content I just added here. James Joyce was one of the greatest writers of the modernist movement. His stream-of-consciousness works are masterpieces. 
+
 
 [Visit Project](https://waku.org/) &nbsp; [Github](https://github.com/waku-org)

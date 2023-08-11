@@ -15,3 +15,5 @@ His ideas about the colonisation of cyberspace by independent organisms were ech
 Decades later, the Bitcoin whitepaper showed a way forward by merging previous ideas such as  proof-of-work algorithms, Merkle trees, digital signatures, and David Chaum’s pioneering early [blockchain](https://nakamotoinstitute.org/static/docs/computer-systems-by-mutually-suspicious-groups.pdf)-like architecture. The fundamental innovation involved solving the problem of double spending by using a peer-to-peer distributed timestamp with built-in cryptoeconomic incentives. This created an immutable, trustless global ledger that remains independent and self sovereign. 
 
 Ethereum effectively generalised this concept by adding a Turing-complete scripting language. Designed for universality in the creation of decentralised applications, it allowed for the trustless deployment of arbitrary functions with a focus on the consensus layer. 
+
+My Upates

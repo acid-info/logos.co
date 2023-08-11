@@ -16,5 +16,7 @@ description: Codex is a decentralised data storage platform providing strong cen
 
 Codex has a working PoC, and is expected to have a live testnet in production by Q4 2023.
 
+New Edit! 
+
 
 [Visit Project](https://codex.storage/) &nbsp; [Github](https://github.com/codex-storage)

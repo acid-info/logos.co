@@ -24,8 +24,8 @@ flowchart
     subgraph Vac 
     V1[Principles]-->|Aligns|V2[Agnostic Specifications]
     V3[Protocol Development Process]-->|Structures|V2
-    click V3 "https://rfc.vac.dev" "Specifications"
-    click V1 "https://status.im/about/" "Principles"
+    click V1 "https://rfc.vac.dev" "Specifications"
+    click V3 "https://status.im/about/" "Principles"
     end
     
     L3-->|Delivers|V2

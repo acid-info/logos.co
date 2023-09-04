@@ -9,7 +9,7 @@ Ethereum has successfully demonstrated the power of a decentralised socioeconomi
 
 Moreover, the lack of network-level privacy for users and transactions violates the principle of minimal disclosure, creating an immutable database where users can easily be de-anonymised and tracked. This has opened the door for coercion and censorship of the network.
 
-Logos addresses these problems through the development of a privacy-focused, neutral, decentralised technology stack. Logos is composed of three primary protocols: Nomos, Codex, and Waku, for consensus, communication, and file storage respectively.
+Logos addresses these problems through the development of a privacy-focused, neutral, decentralised technology stack. Logos is composed of three primary protocols: Nomos, Codex, and Waku, for consensus, file storage, and communication respectively.
 
 Logos will provide a base for the provisioning of the next-generation of governing services, public goods, and social institutions, paving a way to economic opportunities for those who need them most, while respecting basic human rights across its design. The aim is to bring greater freedom, transparency, and stability to its citizens through voluntary participation.
 

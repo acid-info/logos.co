@@ -1,46 +1,83 @@
-- [Description](#description)
-- [How to Run Locally](#how-to-run-locally)
-- [Configuration](#configuration)
-- [Customization](#customization)
+# Logos
 
-## Description
+The repository for [logos.co](https://logos.co/) website.
 
-This repository contains the content of your documentation website.
 
 ## How to Run Locally
 
-1. Clone this repository.
+1. Clone this repository
+```bash
+$ git clone https://github.com/acid-info/logos.co.git
+```
+
 2. Install the dependencies:
 ```bash
-$ yarn
+$ yarn install
 ```
-3. Start and open the website in your browser:
+
+3. Start the website:
 ```bash
 $ yarn start
 ```
 
-## Configuration
-Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
-- Logos
-- Codex
-- Waku
+4. Visit `http://localhost:3000` in your browser
 
-Example:
-```js
-presets: [
-  [
-    '@acid-info/logos-docusaurus-preset',
-    {
-      businessUnit: 'Codex',
-    },
-  ],
-],
+
+## Landing Page
+
+The code for a landing page is located in `docs/index.mdx`. This file employs the `mdx` format and utilizes React components from the [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/components/mdx) package.
+
+
+## Adding Subpages
+
+To include subpages, create a `.md` or `mdx` file within the `about` directory. You can use [Frontmatter](https://docusaurus.io/docs/markdown-features#front-matter) to add metadata to your markdown file.
+
+The content in `about/index.md` will be utilized as the index page for the `/about` section.
+
+
+## Root Pages
+
+Subpages that do not belong to the `About` page (e.g., [Terms of Use](/root-pages/terms.md)) can be situated in the `root-pages` directory.
+
+
+## Docusaurus Config
+
+You can find instructions for adding additional documentation sections, implementing localization, and managing versioning on the [Docusaurus](https://docusaurus.io/docs) website.
+
+> Please note that theme customization is somewhat restricted; for more detailed instructions on customizing your theme, visit the [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/) repository.
+
+
+## Custom CSS
+
+By default, this template utilizes the CSS styles defined in the [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/css) package. You have the option to define custom CSS in `src/css/custom.scss`.
+
+
+## How to Run a Static Build (Production Build)
+
+1. Generate static files for production:
+
+```bash
+$ yarn build
 ```
 
-This is probably enough in most cases, as the Logos plugins will fill in other configurations related to the specified business unit. If you find any error in the information coming from Logos Plugins, please head over to [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins) and create an issue.
+The static files will be created in the `build` directory.
 
-## Customization
+2. Serve the static build:
 
-You can find the instructions on adding more documentation sections, localization, and versioning on the [Docusaurus](https://docusaurus.io/docs) website.
+```bash
+$ yarn serve
+```
 
-> Note that theme customization is limited; for further instructions on customizing your theme, head over to [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/). 
+
+## CI/CD
+
+- The `master` branch is automatically deployed to the production server (e.g., logos.co) through [CI](https://ci.infra.status.im)
+- The `develop` branch is automatically deployed to the staging server (e.g., dev.logos.co) through [CI](https://ci.infra.status.im)
+
+
+## Change Process
+
+1. Create a new working branch from `develop`: `git checkout develop; git checkout -b my-changes`.
+2. Make your changes, push them to the `origin`, and open a Pull Request against the `develop` branch.
+3. After approval, merge the pull request, and verify the changes on the staging server (e.g., https://dev.vac.dev).
+4. When ready to promote changes to the live website, rebase the `master` branch on the staging changes: `git checkout master; git pull origin master; git rebase origin/develop; git push`.

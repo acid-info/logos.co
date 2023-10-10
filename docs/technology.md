@@ -1,5 +1,5 @@
 ---
-title: Tech
+title: Technology
 sidebar_position: 2
 ---
 

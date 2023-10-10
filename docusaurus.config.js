@@ -36,6 +36,8 @@ const config = {
           id: 'Logos',
           routeBasePath: '/',
           path: 'docs',
+          sidebarPath: './sidebars.js',
+          breadcrumbs: false,
         },
         og: {},
       }),

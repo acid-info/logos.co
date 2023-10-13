@@ -44,16 +44,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@acid-info/docusaurus-fathom',
-      {
-        siteId: 'PYDDW',
-        scriptUrl: 'https://fathom.status.im/tracker.js',
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({

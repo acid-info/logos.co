@@ -52,7 +52,7 @@ const config = {
           {
             items: [
               {
-                href: 'https://twitter.com/Logos_state',
+                href: 'https://twitter.com/@logos_network',
                 label: 'Twitter',
               },
               {

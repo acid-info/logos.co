@@ -36,14 +36,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.109":
-  version "1.0.0-alpha.109"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.109.tgz#c2b8349454e5a32942b0753bc52abb32424a375c"
-  integrity sha512-yXw2FH6G3u4AunKu3+/uEu85D9E4Xf99Z9w/2iMk79h0kANnk7SRxxt4XaMdvUonn1ALMCN99vfMpiGUmlfE+g==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.110":
+  version "1.0.0-alpha.110"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.110.tgz#e45324231fa4b799651d8832cbd0b6fd800331fe"
+  integrity sha512-CGdUkFMNqCJwrFfQJdcSdlx/NucFm3nlYYoCv5+1/dtxLI6ixtmWA3b6qhY3Xstd1HqAfc80Ck20mbZ2y9gsYg==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.108"
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.108"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.109"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.110"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -70,10 +70,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.109":
-  version "1.0.0-alpha.109"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.109.tgz#91f2f2b485e81a784dbe5f2af84ef390656654b2"
-  integrity sha512-aXCnvE/Lxlb2tfnZdpleDASd4uVzg1CFwLn9nRzAfUp0kEDtj/gZpjCCtc2RTo0ySPAvQDBVE0XsHMtZgtST7Q==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.110":
+  version "1.0.0-alpha.110"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.110.tgz#4bbcfa4e59b172a60be809dba88212de9a515639"
+  integrity sha512-MKNpaeoR/uONjVCWw8V9cpH9WL9B9a+CF84qpYA80VWyULyxr3HS8Y9GHTjJcdlREe1kIoQiL6yu5xNCKgnvVA==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.108"
     "@acid-info/lsd-react" "^0.1.0-alpha.17"

@@ -1,12 +1,12 @@
 ---
 title: Comms 
 sidebar_position: 4
-description: Waku is the peer-to-peer communication layer for the Logos Network State.
+description: Waku is the peer-to-peer communication layer for the Logos Network.
 ---
 
 # Waku
 
-<p><u>Waku</u> is the peer-to-peer communication layer for the Logos network state. It removes centralised third parties from messaging, enabling private, scalable, censorship-resistant communication.</p>
+<p><u>Waku</u> is the peer-to-peer communication layer for the Logos network. It removes centralised third parties from messaging, enabling private, scalable, censorship-resistant communication.</p>
 
 **Private**: Waku leverages cutting-edge zero-knowledge encryption to guarantee all messaging and associated metadata benefit from rock-solid privacy, protecting users from third-party intervention.
 

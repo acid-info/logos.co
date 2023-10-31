@@ -47,6 +47,10 @@ const config = {
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+        defaultMode: 'light',
+      },
       footer: {
         links: [
           {

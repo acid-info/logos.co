@@ -16,7 +16,7 @@ description: Waku is the peer-to-peer communication layer for the Logos Network.
 
 **Scalable**: Waku employs message sharding for efficient throughput, while its discovery protocol ensures a user only connects to nodes serving messages they are interested in.
 
-Waku is in production and is actively being used by projects like Status, Railgun, and WalletConnect v2.
+Waku is in production and is actively being used by projects like Status, Railgun, and TheGraph.
 
 
 [Visit Project](https://waku.org/) &nbsp; [Github](https://github.com/waku-org)

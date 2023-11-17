@@ -73,7 +73,7 @@ const config = {
           {
             items: [
               {
-                href: 'https://jobs.status.im/',
+                href: 'https://boards.greenhouse.io/logos',
                 label: 'Work with us',
               },
               {

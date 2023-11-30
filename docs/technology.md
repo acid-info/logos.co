@@ -1,6 +1,6 @@
 ---
 title: Technology
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Logos is a re-imagining of the original ['Web 3.0'](http://gavwood.com/dappsweb3.html) vision. 

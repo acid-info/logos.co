@@ -1,6 +1,6 @@
 ---
 title: Culture
-sidebar_position: 7
+sidebar_position: 8
 description: Logos is a grassroots collective unified in protecting human rights and defending against tyranny through technology.
 ---
 

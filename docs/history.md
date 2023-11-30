@@ -1,12 +1,10 @@
 ---
 title: History
-sidebar_position: 1
+sidebar_position: 2
 description: Logos is a grassroots movement to create a self-sovereign network state.
 ---
 
-Logos is a grassroots movement to create a self-sovereign network state. 
-
-Such an organism—existing independently but in parallel to nation states under the cover of strong encryption—is a latent dream in the seminal imagination of science fiction, cypherpunk, and crypto-anarchist thinking.
+A self-sovereign virtual territory —existing independently but in parallel to nation states under the cover of strong encryption—is a latent dream in the seminal imagination of science fiction, cypherpunk, and crypto-anarchist thinking.
 
 In 1994 leading crypto-anarchist Timothy May [observed](https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-virtual-comm.html) how the combination of unbreakable public key cryptography and virtual communities would disrupt the nature of socioeconomic systems. In his view, personal computers, the expansion of the world wide web, functional pseudonymity, and digital cash would empower the creation of private, self-sustaining virtual communities. These groups would not need to rely on geographic proximity as a basis for cultural values, eventually displacing conventional national identities.
 

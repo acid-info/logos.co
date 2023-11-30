@@ -1,6 +1,6 @@
 ---
 title: Participate
-sidebar_position: 8
+sidebar_position: 9
 description: We invite anyone passionate about our mission to participate in the creation of the Logos Network.
 pagination_next: null
 ---

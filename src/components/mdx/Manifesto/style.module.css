@@ -105,6 +105,10 @@ section p {
   box-sizing: border-box;
 }
 
+.cta button * {
+  color: black;
+}
+
 @media (max-width: 575px) {
   .container {
     padding: 52px 0;

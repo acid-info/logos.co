@@ -71,6 +71,10 @@ const config = {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
               },
+              {
+                href: 'https://guide.logos.co/',
+                label: 'Brand Guidelines',
+              },
             ],
             
           },

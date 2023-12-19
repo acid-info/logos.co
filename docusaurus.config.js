@@ -70,11 +70,7 @@ const config = {
               {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
-              },
-              {
-                href: 'https://guide.logos.co/',
-                label: 'Brand Guidelines',
-              },
+              }
             ],
             
           },
@@ -83,6 +79,10 @@ const config = {
               {
                 href: 'https://boards.greenhouse.io/logos',
                 label: 'Work with us',
+              },
+              {
+                href: 'https://guide.logos.co/',
+                label: 'Brand Guidelines',
               },
               {
                 href: '/terms',

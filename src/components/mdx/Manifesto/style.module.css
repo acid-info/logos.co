@@ -71,7 +71,7 @@
   padding-inline: var(--content-padding);
 }
 
-.inner > * {
+.inner>* {
   margin: auto;
 }
 
@@ -103,6 +103,10 @@ section p {
   height: 42px;
   border: 1px solid black;
   box-sizing: border-box;
+}
+
+.cta button * {
+  color: black !important;
 }
 
 @media (max-width: 575px) {

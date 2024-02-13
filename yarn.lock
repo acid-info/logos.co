@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@acid-info/docusaurus-fathom@^1.0.0-alpha.101":
-  version "1.0.0-alpha.101"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-fathom/-/docusaurus-fathom-1.0.0-alpha.101.tgz#09ac30502d95362567dc7812c2c88c7eb9d6c2d3"
-  integrity sha512-rstW7UrJ2AtVdNutGNGkFQazAj970bUrokLUBU4uEay2TzABoHJEb78xhHXvjW/PyCJOxl0SE/WK7S1v9nigng==
+"@acid-info/docusaurus-fathom@^1.0.0-alpha.111":
+  version "1.0.0-alpha.111"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-fathom/-/docusaurus-fathom-1.0.0-alpha.111.tgz#074338091472835edff312772335723a396069b3"
+  integrity sha512-Fs0EK/6ETMITF3criG6xFo7Or56v7y0bUoQ9dJKYIewCQ/R6hESa3uMmWjpLqp90Y/XImwHMgYy7B4HylHfPWQ==
   dependencies:
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"

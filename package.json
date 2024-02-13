@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@acid-info/docusaurus-fathom": "^1.0.0-alpha.101",
+    "@acid-info/docusaurus-fathom": "^1.0.0-alpha.111",
     "@acid-info/logos-docusaurus-preset": "^1.0.0-alpha.133",
     "@docusaurus/core": "2.4.1",
     "@docusaurus/preset-classic": "2.4.1",

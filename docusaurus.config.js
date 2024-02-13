@@ -47,6 +47,7 @@ const config = {
       {
         siteId: 'PYDDW',
         scriptUrl: 'https://fathom.status.im/tracker.js',
+        hostnames: ['logos.co'],
       },
     ],
   ],

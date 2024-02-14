@@ -45,7 +45,7 @@ const config = {
     [
       '@acid-info/docusaurus-fathom',
       {
-        siteId: 'PYDDW',
+        siteId: 'GSUEA',
         scriptUrl: 'https://fathom.status.im/tracker.js',
         hostnames: ['logos.co'],
       },

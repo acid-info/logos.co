@@ -7,6 +7,8 @@ pagination_next: null
 
 # Privacy Policy
 
+Last updated: 9 February 2024
+
 This Privacy Policy is intended to inform users of our approach to privacy in respect of this website (**"Website"**). In this regard, if you are visiting our Website, this Privacy Policy applies to you.
 
 ### 1) Who we are
@@ -73,10 +75,10 @@ On this Website, you may come across links to third party websites. These third 
 
 ### 8) This Privacy Policy might change
 
-We may modify or replace any part of this Privacy Policy at any time and without notice. Please check the Website periodically for any changes. The new Privacy Policy will be effective immediately upon its posting on our Website. 
+We may modify or replace any part of this Privacy Policy at any time and without notice. Please check the Website periodically for any changes. The new Privacy Policy will be effective immediately upon its posting on our Website.
 
 ### 9) Contact information
 
-To the extent that you have any questions about the Privacy Policy, please contact us through the relevant channels.
+To the extent that you have any questions about the Privacy Policy, please contact us at legal@free.technology.
 
 This document is licensed under CC-BY-SA.

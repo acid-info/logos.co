@@ -47,7 +47,6 @@ const config = {
       {
         siteId: 'GSUEA',
         scriptUrl: 'https://fathom.bi.status.im/tracker.js',
-        hostnames: ['logos.co'],
       },
     ],
   ],
@@ -72,15 +71,15 @@ const config = {
                 label: 'Lens',
               },
               {
-                href: 'https://astral.ninja/npub1ljkmma77fqr79f8wp28hx68lwkymmqztrsyaepdadujz252fak2sxxw4sl',
+                href:
+                  'https://astral.ninja/npub1ljkmma77fqr79f8wp28hx68lwkymmqztrsyaepdadujz252fak2sxxw4sl',
                 label: 'Nostr',
               },
               {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
-              }
+              },
             ],
-            
           },
           {
             items: [

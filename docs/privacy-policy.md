@@ -31,7 +31,7 @@ We aim to limit the collection and collection and processing of personal data fr
 
 In this regard, we collect and process the following personal data from your use of the Website:  
 
-* **IP address**: As part of such use of the Website we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
+* **IP address**: As part of such use of the Website and from our use of Fathom Analytics, we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
 
 * **Fathom Analytics**: We note that we make use of Fathom Analytics, which you can read more about here: https://usefathom.com/. In short, Fathom Analytics is an alternative to Google Analytics, that doesn’t compromise visitor privacy for data. Fathom Analytics collects trends and insights, not personal details about specific website visitors. Fathom Analytics offers simple traffic insights such as top pages, top referrers, bounce rate, and average time people spend on a site.
 

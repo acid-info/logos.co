@@ -59,6 +59,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       footer: {
+        copyright: 'Logos',
         links: [
           {
             items: [

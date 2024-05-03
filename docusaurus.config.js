@@ -67,6 +67,10 @@ const config = {
                 label: 'Twitter',
               },
               {
+                href: 'https://discord.gg/logosnetwork',
+                label: 'Discord',
+              },
+              {
                 href: 'https://lenster.xyz/u/logos-state',
                 label: 'Lens',
               },

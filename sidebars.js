@@ -8,7 +8,6 @@ const sidebars = {
       value: '<div class="sidebar-menu-divider"></div>',
       defaultStyle: true,
     },
-    'about',
     'history',
     'technology',
     'consensus',

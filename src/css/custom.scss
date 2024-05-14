@@ -51,3 +51,11 @@ html {
     line-height: var(--lsd-body2-lineHeight) !important;
   }
 }
+
+@media (max-width: 768px) {
+  .mdx-event-card__title {
+    font-size: var(--lsd-h5-fontSize) !important;
+    line-height: var(--lsd-h5-lineHeight) !important;
+    height: fit-content !important;
+  }
+}

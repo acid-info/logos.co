@@ -9,3 +9,45 @@ html {
 .hidden {
   display: none;
 }
+
+@media (max-width: 1200px) {
+  .aside {
+    grid-column: 1 / 4 !important;
+  }
+}
+
+@media (min-width: 997px) {
+  .main-wrapper > div main > .container {
+    padding-bottom: 180px !important;
+  }
+}
+
+@media (min-width: 997px) and (max-width: 1200px) {
+  aside {
+    grid-column: 1 / 4 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mdx-grid {
+    --grid-cols: 2 !important;
+  }
+
+  .mdx-event-card {
+    gap: 32px !important;
+  }
+
+  .mdx-event-card__thumbnail {
+    height: 114px !important;
+  }
+
+  .mdx-event-card__title {
+    font-size: var(--lsd-h2-fontSize) !important;
+    line-height: var(--lsd-h2-lineHeight) !important;
+  }
+
+  .mdx-event-card__info > span {
+    font-size: var(--lsd-body2-fontSize) !important;
+    line-height: var(--lsd-body2-lineHeight) !important;
+  }
+}

@@ -1,0 +1,191 @@
+---
+title: ETHLATAM
+description: Uncompromising Web3 Communication at Scale
+hide_table_of_contents: true
+hide_title: true
+og:image_subtitle: Events
+---
+
+import {
+  Box,
+  EventBanner,
+  EventInfo,
+  EventAbout,
+  EventProfileList,
+  EventCTA,
+  InputCTASection,
+  EventHeader,
+  Grid,
+} from '@site/src/components/mdx'
+
+<head>
+  <body className="events full-width event-details" />
+</head>
+
+<Box top={{ xs: 8 }}>
+  <EventBanner src="/events/banner-placeholder.png" />
+  <EventHeader 
+    title="Hack with Waku at ETHLATAM"
+    description="We are a family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps."
+  />
+
+  <Box top={{ xs: 32 }}>
+  <Grid xs={{ cols: 2, gap: '1rem' }} md={{ cols: 2 }}>
+    <Grid.Item xs={1}>
+      <EventInfo 
+        label="Date"
+        content={"Mar 13 – Mar 14\n2024"}
+      /> 
+      </Grid.Item>
+      <Grid.Item xs={1}>
+        <EventInfo 
+          label="Location"
+          content={"San Pedro Sula,\nHonduras"}
+        /> 
+      </Grid.Item>
+    </Grid>
+  </Box>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <EventAbout>
+Waku is a suite of generalised messaging protocols aiming to be the communication standard for the decentralised web. It enables private and secure human-to-human, machine-to-machine, and human-to-machine communication without reliance on centralised intermediaries. Messaging through Waku is possible from one-to-one to many-to-many.
+
+<br />
+
+Waku serves as the communications layer of the Logos tech stack. Alongside the trustless agreement layer, Nomos, and the storage layer, Codex, it is one of the Logos Collective's foundational projects.
+
+<br />
+
+Motive:
+Today's internet is increasingly controlled by a small number of tech giants. Google, Amazon, Meta, and a few others dictate what we see and with whom we can communicate. Their influence is almost limitless, and their actions shape global public opinion and even geopolitics.
+
+<br />
+
+To anyone that understands the internet's present architecture, this outcome should be expected. The centralised entities through which we communicate have privileged access to reams of data that we, as internet users, produce daily, presenting an opportunity for the kind of surveillance that was once confined to the pages of science-fiction literature. Thinking that the most powerful commercial and political institutions would not leverage this would be naive.
+
+<br />
+
+Yet, it doesn't have to be this way. Advances in cryptography, peer-to-peer networking, and decentralised technologies provide an alternate path forward.
+
+  </EventAbout>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <EventProfileList
+    title="Our Delegation"
+    description="Reach out for an appointment."
+    data={[
+      {
+        image: '/events/guru.png',
+        name: 'Kumaraguru T',
+        role: 'Developer relations engineer',
+        email: 'guru@status.im',
+        linkedin: 'https://linkedin.com/in/kumaraguru7',
+      },
+      {
+        image:'/events/guru.png',
+        name: 'Gabriel Mermelstein',
+        role: 'Protocol Engineer',
+        email: 'gabriel@status.im',
+        linkedin: 'https://www.linkedin.com/in/gabriel-mermelstein-3714b5146',
+      },
+      {
+        image: '/events/guru.png',
+        name: 'Arseniy Klempner',
+        role: 'Protocol Engineer',
+        email: 'arseniyk@status.im',
+        linkedin: 'https://www.linkedin.com/in/arseniy-klempner-806533169/',
+      },
+    ]}
+  />
+</Box>
+
+<Box top={{ xs: 32 }}>
+  <h3>Want to see how Waku works?</h3>
+  <Box top={{ xs: 16 }}>
+    <Grid xs={{ cols: 2, gap: '1rem' }} md={{ cols: 2 }}>
+      <Grid.Item xs={1}>
+        <EventInfo 
+          label="Workshop"
+          content={
+            <>
+              Make sure to attend our workshop on 
+              <br/><br/>
+              Topic : Uncompromising Web3 Communication At Scale With Waku
+              <br/><br/>
+              Date : 13th of March from 15:00 - 16:00.
+              <br/><br/>
+              Waku Dev Rel Kumaraguru will make a deep dive into our tech there with a presentation followed by a live coding session.
+              <br/><br/>
+              <a href="https://x.com/waku_org" target="_blank">Livestream will be available on X</a>
+            </>
+          }
+        /> 
+        </Grid.Item>
+        <Grid.Item xs={1}>
+          <EventInfo 
+            label="Hackathon"
+            content={
+            <>
+              Waku has $2,500 in bounties up for grabs during the ETHLatam hackathon :
+              <br/><br/>
+              Winner : $1000
+              <br/>
+              Runner : $500
+              <br/>
+              Quadratic prize pool : $1000
+              <br/>
+              <br/>
+              Note : Projects that use Waku for implementing ‘Chat’ based solutions will not be considered for any of the Waku prizes.
+              <br/><br/>
+              <a href="https://taikai.network/ethlatam/hackathons/honduras" target="_blank">Join the hackathon</a>
+            </>
+          }
+          /> 
+        </Grid.Item>
+      </Grid>
+  </Box>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <Grid
+    xs={{ cols: 1, gap: '1rem' }}
+    md={{ cols: 2 }}
+    className="bottom-cta-sections"
+  >
+    <Grid.Item xs={1}>
+      <InputCTASection
+        title="Logos Network State"
+        description={
+          'Want to get involved with Waku?\nJoin the Discord community.'
+        }
+        link="https://discord.waku.org/"
+        label="Get Involved"
+      />
+    </Grid.Item>
+    <Grid.Item xs={1}>
+      <InputCTASection
+        title="Newsletter"
+        description={'Subscribe\nto our newsletter'}
+        label="Subscribe"
+        formInput={[
+          {
+            label: 'Name',
+            placeholder: 'Name',
+            type: 'text',
+            name: 'name',
+            required: true,
+          },
+          {
+            label: 'Email',
+            placeholder: 'Enter your email',
+            type: 'email',
+            name: 'email',
+            required: true,
+          },
+        ]}
+      />
+    </Grid.Item>
+  </Grid>
+</Box>

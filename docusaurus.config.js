@@ -33,7 +33,7 @@ const config = {
           },
         },
         docs: {
-          id: 'Logos',
+          id: 'root-pages',
           routeBasePath: '/',
           path: 'docs',
           sidebarPath: './sidebars.js',
@@ -74,6 +74,10 @@ const config = {
               {
                 href: 'https://lenster.xyz/u/logos-state',
                 label: 'Lens',
+              },
+              {
+                href: '/events',
+                label: 'Events',
               },
               {
                 href:

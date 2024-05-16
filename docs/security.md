@@ -7,7 +7,7 @@ pagination_next: null
 
 # Security
 
-We take security seriously at IFT and across the <a href="https://free.technology/" target="_blank">Institute of Free Technology</a> and its affiliates. 
+We take security seriously at Logos and across the <a href="https://free.technology/" target="_blank">Institute of Free Technology</a> and its affiliates. 
 
 Please report any security incidents via <a href="mailto:security@free.technology">security@free.technology</a>. 
 

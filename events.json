@@ -1,16 +1,16 @@
 [
   {
     "title": "Logos Assembly: Belgrade",
-    "date": "Jun 3, 6:30 PM GMT+2",
     "location": "Beograd",
-    "href": "https://lu.mahttps://lu.ma/LA2",
-    "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=180,height=180/event-covers/e9/6d3a2f12-1c8c-42e9-8196-c1d240948030"
+    "href": "https://lu.ma/LA2",
+    "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=180,height=180/event-covers/e9/6d3a2f12-1c8c-42e9-8196-c1d240948030",
+    "date": "Jun 3\n4:30 PM"
   },
   {
     "title": "Logos Assembly: Brno",
-    "date": "Jun 13, 6:00 PM GMT+2",
     "location": "Studentský klub U Kachničky",
-    "href": "https://lu.mahttps://lu.ma/la3",
-    "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=180,height=180/event-covers/16/6718e8d5-8ce9-4247-8dbb-4f6e8d60392d"
+    "href": "https://lu.ma/la3",
+    "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=180,height=180/event-covers/16/6718e8d5-8ce9-4247-8dbb-4f6e8d60392d",
+    "date": "Jun 13\n4:00 PM"
   }
 ]

@@ -1,6 +1,5 @@
-const fetch = require('node-fetch')
 const fs = require('fs')
-const { JSDOM } = require('jsdom')
+const puppeteer = require('puppeteer')
 
 // URL to scrape
 const url = 'https://lu.ma/logosevents'
@@ -8,40 +7,51 @@ const url = 'https://lu.ma/logosevents'
 // Function to fetch and parse HTML
 async function scrapeData() {
   try {
-    const response = await fetch(url)
-    const html = await response.text()
+    // Launch Puppeteer
+    const browser = await puppeteer.launch()
+    const page = await browser.newPage()
+    await page.goto(url, { waitUntil: 'networkidle2' })
 
-    const dom = new JSDOM(html)
-    const document = dom.window.document
+    // Wait for the required elements to load
+    await page.waitForSelector('a.event-link.content-link')
 
-    const events = []
+    // Scrape the data
+    const events = await page.evaluate(() => {
+      const eventLinks = document.querySelectorAll('a.event-link.content-link')
+      const events = []
 
-    // Select elements with the .event-link class
-    const eventLinks = document.querySelectorAll('a.event-link.content-link')
+      eventLinks.forEach(eventLink => {
+        const title = eventLink.getAttribute('aria-label')
+        const href = eventLink.href
+        const eventContent = eventLink.nextElementSibling
+        const location = eventContent
+          .querySelector('.attribute:nth-of-type(2) > .text-ellipses')
+          ?.textContent.trim()
+        const thumbnail = eventContent.querySelector('img')?.src
 
-    eventLinks.forEach(eventLink => {
-      const title = eventLink.getAttribute('aria-label')
-      const link = eventLink.href
+        const date = eventContent
+          .querySelector('.event-time .text-warning')
+          ?.textContent.trim()
 
-      const eventContent = eventLink.nextElementSibling
-      const location = eventContent
-        .querySelector('.attribute:nth-of-type(2) > .text-ellipses')
-        ?.textContent.trim()
-      const thumbnail = eventContent.querySelector('img')?.src
-
-      // Push the extracted data to the events array
-      events.push({
-        title,
-        location,
-        link,
-        thumbnail,
+        events.push({
+          title,
+          date,
+          location,
+          href: `https://lu.ma${href}`,
+          thumbnail,
+        })
       })
+
+      return events
     })
 
     // Write data to a JSON file
     fs.writeFileSync('events.json', JSON.stringify(events, null, 2))
 
     console.log('Data scraped and saved to events.json')
+
+    // Close Puppeteer
+    await browser.close()
   } catch (error) {
     console.error('Error scraping data:', error)
   }

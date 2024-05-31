@@ -6,12 +6,9 @@ hude_title: true
 og:image_subtitle: Events
 ---
 
-import {
-  EventCardList,
-  InputCTASection,
-  Grid,
-  Box,
-} from '@site/src/components/mdx'
+
+import Events from '@site/src/components/Events'
+
 
 # Events
 
@@ -19,99 +16,4 @@ import {
   <body className="events full-width event-details no-breadcrumbs" />
 </head>
 
-<EventCardList
-  upcoming={[
-      {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at WSAS',
-      date: 'May 7 - May 8\n2024',
-      location: 'Online',
-      href: '/events/eth-latam',
-    },
-        {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHBratislava',
-      date: 'May 10 – May 11\n2024',
-      location: 'LKOVICOVA 2, Bratislava,\nSlovakia"',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at DLT 2024',
-      date: 'May 14 – May 15\n2024',
-      location: 'Turin,\nItaly"',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at Dappcon',
-      date: 'May 21 - May 23\n2024',
-      location: 'Radialsystem, Berlin,\nGermany',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at Web3PrivacyNow Berlin',
-      date: 'May 22\n2024',
-      location: 'Rungestraße 20, 10179 Berlin,\nGermany',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHBerlin',
-      date: 'May 24 – May 26\n2024',
-      location: 'CIC Innovation Campus, Berlin,\nGermany',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHPrague',
-      date: 'May 31 – June 2\n2024',
-      location: 'Prague,\nCzech Republic',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at Web3Privacy Now Prague',
-      date: 'May 30\n2024',
-      location: 'Prague,\nCzech Republic',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHPrague',
-      date: 'May 31 – June 2\n2024',
-      location: 'Prague,\nCzech Republic',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at Web3Privacy Now Prague',
-      date: 'May 30\n2024',
-      location: 'Prague,\nCzech Republic',
-      href: '/events/eth-latam',
-    }
-  ]}
-  past={[
-      {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHDam',
-      date: 'Apr 12 - Apr 14\n2024',
-      location: 'Amsterdam\nThe Netherlands',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Hack with Waku at ETHLATAM : First Waku sponsored hackathon of 2024',
-      date: 'Mar 13 - Mar 14\n2024',
-      location: 'San Pedro Sula\nHonduras',
-      href: '/events/eth-latam',
-    },
-    {
-      thumbnail: '/events/banner.png',
-      title: 'Waku at ETHTaipei',
-      date: 'Mar 21 - Mar 22\n2024',
-      location: 'Taipei city\nTaiwan',
-      href: '/events/eth-latam',
-    },
-  ]}
-/>
+<Events />

@@ -1,10 +1,10 @@
 const fetch = require('node-fetch')
 const fs = require('fs')
+const path = require('path')
 const { JSDOM } = require('jsdom')
 
 // URL to scrape
 const url = 'https://lu.ma/logosevents'
-
 const urlCompact = 'https://lu.ma/logosevents?compact=true'
 
 // Function to fetch and parse HTML
@@ -21,11 +21,9 @@ async function scrapeData() {
     // Select elements with the .event-link class
     const eventLinks = document.querySelectorAll('a.event-link.content-link')
 
-    eventLinks.forEach(eventLink => {
+    for (const eventLink of eventLinks) {
       const title = eventLink.getAttribute('aria-label')
-
       const href = eventLink.href
-
       const eventContent = eventLink.nextElementSibling
 
       const location = eventContent
@@ -38,15 +36,21 @@ async function scrapeData() {
         .querySelector('.jsx-2921306942 > .date')
         ?.textContent.trim()
 
+      // Download and save the image
+      let imagePath = ''
+      if (thumbnail) {
+        imagePath = await downloadImage(thumbnail, href)
+      }
+
       // Push the extracted data to the events array
       events.push({
         title,
-        date: date,
+        date,
         location,
         href: `https://lu.ma${href}`,
-        thumbnail,
+        thumbnail: imagePath.replace('static', ''), // Remove 'static' from the path
       })
-    })
+    }
 
     // Write data to a JSON file
     fs.writeFileSync('events.json', JSON.stringify(events, null, 2))
@@ -67,7 +71,6 @@ async function scrapeEventDate() {
 
     const events = []
 
-    console.log('html', html)
     const eventData = document.querySelectorAll('.section')
 
     eventData?.forEach(event => {
@@ -78,8 +81,6 @@ async function scrapeEventDate() {
       const time = event
         .querySelector('.time.text-tertiary-alpha')
         ?.textContent.trim()
-
-      console.log('time', time)
 
       const href = event.querySelector('a')?.href
 
@@ -106,6 +107,25 @@ async function scrapeEventDate() {
   } catch (error) {
     console.error('Error scraping data:', error)
   }
+}
+
+// Function to download image
+async function downloadImage(url, href) {
+  const response = await fetch(url)
+  const buffer = await response.buffer()
+  const cleanHref = href
+    .split('/')
+    .pop()
+    .toLowerCase() // Use the last part of the href, in lowercase
+  const folder = path.join(__dirname, 'static', 'events', cleanHref)
+
+  // Create directory if it doesn't exist
+  fs.mkdirSync(folder, { recursive: true })
+
+  const imagePath = path.join(folder, 'thumbnail.png')
+  fs.writeFileSync(imagePath, buffer)
+  console.log(`Image downloaded: ${imagePath}`)
+  return path.join('/events', cleanHref, 'thumbnail.png') // Ensure the path does not include 'static'
 }
 
 async function main() {

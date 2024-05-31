@@ -10,6 +10,10 @@ html {
   display: none;
 }
 
+.mdx-event-card__thumbnail {
+  height: unset !important;
+}
+
 @media (max-width: 1200px) {
   .aside {
     grid-column: 1 / 4 !important;
@@ -37,9 +41,9 @@ html {
     gap: 32px !important;
   }
 
-  .mdx-event-card__thumbnail {
-    height: 114px !important;
-  }
+  // .mdx-event-card__thumbnail {
+  //   height: 114px !important;
+  // }
 
   .mdx-event-card__title {
     font-size: var(--lsd-h2-fontSize) !important;

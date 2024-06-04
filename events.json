@@ -1,16 +1,10 @@
 [
   {
-    "title": "Logos Assembly: Belgrade",
-    "location": "Beograd",
-    "href": "https://lu.ma/LA2",
-    "thumbnail": "/events/la2/thumbnail.png",
-    "date": "Jun 3\n4:30 PM"
-  },
-  {
     "title": "Logos Assembly: Brno",
     "location": "Studentský klub U Kachničky",
     "href": "https://lu.ma/la3",
     "thumbnail": "/events/la3/thumbnail.png",
+    "target": "_blank",
     "date": "Jun 13\n4:00 PM"
   }
 ]

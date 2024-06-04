@@ -49,6 +49,7 @@ async function scrapeData() {
         location,
         href: `https://lu.ma${href}`,
         thumbnail: imagePath.replace('static', ''), // Remove 'static' from the path
+        target: '_blank',
       })
     }
 

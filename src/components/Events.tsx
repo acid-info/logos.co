@@ -4,7 +4,7 @@ import React from 'react'
 import eventData from '/events.json'
 
 const Events = () => {
-  return <EventCardList upcoming={eventData} past={[]} />
+  return <EventCardList upcoming={eventData.upcoming} past={eventData.past} />
 }
 
 export default Events

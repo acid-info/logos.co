@@ -66,8 +66,8 @@ async function scrapeEventDate() {
   try {
     const response = await fetch(urlCompact)
     const html = await response.text()
-
     const dom = new JSDOM(html)
+
     const document = dom.window.document
 
     const events = []
@@ -87,7 +87,7 @@ async function scrapeEventDate() {
 
       if (date && href) {
         events.push({
-          date: `${date}\n${time}`,
+          date: `${date}\n${time} GMT`,
           href: `https://lu.ma${href}`,
         })
       }

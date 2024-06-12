@@ -4,7 +4,7 @@
       "title": "Logos Assembly: Brno",
       "location": "Studentský klub U Kachničky",
       "href": "https://lu.ma/la3",
-      "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=400,height=400/event-covers/16/6718e8d5-8ce9-4247-8dbb-4f6e8d60392d",
+      "thumbnail": "/events/la3/thumbnail.avif",
       "target": "_blank",
       "date": "June 13\n6:00 PM GMT+2"
     }
@@ -14,7 +14,7 @@
       "title": "Logos Assembly: Belgrade",
       "location": "Beograd",
       "href": "https://lu.ma/la2",
-      "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=400,height=400/event-covers/e9/6d3a2f12-1c8c-42e9-8196-c1d240948030",
+      "thumbnail": "/events/la2/thumbnail.avif",
       "target": "_blank",
       "date": "Jun 3\n6:30 PM GMT+2"
     },
@@ -22,7 +22,7 @@
       "title": "Building Network States (Dubai Edition)",
       "location": "Dubai",
       "href": "https://lu.ma/bnsdubai",
-      "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=400,height=400/event-covers/1o/cd192570-4206-421e-99a0-72cfbd7a8040",
+      "thumbnail": "/events/bnsdubai/thumbnail.avif",
       "target": "_blank",
       "date": "Apr 18\n6:00-9:00 PM GMT+4"
     },
@@ -30,7 +30,7 @@
       "title": "Logos Assembly: Athens",
       "location": "Athina",
       "href": "https://lu.ma/LA1",
-      "thumbnail": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=400,height=400/event-covers/ti/9a5fb443-9cf3-4be3-8f0d-ec8ab1e6fba9",
+      "thumbnail": "/events/la1/thumbnail.avif",
       "target": "_blank",
       "date": "Apr 7\n7:00-9:00 PM GMT+3"
     }

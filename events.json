@@ -1,15 +1,16 @@
 {
   "upcoming": [
-    {
+   
+  ],
+  "past": [
+     {
       "title": "Logos Assembly: Brno",
       "location": "Studentský klub U Kachničky",
       "href": "https://lu.ma/la3",
       "thumbnail": "/events/thumbnails/la3.jpg",
       "target": "_blank",
       "date": "June 13\n6:00 PM GMT+2"
-    }
-  ],
-  "past": [
+    },
     {
       "title": "Logos Assembly: Belgrade",
       "location": "Beograd",

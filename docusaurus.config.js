@@ -47,6 +47,7 @@ const config = {
       {
         siteId: 'GSUEA',
         scriptUrl: 'https://fathom.bi.status.im/tracker.js',
+        hostnames: ['logos.co'],
       },
     ],
   ],

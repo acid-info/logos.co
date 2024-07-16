@@ -71,8 +71,12 @@ $ yarn serve
 
 ## CI/CD
 
-- The `master` branch is automatically deployed to the production server (e.g., logos.co) through [CI](https://ci.infra.status.im)
-- The `develop` branch is automatically deployed to the staging server (e.g., dev.logos.co) through [CI](https://ci.infra.status.im)
+- [CI builds](https://ci.infra.status.im/job/website/job/logos.co/) `master` and pushes to `deploy-master` branch, which is hosted at <https://logos.co//>.
+- [CI builds](https://ci.infra.status.im/job/website/job/dev.logos.co/) `develop` and pushes to `deploy-develop` branch, which is hosted at <https://dev.logos.co//>.
+
+The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
+
+Information about deployed build can be also found in `/build.json` available on the website.
 
 
 ## Change Process

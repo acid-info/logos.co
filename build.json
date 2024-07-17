@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-07-17T13:14:07Z",
+    "git": {
+        "commit": "56a9c2c078152a524035da0c9ac1a9d535d21f96",
+        "branch": "origin/master",
+        "url": "git@github.com:acid-info/logos.co.git"
+    },
+    "build": {
+        "id": "163",
+        "number": "163",
+        "name": "website/logos.co",
+        "slave": "linux-02",
+        "url": "https://ci.infra.status.im/job/website/job/logos.co/163/"
+    }
+}

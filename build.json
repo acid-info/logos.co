@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-07-17T12:48:26Z",
+    "git": {
+        "commit": "9e143bc79ad655e6b93761fea16db1c51a6934c2",
+        "branch": "origin/deploy-via-caddy-git",
+        "url": "git@github.com:acid-info/logos.co.git"
+    },
+    "build": {
+        "id": "147",
+        "number": "147",
+        "name": "website/dev.logos.co",
+        "slave": "linux-02",
+        "url": "https://ci.infra.status.im/job/website/job/dev.logos.co/147/"
+    }
+}

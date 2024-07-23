@@ -20,15 +20,17 @@ pipeline {
 
   stages {
     stage('Install') {
-      steps {
-        sh 'yarn install'
+      steps { 
+        script {
+          nix.develop('yarn install')
+        }
       }
     }
 
     stage('Build') {
       steps {
         script {
-          sh 'yarn build'
+          nix.develop('yarn build')
           jenkins.genBuildMetaJSON('build/build.json')
         }
       }

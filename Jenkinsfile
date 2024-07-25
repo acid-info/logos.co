@@ -40,12 +40,12 @@ pipeline {
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
           script {
-            nix.develop('''
+            nix.develop("""
               ghp-import \
                 -b ${deployBranch()} \
                 -c ${deployDomain()} \
                 -p build
-              '''
+              """
             )
           }
         }

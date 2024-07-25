@@ -25,6 +25,7 @@
           packages = with pkgsFor.${system}.buildPackages; [
             yarn # 1.22.22
             nodejs_20 # v20.15.1
+            ghp-import # 2.1.0
           ];
         };
       });

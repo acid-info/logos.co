@@ -39,13 +39,16 @@ pipeline {
     stage('Publish') {
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh """
-            ghp-import \
-              -b ${deployBranch()} \
-              -c ${deployDomain()} \
-              -p build
-          """
-         }
+          script {
+            nix.develop('''
+              ghp-import \
+                -b ${deployBranch()} \
+                -c ${deployDomain()} \
+                -p build
+              '''
+            )
+          }
+        }
       }
     }
   }

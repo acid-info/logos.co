@@ -42,6 +42,8 @@ const config = {
         og: {},
       }),
     ],
+  ],
+  plugins: [
     [
       '@acid-info/docusaurus-fathom',
       {
@@ -51,7 +53,6 @@ const config = {
       },
     ],
   ],
-
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({

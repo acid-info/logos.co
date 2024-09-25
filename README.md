@@ -6,27 +6,22 @@ The repository for [logos.co](https://logos.co/) website.
 ## How to Run Locally
 
 1. Clone this repository
-```bash
-$ git clone https://github.com/acid-info/logos.co.git
-```
-
+    ```bash
+    $ git clone https://github.com/acid-info/logos.co.git
+    ```
 2. Install the dependencies:
-```bash
-$ yarn install
-```
-
+    ```bash
+    $ yarn install
+    ```
 3. Start the website:
-```bash
-$ yarn start
-```
-
+    ```bash
+    $ yarn start
+    ```
 4. Visit `http://localhost:3000` in your browser
-
 
 ## Landing Page
 
 The code for a landing page is located in `docs/index.mdx`. This file employs the `mdx` format and utilizes React components from the [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/components/mdx) package.
-
 
 ## Adding Subpages
 
@@ -34,11 +29,9 @@ To include subpages, create a `.md` or `mdx` file within the `about` directory. 
 
 The content in `about/index.md` will be utilized as the index page for the `/about` section.
 
-
 ## Root Pages
 
 Subpages that do not belong to the `About` page (e.g., [Terms of Use](/root-pages/terms.md)) can be situated in the `root-pages` directory.
-
 
 ## Docusaurus Config
 
@@ -46,28 +39,21 @@ You can find instructions for adding additional documentation sections, implemen
 
 > Please note that theme customization is somewhat restricted; for more detailed instructions on customizing your theme, visit the [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/) repository.
 
-
 ## Custom CSS
 
 By default, this template utilizes the CSS styles defined in the [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/css) package. You have the option to define custom CSS in `src/css/custom.scss`.
 
-
 ## How to Run a Static Build (Production Build)
 
 1. Generate static files for production:
-
-```bash
-$ yarn build
-```
-
-The static files will be created in the `build` directory.
-
+    ```bash
+    $ yarn build
+    ```
+    The static files will be created in the `build` directory.
 2. Serve the static build:
-
-```bash
-$ yarn serve
-```
-
+    ```bash
+    $ yarn serve
+    ```
 
 ## CI/CD
 
@@ -77,7 +63,6 @@ $ yarn serve
 The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
 
 Information about deployed build can be also found in `/build.json` available on the website.
-
 
 ## Change Process
 

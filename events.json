@@ -1,15 +1,22 @@
 {
   "upcoming": [
-   
+    {
+      "title": "Parallel Society Congress: Bangkok",
+      "location": "Slowcombo : สโลว์คอมโบ",
+      "href": "https://lu.ma/psc1",
+      "thumbnail": "/events/thumbnails/psc.webp",
+      "target": "_blank",
+      "date": "Nov 11 2024\n11:00-9:00 PM UTC+7"
+    }
   ],
   "past": [
-     {
+    {
       "title": "Logos Assembly: Brno",
       "location": "Studentský klub U Kachničky",
       "href": "https://lu.ma/la3",
       "thumbnail": "/events/thumbnails/la3.jpg",
       "target": "_blank",
-      "date": "June 13\n6:00 PM GMT+2"
+      "date": "June 13 2024\n6:00 PM GMT+2"
     },
     {
       "title": "Logos Assembly: Belgrade",
@@ -17,7 +24,7 @@
       "href": "https://lu.ma/la2",
       "thumbnail": "/events/thumbnails/la2.jpg",
       "target": "_blank",
-      "date": "Jun 3\n6:30 PM GMT+2"
+      "date": "Jun 3 2024\n6:30 PM GMT+2"
     },
     {
       "title": "Building Network States (Dubai Edition)",
@@ -25,7 +32,7 @@
       "href": "https://lu.ma/bnsdubai",
       "thumbnail": "/events/thumbnails/240418-dubai.jpg",
       "target": "_blank",
-      "date": "Apr 18\n6:00-9:00 PM GMT+4"
+      "date": "Apr 18 2024\n6:00-9:00 PM GMT+4"
     },
     {
       "title": "Logos Assembly: Athens",
@@ -33,7 +40,7 @@
       "href": "https://lu.ma/LA1",
       "thumbnail": "/events/thumbnails/240407-athens.jpg",
       "target": "_blank",
-      "date": "Apr 7\n7:00-9:00 PM GMT+3"
+      "date": "Apr 7 2024\n7:00-9:00 PM GMT+3"
     }
   ]
 }

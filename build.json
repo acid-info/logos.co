@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-07-25T09:16:24Z",
+    "timestamp": "2024-09-25T14:54:31Z",
     "git": {
-        "commit": "7d9978e99248c036889d566b51316e9a2f88c8b7",
-        "branch": "origin/add-nix-to-ci-build",
+        "commit": "41d5ee950e338d492d966d68a99d3bb94d178f4e",
+        "branch": "origin/develop",
         "url": "git@github.com:acid-info/logos.co.git"
     },
     "build": {
-        "id": "152",
-        "number": "152",
+        "id": "153",
+        "number": "153",
         "name": "website/dev.logos.co",
-        "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/dev.logos.co/152/"
+        "slave": "linux-02",
+        "url": "https://ci.infra.status.im/job/website/job/dev.logos.co/153/"
     }
 }

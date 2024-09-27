@@ -2,6 +2,7 @@
 title: Comms 
 sidebar_position: 5
 description: Waku is the peer-to-peer communication layer for the Logos Network.
+og:image_subtitle: Comms
 ---
 
 # Waku

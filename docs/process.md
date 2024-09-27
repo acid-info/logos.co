@@ -2,6 +2,7 @@
 title: Process
 sidebar_position: 7
 description: Research Process for the Logos Network
+og:image_subtitle: Process
 ---
 
 We build public good protocols for everyone, then implement them the way that works for us.

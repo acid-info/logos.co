@@ -2,6 +2,7 @@
 title: Culture
 sidebar_position: 8
 description: Logos is a grassroots collective unified in protecting human rights and defending against tyranny through technology.
+og:image_subtitle: Culture
 ---
 
 Logos is a continuation of the original cypherpunk movement, which advocated for the widespread use of strong cryptography and technologies that enhance privacy and self sovereignty. At its core, Logos is a grassroots collective of like-minded people, unified in our belief in protecting human rights and defending against tyranny through technology.

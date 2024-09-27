@@ -19,10 +19,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/docusaurus-og@1.0.0-alpha.111":
-  version "1.0.0-alpha.111"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-alpha.111.tgz#0a5f96512f5ad1bf22d632009fe5902b184fb53c"
-  integrity sha512-LrKfnxdG6P0/YtHP2ugz3QMhFCgavfnWLjpuvdlAUA1CWXBDVX33UGvKh4Zt7m5j3tLtpdlEt3Xa3IMgBUJAUg==
+"@acid-info/docusaurus-og@^1.0.0-alpha.131":
+  version "1.0.0-alpha.131"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-alpha.131.tgz#316a736455c3c0e542b32ad63f1b34714588b67b"
+  integrity sha512-a0EbvwffHdShC8+bDzLA3VqPW71n2NPy01t0c2Tm8lMu1Xo/JOUEAr23qcuRETfOPbiHWY2DJC/3AGWOffc59g==
   dependencies:
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -36,14 +36,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.182":
-  version "1.0.0-topic-upgrade-lsd.16"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.16.tgz#60268f3a47db6a22af9b42eff97e8c775c11d2c2"
-  integrity sha512-MdayhToZoQfUqepYX6TJNLK9xtlqk9mKd0kg5vznUE0xeL3TkPCe+A6GJnYyjRQGD2UkKRyNC4wkm22gPw0kDQ==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.181":
+  version "1.0.0-alpha.181"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.181.tgz#31e42de1b84f6e145368e5f252aafd42983b15a9"
+  integrity sha512-KvMyDGFwst7P5HzlWQ4G08Q6Ep9gPZ9mt35nBN7dksiVzu1heVj3hfY91of2u1EXZszHDmzztU1iqoGYNinOhg==
   dependencies:
-    "@acid-info/docusaurus-og" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.16+e9dc989"
+    "@acid-info/docusaurus-og" "^1.0.0-alpha.131"
+    "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.111"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.181"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -57,7 +57,7 @@
     lodash "^4.17.21"
     node-fetch "2"
 
-"@acid-info/logos-docusaurus-search-local@1.0.0-alpha.111":
+"@acid-info/logos-docusaurus-search-local@^1.0.0-alpha.111":
   version "1.0.0-alpha.111"
   resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.0-alpha.111.tgz#f4a19ad1fdee4da58b7793dde5294304475cff70"
   integrity sha512-W8ILeA095JgaBcze/zsh7GX5yH+oee7QG7kFqfiO7F5apai/0tGfLm1tq7oiJT+jR7guW1jxwuACIFxP7Jm8pw==
@@ -71,13 +71,13 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.16+e9dc989":
-  version "1.0.0-topic-upgrade-lsd.16"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.16.tgz#c47e5eba3ab7caf7ae6ac7b25eccd897cc3701c9"
-  integrity sha512-qll+v6+criG7N9NDIsMxNEY53s/pyukrNBegDEgg0UWK8Usm81rUGMRXoWJGQ55bOXS5/Dc0pM8x4PwRouuALQ==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.181":
+  version "1.0.0-alpha.181"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.181.tgz#c68946a3372700284f2b9d0d4fc8cd7fc576125c"
+  integrity sha512-hKLClMNHMrVhoApz+uY096tLAswScKq/FXUGb3VeY675QO75P1OMaPAKdKLnFeLXTRs3lbU3TA6YpkwEZDiJAA==
   dependencies:
-    "@acid-info/docusaurus-og" "1.0.0-alpha.111"
-    "@acid-info/lsd-react" "^0.1.0-beta.1"
+    "@acid-info/docusaurus-og" "^1.0.0-alpha.131"
+    "@acid-info/lsd-react" "^0.1.0-beta.3"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/mdx-loader" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -118,7 +118,7 @@
     three-stdlib "^2.23.4"
     utility-types "^3.10.0"
 
-"@acid-info/lsd-react@^0.1.0-beta.1":
+"@acid-info/lsd-react@^0.1.0-beta.3":
   version "0.1.0-beta.3"
   resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.1.0-beta.3.tgz#2f211b647d68d6fce163afb60989494f555354be"
   integrity sha512-lD/x1BZyYdQCUmtMH3YpKSInEO73wRFRxUM6lzbz5UDDUnPfDpj/g4mQrXKL1keV3ujGJbMLaCC36cZT8VgNNw==

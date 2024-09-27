@@ -2,7 +2,7 @@
 title: History
 sidebar_position: 2
 description: Logos is a grassroots movement to create a self-sovereign network state.
-og:image_subtitle: History
+og:image_subtitle: logos.co
 ---
 
 A self-sovereign virtual territory —existing independently but in parallel to nation states under the cover of strong encryption—is a latent dream in the seminal imagination of science fiction, cypherpunk, and crypto-anarchist thinking.

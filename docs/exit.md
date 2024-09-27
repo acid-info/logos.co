@@ -3,7 +3,7 @@ title: Exit
 sidebar_position: 10
 description: The Logos technology stack is designed to provide peaceful exit from the status quo.
 pagination_next: null
-og:image_subtitle: Exit
+og:image_subtitle: logos.co
 ---
 
 The Logos technology stack is designed to provide peaceful exit from the status quo. Inspired by Eastern European dissidents living under repressive regimes, instead of fighting a rigged system head-on, we are creating cutting edge technology and parallel institutions that operate independently of centralised authorities.

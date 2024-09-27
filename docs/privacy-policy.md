@@ -3,7 +3,7 @@ displayed_sidebar: null
 sidebar_class_name: hidden
 pagination_prev: null
 pagination_next: null
-og:image_subtitle: Privacy Policy
+og:image_subtitle: logos.co
 ---
 
 # Privacy Policy

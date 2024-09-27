@@ -1,0 +1,20 @@
+---
+title: Exit
+sidebar_position: 10
+description: The Logos technology stack is designed to provide peaceful exit from the status quo.
+pagination_next: null
+---
+
+The Logos technology stack is designed to provide peaceful exit from the status quo. Inspired by Eastern European dissidents living under repressive regimes, instead of fighting a rigged system head-on, we are creating cutting edge technology and parallel institutions that operate independently of centralised authorities.
+The Cypherpunk movement and technologies like Bitcoin echo this strategy. Bitcoin in particular showed the world that an effective exit from conventional institutions is possible even in hostile environments, demonstrating the efficacy of ‘exit’ as a catalyst for change. 
+
+As Bitcoin is so foundational to our movement, our manifesto is inscribed forever on the Bitcoin blockchain. Symbolically, our <a href="https://press.logos.co/article/logos-a-declaration-of-independence-in-cyberspace" target="_blank">'Declaration of Independence in Cyberspace'</a> is <a href="https://www.ord.io/70614708" target="_blank">inscribed on a Nakamoto</a> sat, created in 2009 in block 3,479. The inscription occupies the largest Bitcoin block mined to date.
+
+Our homage to Bitcoin extends to a collection of ordinals that will serve as an entry point to our ecosystem. Known as Operators, each inscription represents the pseudonymous identity for those opting out of the legacy internet system and into the Logos technology stack. Operators will be one of the first to test and bootstrap our technology, getting it ready to onboard mass users.
+
+Logos is an experiment in creating a new, decentralised cultural and political system for the 21st century. By building robust communities around these technologies, we can forge a path toward true freedom and self-governance - for everyone.
+
+Become a Logos Operator via: 
+
+<a href="https://exit.logos.co/" target="_blank">The EXIT</a>
+

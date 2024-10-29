@@ -47,7 +47,7 @@ export default function Layout(props) {
 
       {!excludeToast && showTopToast && (
         <TopToast
-          colorMode={theme.colorMode}
+          colorMode={theme?.colorMode}
           setShowTopToast={setShowTopToast}
         />
       )}

@@ -1,7 +1,7 @@
 // src/components/TopToast.js
 import React, { useEffect, useState } from 'react'
 import styles from './TopToast.module.css'
-import clsx from 'clsx'
+import ThemedImage from '@theme/ThemedImage'
 
 type TopToastProps = {
   colorMode: string
@@ -56,13 +56,12 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
           className={styles.closeButton}
           onClick={() => setShowTopToast(false)}
         >
-          <img
-            src={
-              colorMode === 'dark'
-                ? '/icons/close-black.svg'
-                : '/icons/close-white.svg'
-            }
+          <ThemedImage
             alt="Close"
+            sources={{
+              light: '/icons/close-white.svg',
+              dark: '/icons/close-black.svg',
+            }}
           />
         </button>
       </div>

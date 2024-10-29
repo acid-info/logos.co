@@ -37,12 +37,5 @@
   height: 28px;
   border: 1px solid rgb(var(--lsd-border-secondary));
   background: transparent;
-}
-
-.whiteSvg {
-  filter: invert(100%);
-}
-
-.blackSvg {
-  filter: invert(0%);
+  padding: 0;
 }

@@ -25,8 +25,12 @@ html {
     padding-bottom: 180px !important;
   }
 
-  .main-wrapper > div aside {
-    padding-left: 0;
+  .navbar__brand {
+    margin-left: 14px;
+  }
+
+  aside a[tabindex='-1'] img {
+    margin-left: 14px;
   }
 
   .theme-doc-sidebar-menu .menu__link {

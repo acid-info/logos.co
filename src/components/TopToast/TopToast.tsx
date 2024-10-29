@@ -49,7 +49,7 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
 
   return (
     <div className={styles.toast}>
-      Logos Operators Ordinals Mint Begins November 4, 2024 at 1pm UTC
+      <p>Logos Operators Ordinals Mint Begins November 4, 2024 at 1pm UTC</p>
       <span>Time remaining: {time}</span>
       <div>
         <button

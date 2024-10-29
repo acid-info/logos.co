@@ -7,13 +7,12 @@
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  padding: 14px;
+  padding: 14px 40px;
   background-color: rgb(var(--lsd-surface-secondary));
   color: rgb(var(--lsd-text-secondary));
   text-align: center;
-  padding: 8px;
   z-index: 1000;
-  height: 48px;
+  min-height: 48px;
 
   font-size: 14px;
   font-weight: 400;
@@ -38,4 +37,17 @@
   border: 1px solid rgb(var(--lsd-border-secondary));
   background: transparent;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .toast {
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 14px;
+  }
+
+  .toast p {
+    width: 75vw;
+  }
 }

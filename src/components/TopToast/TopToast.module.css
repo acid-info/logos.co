@@ -1,0 +1,44 @@
+.toast {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  padding: 14px;
+  background-color: rgb(var(--lsd-surface-secondary));
+  color: rgb(var(--lsd-text-secondary));
+  text-align: center;
+  padding: 8px;
+  z-index: 1000;
+  height: 48px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+}
+
+.toast span {
+  margin-left: 16px;
+}
+
+.closeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgb(var(--lsd-border-secondary));
+  background: transparent;
+}
+
+.whiteSvg {
+  filter: invert(100%);
+}

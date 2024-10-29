@@ -24,6 +24,14 @@ html {
   .main-wrapper > div main > .container {
     padding-bottom: 180px !important;
   }
+
+  .main-wrapper > div aside {
+    padding-left: 0;
+  }
+
+  .theme-doc-sidebar-menu .menu__link {
+    padding-left: 8px;
+  }
 }
 
 @media (min-width: 997px) and (max-width: 1200px) {

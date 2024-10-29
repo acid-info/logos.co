@@ -42,3 +42,7 @@
 .whiteSvg {
   filter: invert(100%);
 }
+
+.blackSvg {
+  filter: invert(0%);
+}

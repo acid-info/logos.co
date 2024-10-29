@@ -11,8 +11,6 @@ type TopToastProps = {
 const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
   const [time, setTime] = useState('DD:HH:mm:ss')
 
-  console.log(colorMode)
-
   useEffect(() => {
     const targetTime = new Date('2024-11-04T13:00:00Z').getTime()
 
@@ -59,9 +57,12 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
           onClick={() => setShowTopToast(false)}
         >
           <img
-            src="/icons/close.svg"
+            src={
+              colorMode === 'dark'
+                ? '/icons/close-black.svg'
+                : '/icons/close-white.svg'
+            }
             alt="Close"
-            className={clsx(colorMode === 'dark' && styles.whiteSvg)}
           />
         </button>
       </div>

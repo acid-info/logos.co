@@ -20,8 +20,10 @@
   letter-spacing: 0.14px;
 }
 
-.toast span {
+.toast a {
   margin-left: 16px;
+  color: rgb(var(--lsd-text-secondary));
+  text-decoration: underline;
 }
 
 .closeButton {

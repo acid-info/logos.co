@@ -49,8 +49,10 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
 
   return (
     <div className={styles.toast}>
-      <p>Logos Operators Ordinals Mint Begins November 4, 2024 at 1pm UTC</p>
-      <span>Time remaining: {time}</span>
+      Logos Operators Ordinals Mint Is Live
+      <a href="https://ordinalsbot.com/mint/logos-operators" target="_blank">
+        https://ordinalsbot.com/mint/logos-operators
+      </a>
       <div>
         <button
           className={styles.closeButton}

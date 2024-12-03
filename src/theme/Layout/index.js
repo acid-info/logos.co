@@ -45,12 +45,12 @@ export default function Layout(props) {
 
       <AnnouncementBar />
 
-      {/* {!excludeToast && showTopToast && (
+      {!excludeToast && showTopToast && (
         <TopToast
           colorMode={theme?.colorMode}
           setShowTopToast={setShowTopToast}
         />
-      )} */}
+      )}
 
       <div className={clsx(showTopToast && styles.toastMargin)}>
         <Navbar />

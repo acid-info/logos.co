@@ -12,7 +12,7 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
   const [time, setTime] = useState('DD:HH:mm:ss')
 
   useEffect(() => {
-    const targetTime = new Date('2024-11-04T13:00:00Z').getTime()
+    const targetTime = new Date('2024-12-16T13:00:00Z').getTime()
 
     const formatTime = (timeInSeconds: number) => {
       const days = Math.floor(timeInSeconds / (3600 * 24))
@@ -49,10 +49,14 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
 
   return (
     <div className={styles.toast}>
-      Logos Operators Ordinals Mint Is Live
+      <span className={styles.message}>
+        Logos Ordinals Mint Begins 16th December, 2024 at 1PM UTC
+        <div className={styles.timeRemaining}>Time remaining: {time}</div>
+      </span>
+      {/* Logos Operators Ordinals Mint Is Live
       <a href="https://ordinalsbot.com/mint/logos-operators" target="_blank">
         https://ordinalsbot.com/mint/logos-operators
-      </a>
+      </a> */}
       <div>
         <button
           className={styles.closeButton}

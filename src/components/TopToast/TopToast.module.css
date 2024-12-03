@@ -41,12 +41,20 @@
   padding: 0;
 }
 
+.timeRemaining {
+  margin-left: 20px;
+}
+
 @media (max-width: 768px) {
   .toast {
     flex-direction: column;
     font-size: 12px;
     line-height: 16px;
     padding: 14px;
+  }
+
+  .message {
+    width: 82%;
   }
 
   .toast p {

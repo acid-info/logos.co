@@ -15,7 +15,8 @@ Our homage to Bitcoin extends to a collection of ordinals that will serve as an 
 
 Logos is an experiment in creating a new, decentralised cultural and political system for the 21st century. By building robust communities around these technologies, we can forge a path toward true freedom and self-governance - for everyone.
 
-Become a Logos Operator via: 
+<p>Become a Logos Operator via:<br/><a href="https://exit.logos.co/" target="_blank">The EXIT</a></p>
 
-<a href="https://exit.logos.co/" target="_blank">The EXIT</a>
-
+<div className="iframe100 mt-40">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5lIP3DyzgUU" title="Logos Operators: Time to EXIT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

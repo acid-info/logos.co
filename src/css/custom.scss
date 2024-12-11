@@ -36,6 +36,15 @@ html {
   margin-top: 40px;
 }
 
+@media (min-width: 996px) {
+  .exit-form {
+    form .mdx-input-cta-section__cta {
+      padding-inline: 0;
+      width: 105px !important;
+    }
+  }
+}
+
 @media (max-width: 1200px) {
   .aside {
     grid-column: 1 / 4 !important;

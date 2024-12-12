@@ -7,13 +7,6 @@ og:image_subtitle: logos.co
 ---
 
 
-import {
-  Box,
-  Grid,
-  InputCTASection,
-} from '../src/components/mdx'
-
-
 The Logos technology stack is designed to provide peaceful exit from the status quo. Inspired by Eastern European dissidents living under repressive regimes, instead of fighting a rigged system head-on, we are creating cutting edge technology and parallel institutions that operate independently of centralised authorities.
 The Cypherpunk movement and technologies like Bitcoin echo this strategy. Bitcoin in particular showed the world that an effective exit from conventional institutions is possible even in hostile environments, demonstrating the efficacy of ‘exit’ as a catalyst for change. 
 
@@ -28,37 +21,3 @@ Logos is an experiment in creating a new, decentralised cultural and political s
 <div className="iframe100 mt-40">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5lIP3DyzgUU" title="Logos Operators: Time to EXIT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-<Box top={{ xs: 152 }}>
-  <Grid
-    xs={{ cols: 1, gap: '1rem' }}
-    md={{ cols: 2 }}
-    className='bottom-cta-sections exit-form'
-  >
-    <Grid.Item xs={1}>
-      <InputCTASection
-        description={
-          'Join the Discord community.'
-        }
-        link="https://discord.gg/logosnetwork"
-        label="Get Involved"
-      />
-    </Grid.Item>
-    <Grid.Item xs={1}>
-      <InputCTASection
-        description={'Subscribe\nto our newsletter'}
-        label="Subscribe"
-        formInput={[
-          {
-            label: 'Email',
-            placeholder: 'Enter your email',
-            type: 'email',
-            name: 'email',
-            required: true,
-          },
-        ]}
-        buType={'operators'}
-      />
-    </Grid.Item>
-  </Grid>
-</Box>

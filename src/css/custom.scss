@@ -36,12 +36,9 @@ html {
   margin-top: 40px;
 }
 
-@media (min-width: 996px) {
+@media (max-width: 1200px) {
   .exit-form {
-    form .mdx-input-cta-section__cta {
-      padding-inline: 0;
-      width: 105px !important;
-    }
+    padding: 0 16px;
   }
 }
 

@@ -9,7 +9,7 @@ export default function FooterWrapper(props) {
 
   return (
     <>
-      {pathname === '/exit' && (
+      {(pathname === '/exit' || pathname === '/exit/') && (
         <Box bottom={{ sm: 96 }}>
           <Grid
             xs={{ cols: 1, gap: '1rem' }}

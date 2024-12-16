@@ -47,31 +47,40 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
     return () => clearInterval(interval)
   }, [])
 
+  const handleClose = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setShowTopToast(false)
+  }
+
   return (
-    <div className={styles.toast}>
-      <span className={styles.message}>
-        Logos Ordinals Mint Begins 16th December, 2024 at 1PM UTC
-        <div className={styles.timeRemaining}>Time remaining: {time}</div>
-      </span>
-      {/* Logos Operators Ordinals Mint Is Live
+    <a
+      href="https://gamma.io/ordinals/collections/logos-operators"
+      target="_blank"
+    >
+      <div className={styles.toast}>
+        <span className={styles.message}>
+          Logos Operators mint is LIVE
+          {/* Logos Ordinals Mint Begins 16th December, 2024 at 1PM UTC
+          <div className={styles.timeRemaining}>Time remaining: {time}</div> */}
+        </span>
+        {/* Logos Operators Ordinals Mint Is Live
       <a href="https://ordinalsbot.com/mint/logos-operators" target="_blank">
         https://ordinalsbot.com/mint/logos-operators
       </a> */}
-      <div>
-        <button
-          className={styles.closeButton}
-          onClick={() => setShowTopToast(false)}
-        >
-          <ThemedImage
-            alt="Close"
-            sources={{
-              light: '/icons/close-white.svg',
-              dark: '/icons/close-black.svg',
-            }}
-          />
-        </button>
+        <div>
+          <button className={styles.closeButton} onClick={handleClose}>
+            <ThemedImage
+              alt="Close"
+              sources={{
+                light: '/icons/close-white.svg',
+                dark: '/icons/close-black.svg',
+              }}
+            />
+          </button>
+        </div>
       </div>
-    </div>
+    </a>
   )
 }
 

@@ -5,8 +5,8 @@ const EmailSubscription = () => {
   const [formState, setFormState] = useState({ email: '', name: '' })
   const [message, setMessage] = useState('')
 
-  const handleSubmit = async (e: any) => {
-    e.preventDefault()
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
 
     const errorMessage =
       'There was an error submitting the form. Please try again.'
@@ -34,6 +34,7 @@ const EmailSubscription = () => {
 
       const data = await res.json()
       setMessage(data.result.message)
+      setFormState({ email: '', name: '' })
     } catch (error) {
       console.log(error)
       setMessage(errorMessage)

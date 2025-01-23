@@ -11,6 +11,11 @@
   overflow: auto;
 }
 
+.formContainer > p {
+  color: black;
+  font-family: sans-serif;
+}
+
 .formContainer form {
   width: 300px;
   height: 100%;
@@ -29,7 +34,7 @@
   color: #ccc;
 }
 
-.formContainer form * {
+.formContainer form input {
   color: black;
   background: transparent;
   border: none;

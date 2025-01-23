@@ -53,8 +53,8 @@ const EmailSubscription = () => {
           required
         />
         <button type="submit">Submit</button>
+        {message && <p>{message}</p>}
       </form>
-      {message && <p>{message}</p>}
     </div>
   )
 }

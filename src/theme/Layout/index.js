@@ -16,7 +16,6 @@ import LayoutProvider from '@theme/Layout/Provider'
 import ErrorPageContent from '@theme/ErrorPageContent'
 import styles from './styles.module.css'
 import { useLocation } from '@docusaurus/router'
-import TopToast from '../../components/TopToast/TopToast'
 
 export default function Layout(props) {
   const {

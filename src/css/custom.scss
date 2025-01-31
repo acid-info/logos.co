@@ -46,6 +46,12 @@ html {
   }
 }
 
+@media (max-width: 997px) {
+  .navbar-sidebar__item {
+    padding: 16px;
+  }
+}
+
 @media (max-width: 1200px) {
   .exit-form {
     padding: 0 16px;

@@ -3,6 +3,7 @@
 const sidebars = {
   main: [
     'manifesto',
+    'farewell-to-westphalia',
     {
       type: 'html',
       value: '<div class="sidebar-menu-divider"></div>',

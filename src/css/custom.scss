@@ -103,3 +103,30 @@ html {
     height: fit-content !important;
   }
 }
+
+#ftw-form {
+  scroll-margin: 40px;
+  h3 {
+    margin-top: 0 !important;
+  }
+}
+
+.ftw-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+
+  a {
+    border: 1px solid rgba(var(--lsd-border-primary));
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 6px 12px;
+  }
+}
+
+[class^='toc_'] {
+  display: unset !important;
+}

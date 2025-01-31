@@ -1,0 +1,21 @@
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: fit-content;
+  margin-left: -40px;
+  margin-top: 90px;
+}
+
+.container img {
+  position: relative;
+  width: 159px;
+  height: 231px;
+  cursor: pointer;
+}
+
+.container p {
+  font-size: 12px;
+  line-height: 16px;
+}

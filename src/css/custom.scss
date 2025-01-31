@@ -104,8 +104,23 @@ html {
   }
 }
 
+.ftw {
+  max-width: 596px;
+
+  h2 {
+    margin-bottom: 24px;
+  }
+
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+}
+
 #ftw-form {
+  margin-top: 80px;
   scroll-margin: 40px;
+
   h3 {
     margin-top: 0 !important;
   }
@@ -116,6 +131,7 @@ html {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+  margin-top: 24px;
 
   a {
     border: 1px solid rgba(var(--lsd-border-primary));
@@ -125,6 +141,11 @@ html {
     text-decoration: none;
     padding: 6px 12px;
   }
+}
+
+.mobile-book-cover {
+  max-width: 596px;
+  width: 100%;
 }
 
 [class^='toc_'] {

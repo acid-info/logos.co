@@ -31,7 +31,7 @@ const StickyImage = () => {
         onClick={handleImageClick}
       />
       <p>
-        Farewell to Westphalia
+        <i>Farewell to Westphalia</i>
         <br />
         by Jarrad Hope, Peter Ludlow
       </p>

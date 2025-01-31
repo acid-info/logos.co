@@ -9,7 +9,9 @@ export default function DocItemTOCDesktop() {
   const { toc, frontMatter } = useDoc()
   const location = useLocation()
 
-  const showStickyImage = location.pathname === '/farewell-to-westphalia'
+  const showStickyImage =
+    location.pathname === '/farewell-to-westphalia' ||
+    location.pathname === '/farewell-to-westphalia/'
 
   return showStickyImage ? (
     <StickyImage />

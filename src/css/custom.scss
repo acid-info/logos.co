@@ -36,6 +36,16 @@ html {
   margin-top: 40px;
 }
 
+@media (min-width: 997px) {
+  aside {
+    padding-left: 0 !important;
+  }
+
+  .navbar__brand {
+    margin-left: -2px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .exit-form {
     padding: 0 16px;

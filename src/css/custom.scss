@@ -171,3 +171,8 @@ html {
 [class^='toc_'] {
   display: unset !important;
 }
+
+.page-custom-page .navbar,
+.page-custom-page .footer {
+  display: none;
+}

@@ -1,14 +1,24 @@
-.formContainer {
-  padding: 24px;
+.wrapper {
   position: fixed;
   width: 100vw;
   height: 100vh;
   z-index: 9999;
-  background: white;
-  color: black;
   left: 0;
   top: 0;
-  overflow: auto;
+  overflow: hidden;
+  background-color: rgb(var(--lsd-surface-primary));
+}
+
+.formContainer {
+  padding: 24px;
+  position: relative;
+  width: 360px;
+  height: 280px;
+  z-index: 9999;
+  color: rgb(var(--lsd-text-primary));
+  left: 0;
+  top: 0;
+  overflow: hidden;
 }
 
 .formContainer > h3 {
@@ -16,7 +26,7 @@
   margin-top: 0 !important;
   font-size: 22px;
   line-height: 32px;
-  color: black;
+  color: rgb(var(--lsd-text-primary));
 
   white-space: pre-wrap;
   margin-bottom: 24px;
@@ -29,7 +39,6 @@
 
 .formContainer form {
   width: 300px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -38,7 +47,7 @@
 
 .formContainer form input:focus {
   outline: none;
-  border-color: black;
+  border-color: rgb(var(--lsd-text-primary));
 }
 
 .formContainer form input::placeholder {
@@ -46,19 +55,19 @@
 }
 
 .formContainer form input {
-  color: black;
+  color: rgb(var(--lsd-text-primary));
   background: transparent;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(var(--lsd-text-primary));
   padding: 4px 8px;
   font-family: sans-serif;
 }
 
 .formContainer form button {
   cursor: pointer;
-  background: black;
-  color: white;
-  border: 1px solid black;
+  background: rgb(var(--lsd-text-primary));
+  color: rgb(var(--lsd-text-secondary));
+  border: 1px solid rgb(var(--lsd-text-primary));
   padding: 8px 16px;
   font-size: 16px;
   font-weight: 500;

@@ -73,20 +73,24 @@ const GhostForm = ({
   }
 
   return (
-    <div className={styles.formContainer}>
-      <h3>{title}</h3>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          name="email"
-          value={formState.email}
-          onChange={e => setFormState({ ...formState, email: e.target.value })}
-          placeholder="Email"
-          required
-        />
-        <button type="submit">Submit</button>
-        {message && <p>{message}</p>}
-      </form>
+    <div className={styles.wrapper}>
+      <div className={styles.formContainer}>
+        <h3>{title}</h3>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            name="email"
+            value={formState.email}
+            onChange={e =>
+              setFormState({ ...formState, email: e.target.value })
+            }
+            placeholder="Email"
+            required
+          />
+          <button type="submit">Submit</button>
+          {message && <p>{message}</p>}
+        </form>
+      </div>
     </div>
   )
 }

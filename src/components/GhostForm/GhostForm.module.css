@@ -13,9 +13,10 @@
 
 .formContainer > h3 {
   width: 300px;
-  margin-top: 0;
+  margin-top: 0 !important;
   font-size: 22px;
   line-height: 32px;
+  color: black;
 
   white-space: pre-wrap;
   margin-bottom: 24px;

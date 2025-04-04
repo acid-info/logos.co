@@ -6066,6 +6066,11 @@ docusaurus-plugin-sass@^0.2.3:
   dependencies:
     sass-loader "^10.1.1"
 
+docusaurus-umami@^1.0.0-topic-docusaurus-umami.0:
+  version "1.0.0-topic-docusaurus-umami.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-umami/-/docusaurus-umami-1.0.0-topic-docusaurus-umami.0.tgz#910b4b433038ed10e78094e93ec4a8d73f851b74"
+  integrity sha512-H1+Jo6OFhOwd8f8uz8mMwUgpN6fh/LTT+Qy7dmyUHvHWn969Fz6h2E+I/3U2YifgAzMcwkmHVOkFhBh0UsN+Dg==
+
 dom-converter@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz"

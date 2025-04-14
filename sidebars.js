@@ -9,6 +9,11 @@ const sidebars = {
       value: '<div class="sidebar-menu-divider"></div>',
       defaultStyle: true,
     },
+    {
+      type: 'doc',
+      id: 'index',
+      label: 'About',
+    },
     'history',
     'technology',
     'consensus',

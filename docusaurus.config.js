@@ -45,15 +45,7 @@ const config = {
   ],
   plugins: [
     [
-      '@acid-info/docusaurus-fathom',
-      {
-        siteId: 'GSUEA',
-        scriptUrl: 'https://fathom.bi.status.im/tracker.js',
-        hostnames: ['logos.co'],
-      },
-    ],
-    [
-      'docusaurus-umami',
+      '@acid-info/docusaurus-umami',
       {
         websiteId: '39016953-368d-4d5c-a5b9-601d105ce8d4',
         scriptSrc: 'https://umami.bi.status.im/script.js',

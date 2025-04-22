@@ -5,7 +5,6 @@ import {
   PageMetadata,
   SkipToContentFallbackId,
   ThemeClassNames,
-  useColorMode,
 } from '@docusaurus/theme-common'
 import { useKeyboardNavigation } from '@docusaurus/theme-common/internal'
 import SkipToContent from '@theme/SkipToContent'
@@ -15,7 +14,6 @@ import Footer from '@theme/Footer'
 import LayoutProvider from '@theme/Layout/Provider'
 import ErrorPageContent from '@theme/ErrorPageContent'
 import styles from './styles.module.css'
-import { useLocation } from '@docusaurus/router'
 
 export default function Layout(props) {
   const {
@@ -27,14 +25,7 @@ export default function Layout(props) {
     description,
   } = props
 
-  const [showTopToast, setShowTopToast] = React.useState(true)
-
   useKeyboardNavigation()
-
-  const location = useLocation()
-  const theme = useColorMode()
-
-  const excludeToast = location.pathname === '/excluded-page'
 
   return (
     <LayoutProvider>
@@ -44,14 +35,7 @@ export default function Layout(props) {
 
       <AnnouncementBar />
 
-      {/* {!excludeToast && showTopToast && (
-        <TopToast
-          colorMode={theme?.colorMode}
-          setShowTopToast={setShowTopToast}
-        />
-      )} */}
-
-      <div className={clsx(showTopToast && styles.toastMargin)}>
+      <div>
         <Navbar />
       </div>
 

@@ -4,6 +4,7 @@ sidebar_class_name: hidden
 pagination_prev: null
 pagination_next: null
 og:image_subtitle: logos.co
+hide_table_of_contents: true
 ---
 
 # Terms of Use

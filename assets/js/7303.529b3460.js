@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklogos_docusaurus_template=self.webpackChunklogos_docusaurus_template||[]).push([[7303],{7303:(e,s,u)=>{u.d(s,{createInfoServices:()=>a.v});var a=u(68525);u(73579)}}]);

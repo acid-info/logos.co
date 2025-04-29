@@ -1,5 +1,6 @@
 {
-  "upcoming": [
+  "upcoming": [],
+  "past": [
     {
       "title": "Parallel Society Congress: Bangkok",
       "location": "Slowcombo : สโลว์คอมโบ",
@@ -7,9 +8,7 @@
       "thumbnail": "/events/thumbnails/psc.webp",
       "target": "_blank",
       "date": "Nov 11 2024\n11:00-9:00 PM UTC+7"
-    }
-  ],
-  "past": [
+    },
     {
       "title": "Logos Assembly: Brno",
       "location": "Studentský klub U Kachničky",

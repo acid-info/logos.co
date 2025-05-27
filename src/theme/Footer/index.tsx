@@ -3,9 +3,6 @@ import Footer from '@theme-original/Footer'
 // import { useLocation } from '@docusaurus/router'
 import { Box, Grid, InputCTASection } from '../../components/mdx'
 
-// @ts-ignore
-const umami = (window as any).umami
-
 export default function FooterWrapper(props) {
   // const location = useLocation()
   // const pathname = location.pathname
@@ -24,6 +21,7 @@ export default function FooterWrapper(props) {
               description={'Freedom needs builders'}
               link="https://discord.gg/logosnetwork"
               label="Get Involved"
+              //@ts-ignore
               onClick={() => umami.track('Get Involved', { source: 'footer' })}
             />
           </Grid.Item>
@@ -32,6 +30,7 @@ export default function FooterWrapper(props) {
               title=""
               description={'Stay ahead with the latest updates'}
               label="Subscribe"
+              //@ts-ignore
               onClick={() => umami.track('Subscribe', { source: 'footer' })}
               formInput={[
                 {

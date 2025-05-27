@@ -106,10 +106,6 @@ const config = {
                 href: 'https://press.logos.co/',
                 label: 'Blog',
               },
-            ],
-          },
-          {
-            items: [
               {
                 href: 'https://boards.greenhouse.io/logos',
                 label: 'Work with us',

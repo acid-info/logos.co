@@ -1,15 +1,15 @@
 import React from 'react'
 import Footer from '@theme-original/Footer'
-import { useLocation } from '@docusaurus/router'
+// import { useLocation } from '@docusaurus/router'
 import { Box, Grid, InputCTASection } from '../../components/mdx'
 
 export default function FooterWrapper(props) {
-  const location = useLocation()
-  const pathname = location.pathname
+  // const location = useLocation()
+  // const pathname = location.pathname
 
   return (
     <>
-      {(pathname === '/exit' || pathname === '/exit/') && (
+      {
         <Box bottom={{ sm: 96 }}>
           <Grid
             xs={{ cols: 1, gap: '1rem' }}
@@ -26,6 +26,7 @@ export default function FooterWrapper(props) {
             </Grid.Item>
             <Grid.Item xs={1}>
               <InputCTASection
+                title=""
                 description={'Subscribe\nto our newsletter'}
                 label="Subscribe"
                 formInput={[
@@ -37,13 +38,13 @@ export default function FooterWrapper(props) {
                     required: true,
                   },
                 ]}
-                //@ts-ignore
-                buType={'operators'}
+                buType={'logos'}
+                newsletterId="682c9512531d570001045468"
               />
             </Grid.Item>
           </Grid>
         </Box>
-      )}
+      }
       <Footer {...props} />
     </>
   )

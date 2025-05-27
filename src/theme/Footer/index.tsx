@@ -3,48 +3,52 @@ import Footer from '@theme-original/Footer'
 // import { useLocation } from '@docusaurus/router'
 import { Box, Grid, InputCTASection } from '../../components/mdx'
 
+// @ts-ignore
+const umami = (window as any).umami
+
 export default function FooterWrapper(props) {
   // const location = useLocation()
   // const pathname = location.pathname
 
   return (
     <>
-      {
-        <Box bottom={{ sm: 96 }}>
-          <Grid
-            xs={{ cols: 1, gap: '1rem' }}
-            md={{ cols: 2 }}
-            className="bottom-cta-sections exit-form"
-          >
-            <Grid.Item xs={1}>
-              <InputCTASection
-                title=""
-                description={'Join the Discord community'}
-                link="https://discord.gg/logosnetwork"
-                label="Get Involved"
-              />
-            </Grid.Item>
-            <Grid.Item xs={1}>
-              <InputCTASection
-                title=""
-                description={'Subscribe\nto our newsletter'}
-                label="Subscribe"
-                formInput={[
-                  {
-                    label: 'Email',
-                    placeholder: 'Enter your email',
-                    type: 'email',
-                    name: 'email',
-                    required: true,
-                  },
-                ]}
-                buType={'logos'}
-                newsletterId="682c9512531d570001045468"
-              />
-            </Grid.Item>
-          </Grid>
-        </Box>
-      }
+      <Box bottom={{ sm: 96 }}>
+        <Grid
+          xs={{ cols: 1, gap: '1rem' }}
+          md={{ cols: 2 }}
+          className="bottom-cta-sections exit-form"
+        >
+          <Grid.Item xs={1}>
+            <InputCTASection
+              title=""
+              description={'Freedom needs builders'}
+              link="https://discord.gg/logosnetwork"
+              label="Get Involved"
+              onClick={() => umami.track('Get Involved', { source: 'footer' })}
+            />
+          </Grid.Item>
+          <Grid.Item xs={1}>
+            <InputCTASection
+              title=""
+              description={'Stay ahead with the latest updates'}
+              label="Subscribe"
+              onClick={() => umami.track('Subscribe', { source: 'footer' })}
+              formInput={[
+                {
+                  label: 'Email',
+                  placeholder: 'Enter your email',
+                  type: 'email',
+                  name: 'email',
+                  required: true,
+                },
+              ]}
+              buType={'logos'}
+              newsletterId="682c9512531d570001045468"
+            />
+          </Grid.Item>
+        </Grid>
+      </Box>
+
       <Footer {...props} />
     </>
   )

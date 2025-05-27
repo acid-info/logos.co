@@ -70,18 +70,24 @@ const config = {
             position: 'right',
             className: 'header-discord-link',
             title: 'Logos on Discord',
+            'data-umami-event': 'Discord click',
+            'data-umami-event-source': 'navbar',
           },
           {
             href: 'https://twitter.com/@logos_network',
             position: 'right',
             className: 'header-x-link',
             title: 'Logos on X',
+            'data-umami-event': 'X click',
+            'data-umami-event-source': 'navbar',
           },
           {
             href: 'https://www.youtube.com/@LogosNetwork',
             position: 'right',
             className: 'header-youtube-link',
             title: 'Logos on YouTube',
+            'data-umami-event': 'Youtube click',
+            'data-umami-event-source': 'navbar',
           },
         ],
       },
@@ -93,6 +99,8 @@ const config = {
               {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
+                'data-umami-event': 'Github click',
+                'data-umami-event-source': 'navbar',
               },
               {
                 href: 'https://press.logos.co/',

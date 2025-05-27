@@ -21,8 +21,11 @@ export default function FooterWrapper(props) {
               description={'Freedom needs builders'}
               link="https://discord.gg/logosnetwork"
               label="Get Involved"
-              //@ts-ignore
-              onClick={() => umami.track('Get Involved', { source: 'footer' })}
+              linkProps={{
+                onClick: () =>
+                  //@ts-ignore
+                  umami.track('Get Involved', { source: 'footer' }),
+              }}
             />
           </Grid.Item>
           <Grid.Item xs={1}>
@@ -30,8 +33,11 @@ export default function FooterWrapper(props) {
               title=""
               description={'Stay ahead with the latest updates'}
               label="Subscribe"
-              //@ts-ignore
-              onClick={() => umami.track('Subscribe', { source: 'footer' })}
+              linkProps={{
+                onClick: () =>
+                  //@ts-ignore
+                  umami.track('Subscribe', { source: 'footer' }),
+              }}
               formInput={[
                 {
                   label: 'Email',

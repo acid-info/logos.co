@@ -60,6 +60,31 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      navbar: {
+        items: [
+          {
+            type: 'search',
+          },
+          {
+            href: 'https://discord.gg/logosnetwork',
+            position: 'right',
+            className: 'header-discord-link',
+            title: 'Logos on Discord',
+          },
+          {
+            href: 'https://twitter.com/@logos_network',
+            position: 'right',
+            className: 'header-x-link',
+            title: 'Logos on X',
+          },
+          {
+            href: 'https://www.youtube.com/@LogosNetwork',
+            position: 'right',
+            className: 'header-youtube-link',
+            title: 'Logos on YouTube',
+          },
+        ],
+      },
       footer: {
         copyright: 'Logos',
         links: [
@@ -68,6 +93,10 @@ const config = {
               {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
+              },
+              {
+                href: 'https://press.logos.co/',
+                label: 'Blog',
               },
             ],
           },

@@ -5,8 +5,9 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'About',
+      label: 'Home',
     },
+    'about',
     'history',
     'technology',
     'consensus',

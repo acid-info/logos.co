@@ -48,7 +48,7 @@ export default function FooterWrapper(props) {
                 },
               ]}
               buType={'logos'}
-              newsletterId="682c9512531d570001045468"
+              newsletterId="6835cf08531d570001068824"
             />
           </Grid.Item>
         </Grid>

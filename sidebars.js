@@ -2,13 +2,6 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   main: [
-    'manifesto',
-    'farewell-to-westphalia',
-    {
-      type: 'html',
-      value: '<div class="sidebar-menu-divider"></div>',
-      defaultStyle: true,
-    },
     {
       type: 'doc',
       id: 'index',
@@ -23,6 +16,8 @@ const sidebars = {
     'culture',
     'participate',
     'exit',
+    'manifesto',
+    'farewell-to-westphalia',
   ],
 }
 

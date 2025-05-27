@@ -66,10 +66,6 @@ const config = {
           {
             items: [
               {
-                href: '/events',
-                label: 'Events',
-              },
-              {
                 href: 'https://github.com/logos-co',
                 label: 'Github',
               },

@@ -16,6 +16,11 @@ const sidebars = {
     'culture',
     'participate',
     'exit',
+    {
+      type: 'html',
+      value: '<div class="sidebar-menu-divider"></div>',
+      defaultStyle: true,
+    },
     'manifesto',
     'farewell-to-westphalia',
   ],

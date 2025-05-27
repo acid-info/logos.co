@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@acid-info/docusaurus-umami": "^1.0.2",
-    "@acid-info/logos-docusaurus-preset": "^1.0.2-alpha.1",
+    "@acid-info/logos-docusaurus-preset": "^1.0.3-alpha.0",
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

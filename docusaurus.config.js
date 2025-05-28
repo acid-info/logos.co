@@ -108,7 +108,7 @@ const config = {
               },
               {
                 href: 'https://boards.greenhouse.io/logos',
-                label: 'Work with us',
+                label: 'Work With Us',
               },
               {
                 href: 'https://guide.logos.co/',
@@ -116,7 +116,7 @@ const config = {
               },
               {
                 href: '/terms',
-                label: 'Terms & conditions',
+                label: 'Terms & Conditions',
               },
               {
                 href: '/privacy-policy',

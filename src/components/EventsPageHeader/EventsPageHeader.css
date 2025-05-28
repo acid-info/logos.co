@@ -1,0 +1,17 @@
+.events-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.events-page-header > .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+body.events header h1 {
+  margin-bottom: 24px !important;
+}

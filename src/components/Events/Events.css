@@ -1,0 +1,33 @@
+.events-container {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.events-section-title {
+  display: block;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 16px;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+@media (max-width: 768px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+} 

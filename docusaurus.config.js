@@ -61,6 +61,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
+        hideOnScroll: false,
         items: [
           {
             type: 'search',

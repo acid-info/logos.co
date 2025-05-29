@@ -19,13 +19,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* .toastMargin {
-  margin-top: 48px;
-}
-
-@media (max-width: 478px) {
-  .toastMargin {
-    margin-top: 80px;
-  }
-} */

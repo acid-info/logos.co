@@ -28,7 +28,11 @@ const sidebars = {
       defaultStyle: true,
     },
     'manifesto',
-    'farewell-to-westphalia',
+    {
+      type: 'doc',
+      id: 'farewell-to-westphalia',
+      label: 'Book',
+    },
   ],
 }
 

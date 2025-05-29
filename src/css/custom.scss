@@ -92,32 +92,6 @@ html {
   .mdx-grid {
     --grid-cols: 2 !important;
   }
-
-  .mdx-event-card {
-    gap: 32px !important;
-  }
-
-  // .mdx-event-card__thumbnail {
-  //   height: 114px !important;
-  // }
-
-  .mdx-event-card__title {
-    font-size: var(--lsd-h2-fontSize) !important;
-    line-height: var(--lsd-h2-lineHeight) !important;
-  }
-
-  .mdx-event-card__info > span {
-    font-size: var(--lsd-body2-fontSize) !important;
-    line-height: var(--lsd-body2-lineHeight) !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .mdx-event-card__title {
-    font-size: var(--lsd-h5-fontSize) !important;
-    line-height: var(--lsd-h5-lineHeight) !important;
-    height: fit-content !important;
-  }
 }
 
 .ftw {

@@ -16,6 +16,7 @@ const sidebars = {
     'process',
     'culture',
     'participate',
+    'events/index',
     'exit',
     {
       type: 'html',

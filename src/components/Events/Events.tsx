@@ -13,6 +13,10 @@ const Events = () => {
     return new Date(datePart)
   }
 
+  const formatDateWithoutTime = (dateString: string) => {
+    return dateString.split('\n')[0]
+  }
+
   const sortedUpcoming = [...eventData.upcoming].sort(
     (a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime(),
   )
@@ -38,7 +42,7 @@ const Events = () => {
                   href={event.href}
                   thumbnail={event.thumbnail}
                   title={event.title}
-                  date={event.date}
+                  date={formatDateWithoutTime(event.date)}
                   location={event.location}
                   target={event.target}
                 />
@@ -58,7 +62,7 @@ const Events = () => {
                 href={event.href}
                 thumbnail={event.thumbnail}
                 title={event.title}
-                date={event.date}
+                date={formatDateWithoutTime(event.date)}
                 location={event.location}
                 target={event.target}
               />

@@ -1,3 +1,7 @@
+.events-wrapper {
+  padding-bottom: 24px;
+}
+
 .events-container {
   margin-top: 96px;
   display: flex;
@@ -20,20 +24,28 @@
   gap: 40px 16px;
 }
 
+.events-grid > * {
+  min-width: 0;
+}
+
 .see-more-container {
   display: flex;
   justify-content: center;
   margin-top: 56px;
 }
 
+.mdx-event-card__title {
+  height: auto;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+
 @media (max-width: 768px) {
   .events-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 575px) {
-  .events-wrapper {
-    padding-bottom: 104px;
   }
 }

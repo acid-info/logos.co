@@ -30,4 +30,10 @@
   .events-grid {
     grid-template-columns: 1fr;
   }
-} 
+}
+
+@media (max-width: 575px) {
+  .events-wrapper {
+    padding-bottom: 104px;
+  }
+}

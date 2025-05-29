@@ -26,7 +26,7 @@ const Events = () => {
   const hasMorePastEvents = sortedPast.length > 4
 
   return (
-    <>
+    <div className="events-wrapper">
       <div className="events-container">
         <section id="upcoming-events">
           <span className="events-section-title">Upcoming</span>
@@ -71,7 +71,7 @@ const Events = () => {
           <Button onClick={() => setShowAllPastEvents(true)}>See more</Button>
         </div>
       )}
-    </>
+    </div>
   )
 }
 

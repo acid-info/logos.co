@@ -14,7 +14,6 @@ const sidebars = {
     'comms',
     'storage',
     'process',
-    'culture',
     'participate',
     'events/index',
     'exit',

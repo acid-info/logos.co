@@ -17,9 +17,11 @@ const Events = () => {
     return dateString.split('\n')[0]
   }
 
-  const sortedUpcoming = [...eventData.upcoming].sort(
-    (a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime(),
-  )
+  // const sortedUpcoming = [...eventData.upcoming].sort(
+  //   (a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime(),
+  // )
+  const sortedUpcoming = [...eventData.upcoming]
+
   const sortedPast = [...eventData.past].sort(
     (a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime(),
   )
@@ -27,6 +29,7 @@ const Events = () => {
   const displayedPastEvents = showAllPastEvents
     ? sortedPast
     : sortedPast.slice(0, 4)
+
   const hasMorePastEvents = sortedPast.length > 4
 
   return (

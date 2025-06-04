@@ -16,7 +16,6 @@ const sidebars = {
     'process',
     'participate',
     'events/index',
-    'exit',
     {
       type: 'html',
       value: '<div class="sidebar-menu-divider"></div>',

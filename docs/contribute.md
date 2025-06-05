@@ -14,4 +14,4 @@ Our culture is based on meritocracy, shared ownership, common responsibility, an
 We invite technologists, creatives, and policy experts, along with anyone inspired by Logos, to participate in its creation and govern its future. 
 
 
-[Accelerate prosperity](https://discord.gg/logosnetwork) &nbsp; [Find your people](https://forum.logos.co/)
+[Build with us](https://discord.gg/logosnetwork) &nbsp; [Join the conversation](https://forum.logos.co/)

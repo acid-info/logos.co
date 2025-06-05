@@ -14,7 +14,7 @@ const sidebars = {
     'comms',
     'storage',
     'process',
-    'participate',
+    'contribute',
     'events/index',
     {
       type: 'html',
@@ -31,6 +31,11 @@ const sidebars = {
       type: 'doc',
       id: 'farewell-to-westphalia',
       label: 'Book',
+    },
+    {
+      type: 'link',
+      label: 'Blog',
+      href: 'https://press.logos.co/',
     },
   ],
 }

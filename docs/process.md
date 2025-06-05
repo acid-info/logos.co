@@ -44,3 +44,5 @@ In addition to helping in the process of spec writing, they also serve as an emb
 The Logos project will then pull back an opinionated view of these specifications to implement their vision of how the product should be built for their particular use case. 
 
 This process is our commitment to build in the open and work to maintain an ethos of building for the public good while also allowing ourselves to create opinionated products that suit our specific needs.
+
+[Research Forum](https://forum.vac.dev/)

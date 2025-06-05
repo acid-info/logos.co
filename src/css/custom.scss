@@ -224,3 +224,7 @@ html[data-theme='dark'] .header-youtube-link:before {
     margin-right: 16px;
   }
 }
+
+.menu__link > svg[class*='iconExternalLink'] {
+  display: none;
+}

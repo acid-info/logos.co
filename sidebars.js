@@ -7,7 +7,11 @@ const sidebars = {
       id: 'index',
       label: 'Home',
     },
-    'about',
+    {
+      type: 'doc',
+      id: 'about',
+      label: 'About',
+    },
     'history',
     'technology',
     'consensus',

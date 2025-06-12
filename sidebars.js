@@ -12,7 +12,6 @@ const sidebars = {
       id: 'about',
       label: 'About',
     },
-    'history',
     'technology',
     'consensus',
     'comms',
@@ -20,6 +19,7 @@ const sidebars = {
     'process',
     'contribute',
     'events/index',
+    'history',
     {
       type: 'html',
       value: '<div class="sidebar-menu-divider"></div>',

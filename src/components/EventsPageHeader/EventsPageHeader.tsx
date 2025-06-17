@@ -1,14 +1,14 @@
 import React from 'react'
 import './EventsPageHeader.css'
-import { Button } from '@acid-info/lsd-react'
+// import { Button } from '@acid-info/lsd-react'
 
 const EventsPageHeader = () => {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
+  // const scrollToSection = (sectionId: string) => {
+  //   const element = document.getElementById(sectionId)
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' })
+  //   }
+  // }
 
   return (
     <div className="events-page-header">
@@ -19,7 +19,7 @@ const EventsPageHeader = () => {
         ground up. Our inspiration comes from the success of movements such as
         Hungary's Civic Circles and Czechoslovakia's Charter 77.
       </div>
-      <div className="actions">
+      {/* <div className="actions">
         <Button
           variant="outlined"
           size="small"
@@ -34,7 +34,7 @@ const EventsPageHeader = () => {
         >
           Past
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }

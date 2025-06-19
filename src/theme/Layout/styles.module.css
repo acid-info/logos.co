@@ -19,3 +19,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.toastMargin {
+  margin-top: 48px;
+}

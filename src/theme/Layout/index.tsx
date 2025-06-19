@@ -1,20 +1,22 @@
-import React, {type ReactNode} from 'react';
-import clsx from 'clsx';
-import ErrorBoundary from '@docusaurus/ErrorBoundary';
+import React, { type ReactNode } from 'react'
+import clsx from 'clsx'
+import ErrorBoundary from '@docusaurus/ErrorBoundary'
 import {
   PageMetadata,
   SkipToContentFallbackId,
   ThemeClassNames,
-} from '@docusaurus/theme-common';
-import {useKeyboardNavigation} from '@docusaurus/theme-common/internal';
-import SkipToContent from '@theme/SkipToContent';
-import AnnouncementBar from '@theme/AnnouncementBar';
-import Navbar from '@theme/Navbar';
-import Footer from '@theme/Footer';
-import LayoutProvider from '@theme/Layout/Provider';
-import ErrorPageContent from '@theme/ErrorPageContent';
-import type {Props} from '@theme/Layout';
-import styles from './styles.module.css';
+  useColorMode,
+} from '@docusaurus/theme-common'
+import { useKeyboardNavigation } from '@docusaurus/theme-common/internal'
+import SkipToContent from '@theme/SkipToContent'
+import AnnouncementBar from '@theme/AnnouncementBar'
+import Navbar from '@theme/Navbar'
+import Footer from '@theme/Footer'
+import LayoutProvider from '@theme/Layout/Provider'
+import ErrorPageContent from '@theme/ErrorPageContent'
+import type { Props } from '@theme/Layout'
+import styles from './styles.module.css'
+import TopToast from '@site/src/components/TopToast/TopToast'
 
 export default function Layout(props: Props): ReactNode {
   const {
@@ -24,9 +26,12 @@ export default function Layout(props: Props): ReactNode {
     // Not really layout-related, but kept for convenience/retro-compatibility
     title,
     description,
-  } = props;
+  } = props
 
-  useKeyboardNavigation();
+  const [showTopToast, setShowTopToast] = React.useState(true)
+  const theme = useColorMode()
+
+  useKeyboardNavigation()
 
   return (
     <LayoutProvider>
@@ -36,7 +41,16 @@ export default function Layout(props: Props): ReactNode {
 
       <AnnouncementBar />
 
-      <Navbar />
+      {showTopToast && (
+        <TopToast
+          colorMode={theme?.colorMode}
+          setShowTopToast={setShowTopToast}
+        />
+      )}
+
+      <div className={clsx(showTopToast && styles.toastMargin)}>
+        <Navbar />
+      </div>
 
       <div
         id={SkipToContentFallbackId}
@@ -44,7 +58,8 @@ export default function Layout(props: Props): ReactNode {
           ThemeClassNames.wrapper.main,
           styles.mainWrapper,
           wrapperClassName,
-        )}>
+        )}
+      >
         <ErrorBoundary fallback={(params) => <ErrorPageContent {...params} />}>
           {children}
         </ErrorBoundary>
@@ -52,5 +67,5 @@ export default function Layout(props: Props): ReactNode {
 
       {!noFooter && <Footer />}
     </LayoutProvider>
-  );
+  )
 }

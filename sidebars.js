@@ -20,6 +20,7 @@ const sidebars = {
     'contribute',
     'events/index',
     'history',
+    'songs',
     {
       type: 'html',
       value: '<div class="sidebar-menu-divider"></div>',

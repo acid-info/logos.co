@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './TopToast.module.css'
 import ThemedImage from '@theme/ThemedImage'
+import Link from '@docusaurus/Link'
 
 type TopToastProps = {
   colorMode: string
@@ -54,22 +55,24 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
   }
 
   return (
-    <div className={styles.toast}>
-      <span className={styles.message}>
-        Preserve the memory and Decentralise the Internet Archive With Logos.
-      </span>
-      <div>
-        <button className={styles.closeButton} onClick={handleClose}>
-          <ThemedImage
-            alt="Close"
-            sources={{
-              light: '/icons/close-white.svg',
-              dark: '/icons/close-black.svg',
-            }}
-          />
-        </button>
+    <Link href="/songs">
+      <div className={styles.toast}>
+        <span className={styles.message}>
+          Preserve the memory and Decentralise the Internet Archive With Logos.
+        </span>
+        <div>
+          <button className={styles.closeButton} onClick={handleClose}>
+            <ThemedImage
+              alt="Close"
+              sources={{
+                light: '/icons/close-white.svg',
+                dark: '/icons/close-black.svg',
+              }}
+            />
+          </button>
+        </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

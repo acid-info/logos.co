@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-06-20T13:36:55Z",
+    "timestamp": "2025-06-20T15:07:40Z",
     "git": {
-        "commit": "e56036c0a2476ddef6662bd63a89e47610fc34cc",
+        "commit": "46ec2c664d7e6d841f0b1a08e0bf641761c8af82",
         "branch": "origin/develop",
         "url": "git@github.com:acid-info/logos.co.git"
     },
     "build": {
-        "id": "248",
-        "number": "248",
+        "id": "249",
+        "number": "249",
         "name": "website/dev.logos.co",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/dev.logos.co/248/"
+        "url": "https://ci.infra.status.im/job/website/job/dev.logos.co/249/"
     }
 }

@@ -5,13 +5,11 @@ import { useColorMode } from '@docusaurus/theme-common'
 const LumaCalendar = () => {
   const { colorMode } = useColorMode()
   return (
-    <div className="events-calendar">
+    <div className="calendar-wrapper">
       <iframe
         src={`https://lu.ma/embed/calendar/cal-S3pdMJmDQDY9aT4/events?lt=${
           colorMode === 'dark' ? 'dark' : 'light'
         }`}
-        width="600"
-        height="600"
         frameBorder="0"
         allowFullScreen
         aria-hidden="false"

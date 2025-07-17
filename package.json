@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@acid-info/docusaurus-umami": "^1.0.2",
-    "@acid-info/logos-docusaurus-preset": "^1.0.3-topic-replace-odoo.3",
+    "@acid-info/logos-docusaurus-preset": "^1.0.3-beta.3",
     "@docusaurus/theme-mermaid": "^3.8.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

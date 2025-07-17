@@ -24,14 +24,14 @@
   resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-umami/-/docusaurus-umami-1.0.2.tgz#0bbfce9e159e351d19ae19292303add35a7ee1b9"
   integrity sha512-irSTnx1drVlcerzU5xsDpJPuzKDRowIJGqPFeZP1edTqiu6R5RIWN09AqG3XxuRfsj6UY7/orR0Ug6ntML7Liw==
 
-"@acid-info/logos-docusaurus-preset@^1.0.3-topic-replace-odoo.2":
-  version "1.0.3-topic-replace-odoo.2"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.3-topic-replace-odoo.2.tgz#1f9a094e000e70b98c443111555a9ac0a8ae2669"
-  integrity sha512-1odX9BX8nPRaxJiA1O16TDcMSmTYVzhD3L0dhAP1UQokjagRg1NcRJoGhhzao7l+C134S66JeiRdPsXuFBOCXw==
+"@acid-info/logos-docusaurus-preset@^1.0.3-topic-replace-odoo.3":
+  version "1.0.3-topic-replace-odoo.3"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.3-topic-replace-odoo.3.tgz#39010c2cf279b96f605934dafbf7336b25d1d486"
+  integrity sha512-AU6af/rUsPj0kliSzkQ06etFgK7nTCptrExbFEJQ/7l59iNU/pDRFd4jxwh/7kG/hUp1DLJbzBT/fXGHb71x3w==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.3-beta.2"
     "@acid-info/logos-docusaurus-search-local" "1.0.3-beta.2"
-    "@acid-info/logos-docusaurus-theme" "1.0.3-topic-replace-odoo.2+71fe0ab"
+    "@acid-info/logos-docusaurus-theme" "1.0.3-topic-replace-odoo.3+4a274bd"
     "@docusaurus/core" "3.8.1"
     "@docusaurus/module-type-aliases" "3.8.1"
     "@docusaurus/preset-classic" "3.8.1"
@@ -59,10 +59,10 @@
     "@easyops-cn/docusaurus-search-local" "0.49.2"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.3-topic-replace-odoo.2+71fe0ab":
-  version "1.0.3-topic-replace-odoo.2"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-replace-odoo.2.tgz#da58b1d1bed5ff81f486ba0f3df8cbb71d4c2989"
-  integrity sha512-mMFVF1xns/wiDuHypt//G9vyi6SeWd5nPAwAVNbUCkam+Ewvz8ul+sy0aTFvMG/ogAOx6gHrjLaYQ5hcvusJHA==
+"@acid-info/logos-docusaurus-theme@1.0.3-topic-replace-odoo.3+4a274bd":
+  version "1.0.3-topic-replace-odoo.3"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-replace-odoo.3.tgz#c7ac8071078c3d74c6c87de6699eb51195936e9f"
+  integrity sha512-jYHyBco/IJHmJBYbmK/8nm1h9Q/uuhdt6NuHWlWtGOf37wbqdFATsD1RFc8EjDngEvISobAbUntJLr6AuRIomg==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.3-beta.2"
     "@acid-info/lsd-react" "^v0.2.0-beta.2"

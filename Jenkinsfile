@@ -6,6 +6,7 @@ pipeline {
 
   options {
     disableConcurrentBuilds()
+    disableRestartFromStage()
     /* manage how many builds we keep */
     buildDiscarder(logRotator(
       numToKeepStr: '20',
@@ -20,7 +21,7 @@ pipeline {
 
   stages {
     stage('Install') {
-      steps { 
+      steps {
         script {
           nix.develop('yarn install')
         }

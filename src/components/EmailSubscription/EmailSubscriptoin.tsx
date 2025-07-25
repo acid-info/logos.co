@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import styles from './EmailSubscriptoin.module.css'
 
+const FAREWELL_NEWSLETTER_ID = '679a07eedeb47200012eebc5'
+
 const EmailSubscription = () => {
   const [formState, setFormState] = useState({ email: '', name: '' })
   const [message, setMessage] = useState('')
@@ -13,21 +15,16 @@ const EmailSubscription = () => {
 
     try {
       const res = await fetch(
-        `https://odoo.logos.co/website_mass_mailing/subscribe2`,
+        `https://admin-acid.logos.co/api/admin/newsletters/subscribe`,
         {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            jsonrpc: '2.0',
-            method: 'call',
-            params: {
-              value: formState?.email,
-              name: formState?.name || '',
-              list_id: 25,
-              subscription_type: 'email',
-            },
+            email: formState?.email,
+            type: 'logos',
+            newsletter: FAREWELL_NEWSLETTER_ID,
           }),
         },
       )
@@ -48,7 +45,9 @@ const EmailSubscription = () => {
           type="email"
           name="email"
           value={formState.email}
-          onChange={e => setFormState({ ...formState, email: e.target.value })}
+          onChange={(e) =>
+            setFormState({ ...formState, email: e.target.value })
+          }
           placeholder="Email"
           required
         />

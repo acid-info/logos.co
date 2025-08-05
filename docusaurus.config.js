@@ -67,6 +67,11 @@ const config = {
             type: 'search',
           },
           {
+            href: 'https://forum.logos.co/',
+            position: 'right',
+            label: 'Forum',
+          },
+          {
             href: 'https://discord.gg/logosnetwork',
             position: 'right',
             className: 'header-discord-link',

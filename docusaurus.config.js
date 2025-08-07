@@ -70,6 +70,8 @@ const config = {
             href: 'https://forum.logos.co/',
             position: 'right',
             label: 'Forum',
+            'data-umami-event': 'Forum click',
+            'data-umami-event-source': 'navbar',
           },
           {
             href: 'https://discord.gg/logosnetwork',

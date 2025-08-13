@@ -74,6 +74,14 @@ const config = {
             'data-umami-event-source': 'navbar',
           },
           {
+            href: 'https://github.com/logos-co',
+            position: 'right',
+            className: 'header-github-link',
+            title: 'Logos on GitHub',
+            'data-umami-event': 'GitHub click',
+            'data-umami-event-source': 'navbar',
+          },
+          {
             href: 'https://discord.gg/logosnetwork',
             position: 'right',
             className: 'header-discord-link',

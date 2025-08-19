@@ -28,7 +28,7 @@ export default function Layout(props: Props): ReactNode {
     description,
   } = props
 
-  const [showTopToast, setShowTopToast] = React.useState(true)
+  const [showTopToast, setShowTopToast] = React.useState(false)
   const theme = useColorMode()
 
   useKeyboardNavigation()
@@ -41,7 +41,7 @@ export default function Layout(props: Props): ReactNode {
 
       <AnnouncementBar />
 
-      {showTopToast && (
+      {false && (
         <TopToast
           colorMode={theme?.colorMode}
           setShowTopToast={setShowTopToast}

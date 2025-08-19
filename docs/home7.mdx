@@ -9,6 +9,7 @@ pagination_label: Home
 
 import { Button } from '@acid-info/lsd-react'
 import Link from '@docusaurus/Link'
+import { createUTMUrl } from '../src/utils/utm'
 
 # Protect freedom,<br/>accelerate prosperity
 
@@ -20,6 +21,6 @@ Own your network, own your future.
 
 <br />
 
-<Link onClick={() => umami.track('Get Involved - Home', { source: 'home' })} href={'https://discord.gg/logosnetwork'} target="_blank">
+<Link onClick={() => umami.track('Get Involved - Home7', { source: 'home' })} href={createUTMUrl('https://discord.gg/rEsuNkYNUB')} target="_blank">
     <Button variant="outlined" size='large'>Get Involved</Button>
 </Link>

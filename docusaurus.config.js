@@ -113,15 +113,31 @@ const config = {
           {
             items: [
               {
-                href: 'https://github.com/logos-co',
-                label: 'Github',
-                'data-umami-event': 'Github click',
-                'data-umami-event-source': 'navbar',
+                href: 'https://x.com/logos_network',
+                label: 'Twitter',
+              },
+              {
+                href: 'https://discord.com/invite/logosnetwork',
+                label: 'Discord',
+              },
+              {
+                href: 'https://www.youtube.com/@LogosNetwork',
+                label: 'YouTube',
               },
               {
                 href: 'https://press.logos.co/',
                 label: 'Blog',
               },
+              {
+                href: 'https://github.com/logos-co',
+                label: 'Github',
+                'data-umami-event': 'Github click',
+                'data-umami-event-source': 'navbar',
+              },
+            ],
+          },
+          {
+            items: [
               {
                 href: 'https://boards.greenhouse.io/logos',
                 label: 'Work With Us',
@@ -130,9 +146,13 @@ const config = {
                 href: 'https://guide.logos.co/',
                 label: 'Brand Guidelines',
               },
+            ],
+          },
+          {
+            items: [
               {
                 href: '/terms',
-                label: 'Terms & Conditions',
+                label: 'Terms & conditions',
               },
               {
                 href: '/privacy-policy',

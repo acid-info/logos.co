@@ -111,6 +111,13 @@ html {
   }
 }
 
+.ftw-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 #ftw-form {
   margin-top: 80px;
   scroll-margin: 40px;

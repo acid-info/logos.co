@@ -114,8 +114,20 @@ html {
 .ftw-links {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 16px;
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ftw-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
 }
 
 #ftw-form {

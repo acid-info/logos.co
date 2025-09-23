@@ -10,9 +10,11 @@ export default function DocItemTOCMobile() {
   const { toc, frontMatter } = useDoc()
   const location = useLocation()
 
-  const showBookCoverImage =
-    location.pathname === '/farewell-to-westphalia' ||
-    location.pathname === '/farewell-to-westphalia/'
+  // const showBookCoverImage =
+  //   location.pathname === '/farewell-to-westphalia' ||
+  //   location.pathname === '/farewell-to-westphalia/'
+
+  const showBookCoverImage = false
 
   return showBookCoverImage ? (
     <img

@@ -58,8 +58,8 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
     <Link href="/campaigns/real-fi-hack">
       <div className={styles.toast}>
         <span className={styles.message}>
-          A network of builders beats a nation of bureaucrats. Hack with Logos
-          and Tor.
+          A network of builders beats a nation of bureaucrats. Sign up to hack
+          for freedom with Logos, Tor & Funding the Commons.
         </span>
         <div>
           <button className={styles.closeButton} onClick={handleClose}>

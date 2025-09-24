@@ -55,10 +55,11 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
   }
 
   return (
-    <Link href="/songs">
+    <Link href="/campaigns/real-fi-hack">
       <div className={styles.toast}>
         <span className={styles.message}>
-          The Internet Archive is under threat. Act Now.
+          A network of builders beats a nation of bureaucrats. Hack with Logos
+          and Tor.
         </span>
         <div>
           <button className={styles.closeButton} onClick={handleClose}>

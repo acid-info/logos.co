@@ -45,6 +45,14 @@
   margin-left: 20px;
 }
 
+.mobileText {
+  display: none;
+}
+
+.desktopText {
+  display: inline;
+}
+
 @media (max-width: 768px) {
   .toast {
     flex-direction: column;
@@ -55,6 +63,14 @@
 
   .message {
     width: 82%;
+  }
+
+  .mobileText {
+    display: inline;
+  }
+
+  .desktopText {
+    display: none;
   }
 
   .toast p {

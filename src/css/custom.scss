@@ -248,6 +248,10 @@ html[data-theme='dark'] .header-youtube-link:before {
   .header-youtube-link:before {
     margin-right: 16px;
   }
+
+  .header-github-link {
+    margin-left: 16px;
+  }
 }
 
 .menu__link > svg[class*='iconExternalLink'] {

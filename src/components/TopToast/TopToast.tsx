@@ -59,8 +59,7 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
       <div className={styles.toast}>
         <span className={styles.message}>
           <span className={styles.desktopText}>
-            A network of builders beats a nation of bureaucrats. Sign up to hack
-            for freedom with Logos, Tor & Funding the Commons.
+            Sign up to hack for freedom with Logos, Tor & Funding the Commons.
           </span>
           <span className={styles.mobileText}>
             Hack for freedom with Logos, Tor & Funding the Commons

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 import {
   Grid,
   InputCTASection,
-} from '../src/components/mdx/';
+} from '../src/components/mdx';
 import { Button } from '@acid-info/lsd-react'
 
 import Link from '@docusaurus/Link';
@@ -19,13 +19,13 @@ import Link from '@docusaurus/Link';
 # Farewell to Westphalia
 
 <img
-  src="/assets/farewell-to-westphalia-wide-80.png"
+  src="/assets/farewell-to-westphalia-wide.png"
   alt="Farewell to Westphalia"
 />
 
 <br /><br />
 
-<div className='ftw' style={{ maxWidth: '100%' }}>
+<div className='ftw'>
 
 ##### *Crypto Sovereignty and Post-Nation-State Governance*
 
@@ -42,11 +42,46 @@ What will come after the 400-year-old nation-state system? What will the transit
 ### Available now
 
 <div className='ftw-links'>
-  <a onClick={() => umami.track('Farewell to Westphalia  - Amazon', { source: '/farewell-to-westphalia-1' })} href="https://www.amazon.com/Farewell-Westphalia-Sovereignty-Post-Nation-State-Governance/dp/B0FQLV79ZN/ref=tmm_pap_swatch_0" target="_blank" rel="noopener noreferrer">
+  <a onClick={() => umami.track('Farewell to Westphalia  - Amazon', { source: '/farewell-to-westphalia' })} href="https://www.amazon.com/Farewell-Westphalia-Sovereignty-Post-Nation-State-Governance/dp/B0FQLV79ZN/ref=tmm_pap_swatch_0" target="_blank" rel="noopener noreferrer">
     <Button>Amazon</Button>
   </a>
-  <a onClick={() => umami.track('Farewell to Westphalia  - Open source (free)', { source: '/farewell-to-westphalia-1' })} href="/assets/Farewell to Westphalia (Jarrad Hope and Peter Ludlow) - FOSS edition.pdf" target="_blank" rel="noopener noreferrer">
+  <a onClick={() => umami.track('Farewell to Westphalia  - Barnes & Noble', { source: '/farewell-to-westphalia' })} href="https://www.barnesandnoble.com/w/farewell-to-westphalia-jarrad-hope/1148269022" target="_blank" rel="noopener noreferrer">
+    <Button>Barnes & Noble</Button>
+  </a>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Open source (free)', { source: '/farewell-to-westphalia' })} href="/assets/Farewell to Westphalia (Jarrad Hope and Peter Ludlow) - FOSS edition.pdf" target="_blank" rel="noopener noreferrer">
     <Button>Open source (free)</Button>
+  </a>
+</div>
+
+<br />
+
+### Ebook
+
+<div className='ftw-links'>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Kindle', { source: '/farewell-to-westphalia' })} href="https://kdp.amazon.com/amazon-dp-action/us/dualbookshelf.marketplacelink/B0FMGNN2ZT" target="_blank" rel="noopener noreferrer">
+    <Button>Kindle</Button>
+  </a>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Everand', { source: '/farewell-to-westphalia' })} href="https://www.everand.com/book/919673671/Farewell-to-Westphalia-Crypto-Sovereignty-and-Post-Nation-State-Governance" target="_blank" rel="noopener noreferrer">
+    <Button>Everand</Button>
+  </a>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Rakuten', { source: '/farewell-to-westphalia' })} href="https://books.rakuten.co.jp/rk/075784a5d8dd32059795a86a31e787f7/" target="_blank" rel="noopener noreferrer">
+    <Button>Rakuten</Button>
+  </a>
+</div>
+
+<br />
+
+### Others
+
+<div className='ftw-links'>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Walmart', { source: '/farewell-to-westphalia' })} href="https://www.walmart.com/ip/Farewell-to-Westphalia-Crypto-Sovereignty-and-Post-Nation-State-Governance-Paperback-9783952627518/17787172783" target="_blank" rel="noopener noreferrer">
+    <Button>Walmart</Button>
+  </a>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Germany', { source: '/farewell-to-westphalia' })} href="https://www.hugendubel.de/de/buch_kartoniert/jarrad_hope_peter_ludlow-farewell_to_westphalia-51723009-produkt-details.html" target="_blank" rel="noopener noreferrer">
+    <Button>Germany</Button>
+  </a>
+  <a onClick={() => umami.track('Farewell to Westphalia  - Australia', { source: '/farewell-to-westphalia' })} href="https://www.booktopia.com.au/farewell-to-westphalia-jarrad-hope/book/9783952627518.html?srsltid=AfmBOoocXlueFUh3mIjkSAdN_FL_o0zW6WKukx4C_csNtgGNjp_iTqoX" target="_blank" rel="noopener noreferrer">
+    <Button>Australia</Button>
   </a>
 </div>
 
@@ -55,20 +90,24 @@ What will come after the 400-year-old nation-state system? What will the transit
 ## Reader perspectives
 
 > *“Farewell to Westphalia makes crystal clear that the nation state is no longer the best governance system for today's digital society.”*
+
 <p align="right">– Dr Bob de Wit, Society 4.0 author</p>
-<br />
+<br /><br />
 
 > *“... nation states had a good run for a few centuries, but may not be able to deal with planetary challenges; so the vital question is what next? This book is a serious attempt at looking at its potential post-geographic successor.”*
+
 <p align="right">– Michel Bauwens, P2P Foundation founder</p>
-<br />
+<br /><br />
 
 > *“... a good explainer of the tech that will help emergent community models grow.”*
+
 <p align="right">– Scott Beyer, Reason Magazine</p>
-<br />
+<br /><br />
 
 > *“... a compelling manifesto on the future of governance…] It's mind boggling how well-researched and multidisciplinary it is.”*
+
 <p align="right">– Frederico Ast, Kleros cofounder</p>
-<br />
+<br /><br />
 
 ## About the Authors
 
@@ -102,15 +141,4 @@ When they arrive, they will provide us relief from the failures of the Westphali
 
 Discounts for bulk orders for academia are available. To discuss, and for all other enquiries, <a href="mailto:pressengine@logos.co">contact us</a>.
 
-<br />
 
-### Available now
-
-<div className='ftw-links'>
-  <a onClick={() => umami.track('Farewell to Westphalia  - Amazon', { source: '/farewell-to-westphalia-1' })} href="https://www.amazon.com/Farewell-Westphalia-Sovereignty-Post-Nation-State-Governance/dp/B0FQLV79ZN/ref=tmm_pap_swatch_0" target="_blank" rel="noopener noreferrer">
-    <Button>Amazon</Button>
-  </a>
-  <a onClick={() => umami.track('Farewell to Westphalia  - Open source (free)', { source: '/farewell-to-westphalia-1' })} href="/assets/Farewell to Westphalia (Jarrad Hope and Peter Ludlow) - FOSS edition.pdf" target="_blank" rel="noopener noreferrer">
-    <Button>Open source (free)</Button>
-  </a>
-</div>

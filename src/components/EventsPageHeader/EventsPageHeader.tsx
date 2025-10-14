@@ -13,12 +13,13 @@ const EventsPageHeader = () => {
   return (
     <div className="events-page-header">
       <div className="description">
-        Our events are rooted in parallel organising. Instead of relying on
-        broken or rigged institutions, we focus on community-driven action,
-        shared purpose and mutual support to create meaningful change from the
-        ground up. Our inspiration comes from the success of movements such as
-        Hungary's Civic Circles and Czechoslovakia's Charter 77.
+        Logos Circles are self-organised groups that take action to solve 
+        issues that matter locally. They are a form of parallel governance: 
+        instead of reforming broken or rigged institutions, they build better 
+        ones that live on or are sustained by the network.
       </div>
+      Find a Circle near you to join the movement. Don’t see a Circle near you? 
+      [Join the server](https://discord.com/invite/logosnetwork) and share a proposal to start your own.
       {/* <div className="actions">
         <Button
           variant="outlined"

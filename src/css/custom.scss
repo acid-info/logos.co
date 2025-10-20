@@ -257,3 +257,17 @@ html[data-theme='dark'] .header-youtube-link:before {
 .menu__link > svg[class*='iconExternalLink'] {
   display: none;
 }
+
+.ftw-header header h1 {
+  margin-bottom: 20px !important;
+}
+
+#ftw-image {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .ftw-header header h1 {
+    font-size: 2rem;
+  }
+}

@@ -266,8 +266,34 @@ html[data-theme='dark'] .header-youtube-link:before {
   margin-bottom: 10px;
 }
 
-@media (max-width: 576px) {
+.ftw-header header h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+#ftw-available-now-container h4[id='available-now'] {
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+@media (min-width: 577px) {
   .ftw-header header h1 {
-    font-size: 2rem;
+    margin-bottom: 40px !important;
+  }
+
+  #ftw-image {
+    margin-bottom: 24px;
+  }
+
+  .ftw-header header h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  #ftw-available-now-container h4[id='available-now'] {
+    margin-top: 30px !important;
+    margin-bottom: 24px !important;
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
   }
 }

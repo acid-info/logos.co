@@ -16,7 +16,7 @@ import LayoutProvider from '@theme/Layout/Provider'
 import ErrorPageContent from '@theme/ErrorPageContent'
 import type { Props } from '@theme/Layout'
 import styles from './styles.module.css'
-import TopToast from '@site/src/components/TopToast/TopToast'
+// import TopToast from '@site/src/components/TopToast/TopToast'
 
 export default function Layout(props: Props): ReactNode {
   const {
@@ -28,7 +28,7 @@ export default function Layout(props: Props): ReactNode {
     description,
   } = props
 
-  const [showTopToast, setShowTopToast] = React.useState(true)
+  const [showTopToast, setShowTopToast] = React.useState(false)
   const theme = useColorMode()
 
   useKeyboardNavigation()
@@ -41,12 +41,12 @@ export default function Layout(props: Props): ReactNode {
 
       <AnnouncementBar />
 
-      {showTopToast && (
+      {/* {showTopToast && (
         <TopToast
           colorMode={theme?.colorMode}
           setShowTopToast={setShowTopToast}
         />
-      )}
+      )} */}
 
       <div className={clsx(showTopToast && styles.toastMargin)}>
         <Navbar />

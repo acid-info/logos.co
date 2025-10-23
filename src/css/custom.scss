@@ -96,6 +96,7 @@ html {
 
 .ftw {
   max-width: 596px;
+  padding-top: 0;
 
   h2 {
     margin-bottom: 24px;
@@ -256,4 +257,55 @@ html[data-theme='dark'] .header-youtube-link:before {
 
 .menu__link > svg[class*='iconExternalLink'] {
   display: none;
+}
+
+#ftw-image {
+  margin-bottom: 10px;
+}
+
+.ftw-header header h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 0 !important;
+}
+
+#ftw-available-now-container h4[id='read-the-book-now'] {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#crypto-sovereignty--post-nation-state-governance {
+  font-size: 0.83rem;
+  line-height: 1.5rem;
+  margin-top: 5px;
+}
+
+@media (min-width: 577px) {
+  #ftw-image {
+    margin-bottom: 20px;
+  }
+
+  .ftw-header header h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  #ftw-available-now-container h4[id='read-the-book-now'] {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .ftw-available-now--page-1#ftw-available-now-container
+    h4[id='read-the-book-now'] {
+    margin-top: 10px;
+  }
+
+  #crypto-sovereignty--post-nation-state-governance {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 35px;
+    margin-top: 8px;
+  }
 }

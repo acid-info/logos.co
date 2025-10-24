@@ -52,6 +52,12 @@ const config = {
         dataDomains: 'logos.co',
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [{ from: '/book', to: '/farewell-to-westphalia' }],
+      },
+    ],
   ],
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */

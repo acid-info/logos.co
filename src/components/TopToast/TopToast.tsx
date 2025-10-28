@@ -62,9 +62,6 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
             Heading to Devconnect in Buenos Aires? Join one of our campaign
             initiatives IRL
           </span>
-          {/* <span className={styles.mobileText}>
-            Hack for freedom with Logos, Tor & Funding the Commons
-          </span> */}
         </span>
         <div>
           <button className={styles.closeButton} onClick={handleClose}>

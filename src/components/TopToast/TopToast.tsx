@@ -58,7 +58,7 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
     <Link href="/campaigns/devconnect2025">
       <div className={styles.toast}>
         <span className={styles.message}>
-          <span className={styles.desktopText}>
+          <span>
             Heading to Devconnect in Buenos Aires? Join one of our campaign
             initiatives IRL
           </span>

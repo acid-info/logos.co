@@ -55,15 +55,16 @@ const TopToast = ({ colorMode, setShowTopToast }: TopToastProps) => {
   }
 
   return (
-    <Link href="/campaigns/real-fi-hack">
+    <Link href="/campaigns/devconnect2025">
       <div className={styles.toast}>
         <span className={styles.message}>
           <span className={styles.desktopText}>
-            Sign up to hack for freedom with Logos, Tor & Funding the Commons.
+            Heading to Devconnect in Buenos Aires? Join one of our campaign
+            initiatives IRL
           </span>
-          <span className={styles.mobileText}>
+          {/* <span className={styles.mobileText}>
             Hack for freedom with Logos, Tor & Funding the Commons
-          </span>
+          </span> */}
         </span>
         <div>
           <button className={styles.closeButton} onClick={handleClose}>

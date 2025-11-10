@@ -21,8 +21,6 @@ export const YouTubeVideo: React.FC<YouTubeVideoProps> = ({
     }
 
     checkMobile()
-    window.addEventListener('resize', checkMobile)
-    return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
   const baseUrl = `https://www.youtube.com/embed/${videoId}`

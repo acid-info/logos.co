@@ -1,6 +1,6 @@
 # Logos
 
-The repository for [logos.co](https://logos.co/) website.
+The repository for the old Logos website.
 
 
 ## How to Run Locally
